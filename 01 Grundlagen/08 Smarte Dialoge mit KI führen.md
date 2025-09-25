@@ -66,17 +66,6 @@ Schritt 3: "[DEINE FRAGE]. Bestätige erst dein Verständnis."
 
 ### 🌊 WAVE = Wissen → Anwenden → Verifizieren → Erweitern
 
-```mermaid
-[W] Wissen aufbauen
-    ↓
-[A] Anwenden auf deinen Kontext  
-    ↓
-[V] Verifizieren des Verständnisses
-    ↓
-[E] Erweitern und verfeinern
-    ↓
-[Perfekte Lösung!]
-```
 
 ### Phase W - Wissen aufbauen
 
