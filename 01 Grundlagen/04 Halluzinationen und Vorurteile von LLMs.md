@@ -310,6 +310,8 @@ DIVERSITÄTS-ANFORDERUNGEN:
 
 ---
 
+
+
 ## 🎯 Quick-Reference: Die 5 wichtigsten Techniken
 
 1. **Chain-of-Thought**: "Erkläre Schritt für Schritt..."
