@@ -1,10 +1,8 @@
 # **Praxisleitfaden: Content-Erstellung mit Prompts für Mitglieder-Kommunikation**
-*Umfassendes Tutorial mit Frameworks, Vorlagen und Best Practices*
 
 ---
 
 ## **Glossar wichtiger Begriffe**
-*(Für schnelles Nachschlagen)*
 
 - **Hook:** Aufmerksamkeitsstarker Einstieg, der Leser sofort fesselt
 - **CTA (Call-to-Action):** Handlungsaufforderung am Ende eines Textes
@@ -17,7 +15,6 @@
 ---
 
 ## 1. Grundlagen der Content-Generierung
-**[Komplexitätsstufe: 🟢 Anfänger]**
 
 **Warum strukturierte Prompts entscheidend sind:**
 
@@ -34,7 +31,6 @@
 ---
 
 ## 2. Content-Struktur kontrollieren
-**[Komplexitätsstufe: 🟢 Anfänger]**
 
 **Schwacher Prompt:**
 > „Schreibe einen Artikel über Volksbank-Mitgliedschaft."
@@ -55,7 +51,6 @@
 ---
 
 ## 3. Stil-Frameworks für verschiedene Content-Typen
-**[Komplexitätsstufe: 🟢 Anfänger]**
 
 | Content-Typ | Struktur-Elemente | Stil-Guidelines |
 |------------|------------------|-----------------|
@@ -69,7 +64,6 @@
 ---
 
 ## 4. Ton- und Stimmen-Kontrolle
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Definiere vorab:**
 * **Ton:** Professionell, kompetent, aber nahbar.
@@ -88,7 +82,6 @@
 ---
 
 ## 5. Qualitätskontroll-Framework
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Checkliste im Prompt mitgeben:**
 * Fachliche Genauigkeit (Beispiele echter VR-Banken)
@@ -107,7 +100,6 @@
 ---
 
 ## 6. Iterativer Workflow (statt One-Shot)
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Schritt-für-Schritt-Vorgehen:**
 
@@ -129,7 +121,6 @@ graph LR
 ---
 
 ## 7. Multi-Format-Content
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Schritt 1: Kernbotschaft erstellen**
 > „Erstelle eine Ankündigung zur Mitglieder-werben-Mitglieder-Kampagne:
@@ -147,7 +138,6 @@ graph LR
 ---
 
 ## 8. Progressive Offenlegung
-**[Komplexitätsstufe: 🔴 Experte]**
 
 **Praxis-Beispiel Mitglieder-Inhalte:**
 1. **Grundlage:** „Was ist eine Genossenschaft?" (1 Mitglied = 1 Stimme)
@@ -159,7 +149,6 @@ graph LR
 ---
 
 ## 9. Modularer Content
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Vorgefertigte Textbausteine (Module):**
 * Begrüßung (Neu-/Bestandsmitglieder, Jubiläen)
@@ -178,7 +167,6 @@ graph LR
 ---
 
 ## 10. Story-getriebener Content
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 **Beispiel-Erzählbogen:**
 * Herausforderung: Familie sucht faire Bank
@@ -190,7 +178,6 @@ graph LR
 ---
 
 ## 11. Mikro-Lern-Formate
-**[Komplexitätsstufe: 🔴 Experte]**
 
 **Beispiel: Dividende erklären**
 * **Schnellkonzept:** „Eine Dividende ist Ihr jährlicher Anteil am Geschäftserfolg."
@@ -202,7 +189,6 @@ graph LR
 ---
 
 ## 12. Troubleshooting – Häufige Probleme lösen
-**[Komplexitätsstufe: 🟢 Anfänger]**
 
 ### **Problem 1: KI generiert zu allgemeine Inhalte**
 **Lösung:** Spezifische Details, Zahlen und Beispiele im Prompt nennen
@@ -250,7 +236,6 @@ Version C: Mit Mitglieder-Zitat"
 ---
 
 ## 13. Prompt-Bibliothek – Kopierfertige Vorlagen
-**[Komplexitätsstufe: 🟢 Anfänger]**
 
 ### **📧 E-Mail-Vorlage: Mitglieder-Newsletter**
 ```
@@ -304,7 +289,6 @@ Instagram (50 Wörter):
 ---
 
 ## 14. Ethik & Verantwortung im KI-Content
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
 
 ### **Grundprinzipien:**
 
@@ -343,7 +327,6 @@ Finanzthemen, faktische Korrektheit prioritär"
 ---
 
 ## 15. KI-Modelle im Vergleich
-**[Komplexitätsstufe: 🔴 Experte]**
 
 | Modell | Stärken | Schwächen | Ideal für |
 |--------|---------|-----------|-----------|
@@ -361,7 +344,6 @@ Finanzthemen, faktische Korrektheit prioritär"
 ---
 
 ## 16. Praxisübungen mit Lösungsansätzen
-**[Komplexitätsstufe: 🟢 Anfänger bis 🔴 Experte]**
 
 ### **Übung 1: Einladung Generalversammlung** 🟢
 **Aufgabe:** Prompt für formelle Einladung erstellen
@@ -398,68 +380,6 @@ Finanzthemen, faktische Korrektheit prioritär"
 
 ---
 
-## 17. Interaktive Ressourcen
-**[Komplexitätsstufe: 🟢 Anfänger]**
-
-### **🔗 Online-Tools zum Ausprobieren:**
-
-**Prompt-Testing:**
-- [ChatGPT Playground](https://platform.openai.com/playground) - Experimentieren mit Parametern
-- [Claude.ai](https://claude.ai) - Strukturierte Prompts testen
-- [Bing Chat](https://www.bing.com/chat) - Kostenlos mit Quellenangaben
-
-**Prompt-Optimierung:**
-- [PromptPerfect](https://promptperfect.jina.ai/) - Automatische Prompt-Verbesserung
-- [Prompt Generator](https://huggingface.co/spaces) - Vorgefertigte Templates
-
-**Lernressourcen:**
-- [Learn Prompting](https://learnprompting.org/de) - Kostenloses Tutorial
-- [Awesome Prompts](https://github.com/f/awesome-chatgpt-prompts) - Prompt-Sammlung
-
-### **📚 Weiterführende Ressourcen:**
-
-**Bücher:**
-- "The Art of Prompt Engineering" - Umfassende Grundlagen
-- "KI für Marketer" - Praxisorientiert
-
-**Kurse:**
-- LinkedIn Learning: "ChatGPT für Business"
-- Coursera: "Prompt Engineering Specialization"
-
-**Communities:**
-- Reddit: r/PromptEngineering
-- Discord: AI Content Creators
-
-**Newsletter:**
-- The Prompt Report (wöchentliche Best Practices)
-- AI Marketing Weekly (Use Cases)
-
----
-
-## 18. Implementierungs-Roadmap
-**[Komplexitätsstufe: 🟡 Fortgeschritten]**
-
-### **Woche 1-2: Grundlagen**
-- [ ] Glossar durchgehen
-- [ ] Erste einfache Prompts testen
-- [ ] 3 Basis-Vorlagen anpassen
-
-### **Woche 3-4: Vertiefung**
-- [ ] Iterativen Workflow etablieren
-- [ ] Troubleshooting-Guide durcharbeiten
-- [ ] Multi-Format-Content erstellen
-
-### **Woche 5-6: Optimierung**
-- [ ] Ethik-Checkliste implementieren
-- [ ] KI-Tools vergleichen und auswählen
-- [ ] Eigene Prompt-Bibliothek aufbauen
-
-### **Ab Woche 7: Professionalisierung**
-- [ ] Komplexe Kampagnen umsetzen
-- [ ] Team schulen
-- [ ] Erfolg messen und optimieren
-
----
 
 ## **Abschluss-Checkliste für jeden Prompt:**
 
@@ -481,11 +401,3 @@ Finanzthemen, faktische Korrektheit prioritär"
 
 ---
 
-**💡 Abschluss-Tipp:** Beginnen Sie mit einfachen Prompts aus der Bibliothek und steigern Sie die Komplexität schrittweise. Dokumentieren Sie erfolgreiche Prompts für Ihr Team!
-
----
-
-*Dieses Tutorial wird regelmäßig aktualisiert. Letzte Version: 2024*
-
-**Haben Sie Fragen oder benötigen Sie Unterstützung?**
-Nutzen Sie die verlinkten Ressourcen oder testen Sie direkt in den empfohlenen Tools!
