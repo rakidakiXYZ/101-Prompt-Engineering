@@ -316,13 +316,6 @@ Instagram (50 Wörter):
 - Disclaimer bei Finanzthemen
 - Compliance-Vorgaben einhalten
 
-### **Praktische Umsetzung:**
-```
-Prompt-Zusatz für ethische Standards:
-"Beachte: Geschlechtsneutrale Formulierung, 
-keine Heilsversprechen, Disclaimer bei 
-Finanzthemen, faktische Korrektheit prioritär"
-```
 
 ---
 
