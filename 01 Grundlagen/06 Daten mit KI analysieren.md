@@ -25,7 +25,6 @@
 - [ ] PLZ kürzen oder schwärzen
 - [ ] Einverständnis zur Datenverarbeitung liegt vor
 - [ ] ...
-- [ ] 
 ---
 
 ## 3. Prompt-Engineering Fundamentals {#prompt-engineering}
