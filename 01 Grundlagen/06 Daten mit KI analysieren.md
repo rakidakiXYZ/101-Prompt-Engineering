@@ -582,8 +582,7 @@ STRUKTUR:
 ## 📊 Abschluss: Ihre Mitgliederanalyse-Checkliste
 
 ### Vor der Analyse:
-- [ ] KI-Tool ausgewählt und Account erstellt
-- [ ] Daten anonymisiert und DSGVO-konform
+- [ ] Daten sind anonymisiert und DSGVO-Konformität geprüft
 - [ ] Analyseziele definiert
 - [ ] Zeitbudget eingeplant (2-3 Stunden)
 
@@ -603,7 +602,7 @@ STRUKTUR:
 
 ---
 
-## 💡 Pro-Tipps vom Experten
+## 💡 Weitere Tipps
 
 1. **"Zweite Meinung"**: Lassen Sie wichtige Analysen von einem zweiten KI-Tool gegenchecken
 
