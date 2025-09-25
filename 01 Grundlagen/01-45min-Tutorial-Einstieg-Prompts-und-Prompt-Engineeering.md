@@ -8,11 +8,11 @@
 
 - **Nach 15 Minuten:** Einfache, klare Prompts schreiben
 - **Nach 30 Minuten:** Strukturierte Prompts mit Rolle und Kontext erstellen  
-- **Nach 60 Minuten:** Komplexe Aufgaben mit KI professionell lösen
+
 
 ---
 
-## 1. Was ist ein Prompt? (5 Min.)
+## Was ist ein Prompt? (5 Min.)
 
 Ein **Prompt** ist deine Anweisung an die KI – wie eine Bestellung im Restaurant. Je genauer du bestellst, desto besser wird das Ergebnis.
 
@@ -57,7 +57,7 @@ Schreibe einen Prompt, der nach den **3 wichtigsten Vorteilen** einer Fitnessstu
 
 ---
 
-## 2. Level 1: Einfache Prompts meistern (10 Min.)
+## Level 1: Einfache Prompts meistern (10 Min.)
 
 ### Grundregel: Sei spezifisch!
 
@@ -90,7 +90,7 @@ Mögliche Verbesserung: "Erkläre in 3 Sätzen, wie Online-Communities neue Mitg
 
 ---
 
-## 3. Level 2: Mit Rollen arbeiten (15 Min.)
+## Level 2: Mit Rollen arbeiten (15 Min.)
 
 ### Warum Rollen? Die KI wird zum Experten!
 
@@ -121,7 +121,7 @@ Erstelle 2 verschiedene Rollen-Prompts zum Thema "Mitgliederwerbung".
 
 ---
 
-## 4. Level 3: Kontext richtig einbauen (20 Min.)
+## Level 3: Kontext richtig einbauen (20 Min.)
 
 ### Die Macht des Kontexts
 
@@ -158,7 +158,7 @@ Füge diesem Prompt sinnvollen Kontext hinzu:
 
 ---
 
-## 5. Ausgabeformat festlegen (10 Min.)
+## Ausgabeformat festlegen (10 Min.)
 
 ### Sag der KI, wie die Antwort aussehen soll!
 
@@ -194,12 +194,12 @@ Formuliere einen Prompt, der eine Antwort als "Pro und Contra Tabelle" verlangt.
 
 ---
 
-## 6. 🚨 Troubleshooting: Häufige Fehler beheben
+## 🚨 Troubleshooting: Häufige Fehler beheben
 
 ### Problem 1: KI versteht mich falsch
 
 **❌ Fehlerhafter Prompt:**
-"Mach mir was für Mitglieder die gut ankommt"
+"Schreib mir was für Mitglieder, das gut ankommt"
 
 **🔧 Diagnose:** Zu vage, keine klare Aufgabe
 
@@ -228,7 +228,7 @@ Formuliere einen Prompt, der eine Antwort als "Pro und Contra Tabelle" verlangt.
 
 ---
 
-## 7. ⚠️ Wichtig: KI-Limitierungen verstehen
+## ⚠️ Wichtig: KI-Limitierungen verstehen
 
 ### KI kann "halluzinieren" (Fakten erfinden)!
 
@@ -248,7 +248,7 @@ KI könnte antworten: "21,3 Millionen" → **Immer gegenchecken!**
 
 ---
 
-## 8. Fortgeschrittener Komplett-Prompt
+## Fortgeschrittener Komplett-Prompt
 
 Hier alle Bausteine in Aktion:
 
@@ -259,7 +259,7 @@ KONTEXT:
 - Sportverein, 300 Mitglieder, ländliche Region
 - Problem: 20% Mitgliederschwund in 2 Jahren  
 - Zielgruppe: Familien mit Kindern (6-14 Jahre)
-- Budget: 5.000€ für 2024
+- Budget: 5.000€ für 2025
 
 AUFGABE: Entwickle eine Strategie zur Mitgliedergewinnung
 
@@ -274,7 +274,7 @@ QUALITÄT: Praxisnah, konkret umsetzbar, regional angepasst
 
 ---
 
-## 9. 🛠️ Wo kannst du üben?
+## 🛠️ Wo kannst du üben?
 
 | **Plattform** | **Kostenlos?** | **Beste für** | **Link** |
 |---------------|---------------|--------------|----------|
@@ -287,7 +287,7 @@ QUALITÄT: Praxisnah, konkret umsetzbar, regional angepasst
 
 ---
 
-## 10. 🎯 Große Übungsaufgabe
+## 🎯 Große Übungsaufgabe
 
 **Deine Challenge:** Erstelle einen Prompt mit ALLEN 5 Bausteinen zum Thema "Mitgliedschaft in der digitalen Welt"
 
