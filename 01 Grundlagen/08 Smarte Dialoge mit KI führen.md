@@ -5,7 +5,6 @@
 
 
 ## 1. Einführung: Was ist KI-Dialog? 
-*⏱️ Lesezeit: 3 Minuten*
 
 ### Was erwartet dich?
 
@@ -39,7 +38,6 @@ Diese Aspekte werden in unseren Beispielen immer wieder auftauchen.
 ---
 
 ## 2. Quickstart in 3 Minuten {#quickstart}
-*⏱️ Lesezeit: 3 Minuten*
 
 ### Die 3-Schritte-Formel für sofortige Ergebnisse
 
@@ -62,7 +60,6 @@ Schritt 3: "[DEINE FRAGE]. Bestätige erst dein Verständnis."
 ---
 
 ## 3. Das WAVE-Framework {#wave-framework}
-*⏱️ Lesezeit: 5 Minuten*
 
 ### 🌊 WAVE = Wissen → Anwenden → Verifizieren → Erweitern
 
@@ -123,7 +120,6 @@ TEMPLATE:
 ---
 
 ## 4. Prompt-Templates zum Sofortstart {#templates}
-*⏱️ Lesezeit: 4 Minuten*
 
 ### 🎯 Template 1: Mitgliedergewinnung
 
@@ -211,7 +207,6 @@ Fasse erst zusammen, was du verstanden hast.
 ---
 
 ## 5. Praxisbeispiele aus der Mitgliederwelt {#praxisbeispiele}
-*⏱️ Lesezeit: 8 Minuten*
 
 ### 📖 Beispiel 1: Der Sportverein mit Generationenproblem
 
@@ -356,7 +351,6 @@ KI: [Differenzierte Kommunikationsstrategie]
 ---
 
 ## 7. Übungsaufgaben mit Lösungen {#übungen}
-*⏱️ Bearbeitungszeit: 15 Minuten*
 
 ### 📝 Übung 1: Basis-Dialog (Anfänger)
 
@@ -482,7 +476,6 @@ ERGEBNIS: Vollständige, umsetzbare Digitalstrategie
 ---
 
 ## 8. Troubleshooting-Guide {#troubleshooting}
-*⏱️ Lesezeit: 5 Minuten*
 
 ### 🔧 Problem 1: "Die KI versteht mich nicht"
 
@@ -565,7 +558,6 @@ Hast du das verstanden? Fasse es in eigenen Worten zusammen."
 ---
 
 ## 9. KI-Modelle im Vergleich {#modellvergleich}
-*⏱️ Lesezeit: 4 Minuten*
 
 ### Welches Modell für welchen Zweck?
 
@@ -624,150 +616,9 @@ A: Nur innerhalb einer Session. Wichtiges immer wieder erwähnen.
 
 ---
 
-## 11. Glossar {#glossar}
-*⏱️ Lesezeit: 2 Minuten*
 
-**Prompt:** Deine Eingabe/Anfrage an die KI
 
-**Token:** Texteinheit für KI-Verarbeitung (≈4 Zeichen)
 
-**Kontext:** Hintergrundinformationen für bessere Antworten
-
-**Iteration:** Schrittweise Verbesserung durch Nachfragen
-
-**Halluzination:** KI erfindet falsche Fakten (immer prüfen!)
-
-**Fine-Tuning:** Anpassung der Anfrage für bessere Ergebnisse
-
-**System-Prompt:** Grundanweisung, die das KI-Verhalten steuert
-
-**Few-Shot-Learning:** Lernen durch wenige Beispiele
-
-**Chain-of-Thought:** Schritt-für-Schritt-Denken der KI
-
-**Temperature:** Kreativitätsgrad der KI (0=konservativ, 1=kreativ)
-
-**Embedding:** Umwandlung von Text in Zahlen für KI-Verarbeitung
-
-**Context Window:** Maximale Textmenge, die KI gleichzeitig verarbeiten kann
-
----
-
-## 12. Fortgeschrittenen-Pfad {#progression}
-*⏱️ Lesezeit: 3 Minuten*
-
-### 🎯 Dein Lernpfad vom Anfänger zum Profi
-
-```
-Level 1: STARTER (Du bist hier!)
-✓ Kann WAVE-Framework anwenden
-✓ Nutzt Templates
-✓ Versteht Dos & Don'ts
-→ Nächster Schritt: 10 erfolgreiche Dialoge führen
-
-Level 2: FORTGESCHRITTEN (Nach 2 Wochen)
-✓ Entwickelt eigene Templates
-✓ Kombiniert KI-Modelle
-✓ Löst komplexe Probleme
-→ Nächster Schritt: Automation basics lernen
-
-Level 3: EXPERTE (Nach 2 Monaten)
-✓ Erstellt System-Prompts
-✓ Nutzt KI-APIs
-✓ Baut KI-Workflows
-→ Nächster Schritt: Eigene Tools entwickeln
-
-Level 4: MEISTER (Nach 6 Monaten)
-✓ Trainiert spezialisierte Modelle
-✓ Entwickelt KI-Strategien
-✓ Lehrt andere
-```
-
-### 📚 Nächste Lernschritte
-
-**Woche 1-2:** Täglich 3 Dialoge mit Templates üben  
-**Woche 3-4:** Eigene Templates entwickeln  
-**Monat 2:** API-Grundlagen lernen (Python/JavaScript)  
-**Monat 3:** Automatisierung mit Make/Zapier  
-
----
-
-## 13. Ressourcen & Weiterlernen {#ressourcen}
-*⏱️ Lesezeit: 2 Minuten*
-
-### 📖 Weiterführende Tutorials
-
-- **Prompt Engineering Guide** (OpenAI): Offizielle Best Practices
-- **Anthropic Cookbook** (Claude): Fortgeschrittene Techniken
-- **Learn Prompting** (Community): Interaktiver Kurs
-
-### 🛠️ Nützliche Tools
-
-- **PromptPerfect:** Prompt-Optimierung
-- **Promptbase:** Template-Marktplatz  
-- **LangChain:** KI-Workflow-Automation
-- **Flowise:** Visueller KI-Workflow-Builder
-
-### 👥 Communities
-
-- **r/ChatGPT** (Reddit): Größte Community
-- **Discord: AI & Prompting**: Direkter Austausch
-- **LinkedIn: Prompt Engineers**: Professionelles Netzwerk
-
-### 📊 Mitglieder-spezifische Ressourcen
-
-- **Vereinswiki.de**: Rechtliches & Praktisches
-- **Stiftung Mitarbeit**: Engagement-Förderung
-- **DSSV**: Studien zu Vereinsmitgliedschaften
-- **Engagement Global**: Fördermöglichkeiten
-
-### 🎓 Zertifizierungen
-
-- **Google AI Essentials** (kostenlos, 10h)
-- **IBM Applied AI** (Coursera, 40h)
-- **Microsoft Azure AI Fundamentals** (MS Learn, 20h)
-
----
-
-## 🎉 Geschafft! Deine nächsten Aktionen
-
-### ✅ Sofort-Checkliste
-
-- [ ] Speichere dieses Tutorial als Lesezeichen
-- [ ] Wähle ein Template aus Kapitel 4
-- [ ] Führe deinen ersten WAVE-Dialog
-- [ ] Teile dein Erfolgserlebnis in der Community
-- [ ] Plane 15 Minuten täglich zum Üben ein
-
-### 💬 Dein erster Praxis-Dialog
-
-```
-Kopiere das und starte JETZT:
----
-"Ich möchte das WAVE-Framework üben. Welche Expertise braucht 
-ein Berater für [dein Thema]?"
-
-[Warte auf Antwort]
-
-"Mit dieser Expertise: [Beschreibe deine echte Situation 
-mit Zahlen und Fakten]. Verstehst du meine Ausgangslage?"
-
-[Warte auf Bestätigung]
-
-"Entwickle eine Lösung für [dein konkretes Ziel]. 
-Strukturiere die Antwort in 3 Schritte."
----
-```
-
-### 🚀 Deine Erfolgsformel
-
-**Wissen + Übung + Community = KI-Meisterschaft**
-
-Du hast jetzt das Wissen. Die Übung liegt bei dir. Die Community wartet auf dich.
-
-**Viel Erfolg bei deinen KI-Dialogen!** 🎯
-
----
 
 *Letzte Aktualisierung: 2024*  
 *Version: 2.0 - Das umfassende Anfänger-Tutorial*  
