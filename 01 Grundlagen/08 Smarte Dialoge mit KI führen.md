@@ -1,29 +1,10 @@
-# 🚀 Das ultimative KI-Dialog Tutorial für Anfänger
+# 🚀 Das KI-Dialog Tutorial für Anfänger
 
-**Von Null zum KI-Profi: Meistere die Kunst der intelligenten Kommunikation mit Sprachmodellen**  
-*Mit Praxisfokus auf Mitgliedschaften, Communities und Vereinswesen*
 
 ---
 
-## 📚 Inhaltsverzeichnis
 
-1. [Einführung: Was ist KI-Dialog?](#einführung)
-2. [Quickstart in 3 Minuten](#quickstart)
-3. [Das WAVE-Framework](#wave-framework)
-4. [Prompt-Templates zum Sofortstart](#templates)
-5. [Praxisbeispiele aus der Mitgliederwelt](#praxisbeispiele)
-6. [Dos and Don'ts](#dos-donts)
-7. [Übungsaufgaben mit Lösungen](#übungen)
-8. [Troubleshooting-Guide](#troubleshooting)
-9. [KI-Modelle im Vergleich](#modellvergleich)
-10. [FAQ](#faq)
-11. [Glossar](#glossar)
-12. [Fortgeschrittenen-Pfad](#progression)
-13. [Ressourcen & Weiterlernen](#ressourcen)
-
----
-
-## 1. Einführung: Was ist KI-Dialog? {#einführung}
+## 1. Einführung: Was ist KI-Dialog? 
 *⏱️ Lesezeit: 3 Minuten*
 
 ### Was erwartet dich?
