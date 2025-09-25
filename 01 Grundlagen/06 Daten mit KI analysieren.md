@@ -13,7 +13,7 @@
 
 ---
 
-## 2. Datenschutz & Compliance {#datenschutz}
+## 2. Datenschutz & Compliance
 
 ### ⚠️ KRITISCH: Bevor Sie starten
 
@@ -27,7 +27,7 @@
 - [ ] ...
 ---
 
-## 3. Prompt-Engineering Fundamentals {#prompt-engineering}
+## 3. Prompt-Engineering Fundamentals
 
 ### Die ACTOR-Methode für perfekte Prompts
 
@@ -93,7 +93,7 @@ FORMAT: Strukturierte Bullet Points mit konkreten Zahlen
 
 ---
 
-## 4. Schritt-für-Schritt Praxisworkflow {#praxisworkflow}
+## 4. Schritt-für-Schritt Praxisworkflow
 
 ### Phase 1: Datenqualität prüfen (15 Min)
 
@@ -202,7 +202,7 @@ Für jedes Segment:
 
 ---
 
-## 5. Fortgeschrittene Analysetechniken {#fortgeschritten}
+## 5. Fortgeschrittene Analysetechniken
 
 ### Kohortenanalyse für Mitgliederbindung
 
@@ -268,7 +268,7 @@ BUSINESS IMPACT:
 
 ---
 
-## 6. Troubleshooting & FAQ {#troubleshooting}
+## 6. Troubleshooting & FAQ 
 
 ### Häufige Probleme und Lösungen
 
@@ -322,7 +322,7 @@ Nutze Follow-up Prompts:
 
 ---
 
-## 7. Integration & Export {#integration}
+## 7. Integration & Export 
 
 ### Excel-Integration
 
@@ -382,7 +382,7 @@ STIL: Prägnant, zahlenbasiert, handlungsorientiert
 
 ---
 
-## 8. Übungsaufgaben {#uebungen}
+## 8. Übungsaufgaben 
 
 ### Aufgabe 1: Basis-Analyse (Einsteiger)
 
