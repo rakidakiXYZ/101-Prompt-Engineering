@@ -460,7 +460,7 @@ Prüfe diese Analyse auf logische Fehler:
 
 ---
 
-## 9. Prompt-Template-Bibliothek {#templates}
+## 9. Prompt-Template-Bibliothek
 
 ### 🎯 Copy-Paste Templates für jeden Anwendungsfall
 
