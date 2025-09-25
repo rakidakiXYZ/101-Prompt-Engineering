@@ -617,6 +617,4 @@ STRUKTUR:
 
 ---
 
-*Dieses Tutorial wird kontinuierlich aktualisiert. Version 2.0 | Stand: 2024*
 
-**Nächster Schritt:** Nehmen Sie Ihre echten (anonymisierten) Mitgliederdaten und arbeiten Sie Aufgabe 1 durch. In 30 Minuten haben Sie Ihre erste KI-gestützte Analyse! 🚀
