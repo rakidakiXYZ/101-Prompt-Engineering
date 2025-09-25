@@ -33,14 +33,14 @@
 ## 2. Content-Struktur kontrollieren
 
 **Schwacher Prompt:**
-> „Schreibe einen Artikel über Volksbank-Mitgliedschaft."
+> „Schreibe einen Artikel über Vereins-Mitgliedschaft."
 
 ➡ Ergebnis: Unklare Länge, zufälliger Stil, fehlender Nutzen.
 
 **Starker Prompt mit Struktur:**
-> „Erstelle einen Blogartikel über Volksbank-Mitgliedschaft mit folgenden Anforderungen:
+> „Erstelle einen Blogartikel über Vereins-Mitgliedschaft mit folgenden Anforderungen:
 > 
-> * Titel: SEO-optimiert, z. B. ‚5 Gründe für eine Volksbank-Mitgliedschaft'
+> * Titel: SEO-optimiert, z. B. ‚5 Gründe für eine Vereins-Mitgliedschaft'
 > * Einleitung (100 Wörter): Hook, Kontext, Vorschau
 > * Hauptteil: 3–4 Vorteile, je 200 Wörter, mit Beispielen (z. B. 3 % Dividende), Tipps für Interessenten
 > * Fazit (100 Wörter): Zusammenfassung + Call-to-Action
@@ -170,7 +170,7 @@ graph LR
 
 **Beispiel-Erzählbogen:**
 * Herausforderung: Familie sucht faire Bank
-* Lösung: Volksbank-Mitgliedschaft entdeckt
+* Lösung: Vereins-Mitgliedschaft entdeckt
 * Erfolg: Hausfinanzierung mit Mitgliederkonditionen
 
 ➡ Wirkung: Inhalte werden emotionaler, einprägsamer und relevanter.
@@ -336,10 +336,6 @@ Finanzthemen, faktische Korrektheit prioritär"
 | **Copilot** | Microsoft-Integration | Begrenzte Anpassung | Office-Dokumente |
 | **Perplexity** | Quellenangaben, Research | Weniger kreativ | Fakten-Check, Recherche |
 
-**Empfehlung für Genossenschafts-Content:**
-- **Haupttool:** Claude (für strukturierte Fachtexte)
-- **Ergänzung:** ChatGPT (für kreative Kampagnen)
-- **Research:** Perplexity (für Marktdaten)
 
 ---
 
