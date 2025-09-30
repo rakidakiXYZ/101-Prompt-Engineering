@@ -73,6 +73,21 @@ erstellen kann.
 
 ---
 
+"Perfekter" Prompt für Deine Infografik:
+
+```markdown
+Erstelle eine elegante 2D-Infografik auf Deutsch im Hochformat. Hintergrund dunkelblau, Akzentfarben kräftiges Orange und Weiß. Verwende klare Linien und gleiche Abstände für harmonische Boxen. Titel: 'KI LERNEN FÜR BESCHÄFTIGTE UNTERNEHMER'. Untertitel: 'Die Grundlagen der Künstlichen Intelligenz verstehen, ohne zu viel Zeit zu investieren'. Vier gleich große, sauber ausgerichtete Sektionen mit Icons in Orange und Überschriften in Weiß:
+
+'Fokus auf Wesentliches – Erlernen Sie zentrale Konzepte und Begriffe, die für Ihr Unternehmen relevant sind.'
+
+'In kurzen Einheiten lernen – Nutzen Sie kurze Lektionen, KI-Podcasts oder Newsletter, um schnell Einblicke zu erhalten.'
+
+'Auf Ihr Unternehmen anwenden – Überlegen Sie, wie KI Ihrem Unternehmensprozess zugutekommen könnte.'
+
+'Experten zur Hilfe holen – Konsultieren Sie KI-Profis, um Ihr Verständnis zu beschleunigen.'
+Am unteren Rand, zentriert in Weiß, ein kurzer Schlusssatz: 'Schnell verstehen, gezielt anwenden, nachhaltig profitieren.' Verwende moderne, gut lesbare Typografie (Sans Serif), minimalistisch, ohne unnötige Dekoelemente."
+```
+
 ## 🧠 6. Erkenntnis
 
 * **Was passiert ist:** Wir haben einen **Prozess der Prompt-Verfeinerung** durchlaufen → dann diesen Prozess selbst abstrahiert → und daraus eine **Prompt-Vorlage** gemacht.
