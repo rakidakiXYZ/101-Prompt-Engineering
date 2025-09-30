@@ -11,7 +11,7 @@ Damit soll das GPT-System später im Alltag eines E-Commerce-Unternehmens nützl
 
 ---
 
----
+
 ## Der Prompt
 
 ```markdown
@@ -21,7 +21,7 @@ Deine Aufgabe ist es, ein vollständiges benutzerdefiniertes GPT-Setup zu erstel
 ### Schritt 1: Projektstruktur erstellen
 Erstelle eine gut organisierte Ordnerstruktur für das Custom-GPT-Projekt:  
 
-```text
+
 custom-gpt-[PROJEKT_NAME]/
 ├── instructions/
 │   ├── custom-gpt-instructions.md # Kerninstruktionen (<7.500 Zeichen)
@@ -37,7 +37,7 @@ custom-gpt-[PROJEKT_NAME]/
 │   ├── sample-conversations.md
 │   └── use-case-scenarios.md
 └── project-overview.md
-````
+
 
 Beziehe dich in allen Instruktionen und Prompts explizit auf die Markdown-Dateien der Wissensbasis (`knowledge-base`).
 
@@ -91,7 +91,7 @@ Als Inhaber eines E-Commerce-Unternehmens umfassen die täglichen Aufgaben u. a.
 
 … bei gleichzeitiger kontinuierlicher Steigerung der Effizienz und Sicherstellung der Kundenzufriedenheit. Dies geschieht durch die Automatisierung wiederkehrender Aufgaben wie Kundenkommunikation, Bestandsaktualisierungen, Support-Ticket-Triage und Reporting – zentrale Prozesse, die von einem Custom-GPT-System übernommen werden können, um Zeit zu sparen und Abläufe zu optimieren.
 
-```
+````
 
 ---
 
