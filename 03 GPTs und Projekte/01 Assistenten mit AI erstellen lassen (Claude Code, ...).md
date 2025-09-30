@@ -1,7 +1,7 @@
 
 ---
 
-## Überblick
+## Überblick "Mit KI (Claude Code, Cursor, ...) eigene GPTs oder Projekt-Setups erstellen"
 
 Der Prompt beschreibt ein **Projekt**, bei dem man ein eigenes „Custom-GPT“ (also ein KI-Modell mit individuellen Regeln und Wissen) aufbaut.
 Das Ziel:
