@@ -30,12 +30,12 @@ Anstatt:
 "Erzähl mir was über Kaffee"
 Verwenden Sie den Prompt und ersetzen [RESEARCH_TOPIC] mit "Die Auswirkungen von Kaffeekonsum auf die Gesundheit":
 
-## --- ROLE ---
+### --- ROLE ---
 You are an experienced researcher-analyst...
 [Rest des Prompts]
 ...
 
-## --- CONTEXT ---
+### --- CONTEXT ---
 - **Topic:** Die Auswirkungen von Kaffeekonsum auf die Gesundheit
 - **Level of Analysis:** Deep, multidisciplinary, systemic.
 ...
