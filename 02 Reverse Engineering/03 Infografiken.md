@@ -73,7 +73,7 @@ erstellen kann.
 
 ---
 
-"Perfekter" Prompt für Deine Infografik:
+## "Perfekter" Prompt für Deine Infografik:
 
 ```markdown
 Erstelle eine elegante 2D-Infografik auf Deutsch im Hochformat. Hintergrund dunkelblau, Akzentfarben kräftiges Orange und Weiß. Verwende klare Linien und gleiche Abstände für harmonische Boxen. Titel: 'KI LERNEN FÜR BESCHÄFTIGTE UNTERNEHMER'. Untertitel: 'Die Grundlagen der Künstlichen Intelligenz verstehen, ohne zu viel Zeit zu investieren'. Vier gleich große, sauber ausgerichtete Sektionen mit Icons in Orange und Überschriften in Weiß:
