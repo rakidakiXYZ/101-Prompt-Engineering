@@ -1,3 +1,4 @@
+## Go-to-Market Strategie
 Diese Marketing-Prompts sind eine strategische Sequenz zur Entwicklung einer umfassenden Go-to-Market (GTM) Strategie. So nutzt du sie effektiv:
 
 ## **Gesamt-Workflow**
