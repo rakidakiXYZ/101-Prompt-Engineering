@@ -258,7 +258,7 @@ could be handled by a custom GPT system to save time and enhance operations.
 
 ---
 
-## Zusammenfassung für Anfänger
+## Zusammenfassung
 
 * Das Projekt baut ein **maßgeschneidertes GPT-System** auf.
 * Die **Instruktionen** steuern das Verhalten der KI (max. 7.500 Zeichen).
@@ -270,9 +270,8 @@ could be handled by a custom GPT system to save time and enhance operations.
 ---
 
 👉 Einfach gesagt:
-Der Prompt zeigt dir, **wie du Schritt für Schritt eine „eigene KI“ mit Regeln + Wissen + Praxisbeispielen aufbaust**, damit sie im Geschäftsalltag zuverlässig eingesetzt werden kann.
+Der Prompt zeigt dir, **wie du Schritt für Schritt eine „eigene KI“ mit Regeln + Wissen + Praxisbeispielen aufbaust**, 
+damit sie im Geschäftsalltag zuverlässig eingesetzt werden kann.
 
 ---
-
-Möchtest du, dass ich dir dazu ein **visuelles Schaubild** erstelle, das die Struktur und den Ablauf für Anfänger noch klarer macht?
 
