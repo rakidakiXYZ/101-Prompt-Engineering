@@ -1,4 +1,4 @@
-## Block Beschreibung des Geschäfts, der Idee, des Startups, des Konzepts, um dann die GPTs mit 01 ... zu erstellen
+##  GPT System für "Alleinerziehende Eltern Plattform" mit "Code aus 01" erstellen
 
 ## EN Version
 
