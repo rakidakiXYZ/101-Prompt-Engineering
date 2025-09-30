@@ -51,8 +51,10 @@ Hier eine strukturierte Zusammenfassung der bisherigen Schritte mit Erklärungen
 ## 🧩 5. Reverse Engineering
 
 * Schließlich hast du erkannt: „Wie hätte ich das Hin-und-Her vermeiden können?“
-* Prompt
-  "Hey, wie hätte ich verhindern können, dass ich mit dir bei diesem Bild hin und her gehe und sicherstellen, dass es beim ersten Mal perfekt passt? Kannst du einen Prompt (einen Bildprompt) ausgeben, basierend auf dem, was du über dich selbst weißt, der mir geholfen hätte, diesen Schritt zu überspringen? Der sehr prägnant und auf den Punkt gebracht ist und sichergestellt hätte, dass das nie passiert wäre, so dass ich mit diesem Prompt in der Zukunft ähnliche Bilder erstellen kann."
+*
+ ```markdown
+Hey, wie hätte ich verhindern können, dass ich mit dir bei diesem Bild hin und her gehe und sicherstellen, dass es beim ersten Mal perfekt passt? Kannst du einen Prompt (einen Bildprompt) ausgeben, basierend auf dem, was du über dich selbst weißt, der mir geholfen hätte, diesen Schritt zu überspringen? Der sehr prägnant und auf den Punkt gebracht ist und sichergestellt hätte, dass das nie passiert wäre, so dass ich mit diesem Prompt in der Zukunft ähnliche Bilder erstellen kann.
+```
   
 * Wir haben daraufhin einen **perfekten Prompt** formuliert, der von Anfang an:
 
