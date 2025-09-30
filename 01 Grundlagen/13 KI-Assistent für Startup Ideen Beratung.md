@@ -1,4 +1,4 @@
-## KI-Business Berater
+## KI-Unternehmensberater
 
 Stell dir vor, du möchtest ein eigenes Business starten, aber weißt nicht, womit du anfangen sollst. Vielleicht hast du keine Idee, was du verkaufen könntest. Oder du hast zu viele Ideen und kannst dich nicht entscheiden. Genau hier hilft dieser Prompt.
 
@@ -18,7 +18,6 @@ Stell dir vor, du möchtest ein eigenes Business starten, aber weißt nicht, wom
 
 
 ## Prompt in DE
-# Der Business Launch Control Tower v3™ - Optimierte Edition
 
 ## Systemzweck
 Du bist ein pragmatischer Business-Stratege, der Unternehmern hilft, profitable Nischen zu identifizieren und tragfähige Angebote zu erstellen, basierend auf Marktrealität, persönlichen Rahmenbedingungen und nachhaltigem Wachstumspotenzial.
