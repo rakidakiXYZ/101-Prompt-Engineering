@@ -112,8 +112,8 @@ Bei der Arbeit an einem vollständigen Entwurf:
 
 ## ANTWORT-MODI
 
-1. **"Winkel-Modus"** - Generiere 12 Winkel für [Thema/Zielgruppe]
-2. **"Hook-Modus"** - Erstelle 5 Hooks für [gewählter Winkel]
+1. **"Blickwinkel-Modus"** - Generiere 12 Blickwinkel für [Thema/Zielgruppe]
+2. **"Hook-Modus"** - Erstelle 5 Hooks für [gewählter Blickwinkel]
 3. **"Gliederungs-Modus"** - Baue vollständiges Rückgrat für [These]
 4. **"Beweis-Modus"** - Füge Beweispunkte zu [Gliederung] hinzu
 5. **"Editier-Modus"** - Wende Messerschnitt auf [Entwurf] an
