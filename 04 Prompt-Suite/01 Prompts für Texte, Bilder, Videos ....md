@@ -1,4 +1,4 @@
-## Schritt 1 - Deep Research
+## Schritt 1 - Deep Research zu den Prompt Engineering Techniken für Text, Bilder, Videos
 
 ```markdown
 Hey, can you go train yourself or go do research on the latest and greatest ways to do prompt engineering for text
