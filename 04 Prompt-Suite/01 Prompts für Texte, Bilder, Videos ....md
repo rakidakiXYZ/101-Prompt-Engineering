@@ -22,3 +22,9 @@ schreibt? Recherchiere einfach sehr umfassend zu allen Prompting-Techniken, die 
 .
 
 ```
+
+## Ergebnis der Deep Research dann in einem Dokument zusammenfassen
+
+## Reverse Engineering Technik anwenden, um einen ultimativen Guide für Prompt Engineering Technologien zu erstellen
+
+Datei: "ultimate-prompt-engineering-mastery-guide-2025.md
