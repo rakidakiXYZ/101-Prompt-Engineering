@@ -89,7 +89,12 @@ Als Inhaber eines E-Commerce-Unternehmens umfassen die täglichen Aufgaben u. a.
 * Automatisierung von E-Mail-Antworten auf häufige Fragen
 * Koordination mit Lieferanten oder Partnern
 
-… bei gleichzeitiger kontinuierlicher Steigerung der Effizienz und Sicherstellung der Kundenzufriedenheit. Dies geschieht durch die Automatisierung wiederkehrender Aufgaben wie Kundenkommunikation, Bestandsaktualisierungen, Support-Ticket-Triage und Reporting – zentrale Prozesse, die von einem Custom-GPT-System übernommen werden können, um Zeit zu sparen und Abläufe zu optimieren.
+… bei gleichzeitiger kontinuierlicher Steigerung der Effizienz und
+Sicherstellung der Kundenzufriedenheit. Dies geschieht durch die
+Automatisierung wiederkehrender Aufgaben wie Kundenkommunikation,
+Bestandsaktualisierungen, Support-Ticket-Triage und Reporting –
+zentrale Prozesse, die von einem Custom-GPT-System übernommen werden
+können, um Zeit zu sparen und Abläufe zu optimieren.
 
 ````
 
