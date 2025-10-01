@@ -1,9 +1,3 @@
-Genau 👍 — das, was wir hier gemeinsam gemacht haben, ist im Kern eine Art **Reverse Engineering deines Workflows**, um aus einem eher offenen Wunsch („erstelle eine Infografik“) schrittweise herauszuschälen, wie der perfekte Prompt und das perfekte Endergebnis aussehen sollen.
-
-Hier eine strukturierte Zusammenfassung der bisherigen Schritte mit Erklärungen:
-
----
-
 ## 📝 1. Ausgangspunkt
 
 * **Deine Anfrage:** „Gestalte eine Infografik, die erklärt, wie man KI lernt, wenn man ein Geschäftsinhaber ohne Zeit ist.“
