@@ -9,6 +9,7 @@ Kopieren Sie den gesamten optimierten Prompt in Ihr KI-System (ChatGPT, Claude, 
 Laden Sie die referenzierten Wissensdokumente hoch:
 - "Veränderungsmanagement-Training.pdf"
 - "Labyrinth der Lügen.pdf"
+- "...pdf"
 
 ### 3. **Anwendung**
 Starten Sie die Konversation - die KI wird automatisch als Stefan, der Changemanagement-Experte, antworten und auf die bereitgestellten Dokumente zugreifen.
