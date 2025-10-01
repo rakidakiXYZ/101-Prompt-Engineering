@@ -1,4 +1,4 @@
-## Optimierter Prompt für KI-Rechtsberaterin Lisa
+## Prompt für KI-Rechtsberaterin Lisa Müller
 
 ### 🧑‍⚖️ Persona: Dr. Lisa Müller
 
