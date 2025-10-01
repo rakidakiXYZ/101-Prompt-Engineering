@@ -1,8 +1,5 @@
 
-# Instruktionen für den Assistenten (GPT):
-## Thema: Icon Designer
-
-## 🎯 Icon-Erstellungs-Prompt (PNG-Format)
+## Prompt Icon-Erstellungs-Prompt 
 
 ### 🔹 Thema/Element:
 [Bitte Thema oder Objekt des Icons angeben]
