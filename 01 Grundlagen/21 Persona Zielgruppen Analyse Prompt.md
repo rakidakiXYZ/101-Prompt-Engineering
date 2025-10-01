@@ -1,6 +1,129 @@
-# Prompt
+# Wie funktioniert der nachfolgende Prompt zur Zielgruppen Analyse
+
+### **1. Navigation** → *Was du untersuchst*
+
+* `/fundament` → Kern-Demografie & Basisverhalten
+* `/psycho` → Psychografische Faktoren (Werte, Ängste, Motivation usw.)
+* `/lexikon` → Sprachmuster & Ausdrucksweisen
+* `/ökosystem` → Digitale & Offline-Touchpoints
+* `/zusammenfassung` → Executive-Summary
+* `/lücken` → Zeigt unerforschte Bereiche
 
 ---
+
+### **2. Steuerung** → *Wie tief / worauf fokussieren*
+
+* `/tiefe:oberflächlich|standard|tief|experte` → Detailgrad anpassen
+* `/fokus:[Thema]` → Nur einen Teilbereich ansehen
+* `/verzweigung:[Thema]` → Verwandte Themen erkunden
+* `/vertrauen` → Quellen-Zuverlässigkeit anzeigen
+* `/aktuell` → Neueste Daten abrufen
+
+---
+
+### **3. Hilfsmittel** → *Export & Organisation*
+
+* `/export:[pdf|json|csv|notion]` → Ergebnisse exportieren
+* `/lesezeichen:[Thema]` → Für später speichern
+* `/verlauf` → Bisherigen Erkundungspfad anzeigen
+* `/vorschlag` → KI schlägt nächste Schritte vor
+* `/zurücksetzen` → Neue Session starten
+
+---
+
+# 📖 **Beispiel-Session**
+
+👉 Angenommen, du willst **„Remote-Arbeiter im Tech-Bereich“** im **B2B-Kontext** auf **Standardtiefe** untersuchen:
+
+---
+
+### **Schritt 1: Start setzen**
+
+```
+Zielgruppe: Remote-Arbeiter im Tech-Bereich  
+Kontext: B2B  
+Tiefe: Standard
+```
+
+---
+
+### **Schritt 2: Erste Analyse (Demografie)**
+
+```
+/fundament
+```
+
+➡️ Du bekommst Basisdaten: Altersverteilung, Standorte, Berufsrollen, Mediennutzung etc.
+
+---
+
+### **Schritt 3: Psychologische Treiber**
+
+```
+/psycho
+```
+
+➡️ Du siehst Kategorien wie *Motivationstreiber, Ängste, Wertehierarchie*.
+
+Dann z. B.:
+
+```
+/erkunden:Motivationstreiber
+```
+
+---
+
+### **Schritt 4: Sprachmuster**
+
+```
+/lexikon
+```
+
+➡️ Zeigt, wie diese Zielgruppe sich **professionell vs. umgangssprachlich** ausdrückt.
+Optional:
+
+```
+/lexikon:fachsprache
+```
+
+---
+
+### **Schritt 5: Ökosystem checken**
+
+```
+/ökosystem
+```
+
+➡️ Liefert: bevorzugte Plattformen, Communities, Events, digitale & physische Touchpoints.
+
+---
+
+### **Schritt 6: Zusammenfassung & Export**
+
+```
+/zusammenfassung
+/export:pdf
+```
+
+➡️ Du erhältst eine Management-Übersicht und kannst alles sauber speichern.
+
+---
+
+# 🚦 **Kurz gesagt:**
+
+* Mit **Navigation**-Befehlen gehst du in Module.
+* Mit **Steuerung** passt du Tiefe/Fokus an.
+* Mit **Hilfsmitteln** sicherst & organisierst du deine Insights.
+
+---
+
+👉 Soll ich dir ein **konkretes Beispiel durchspielen** (z. B. „Gen Z Konsumenten im Modebereich | B2C | Tiefgehend“), damit du die Befehle **live angewendet** siehst?
+
+---
+---
+
+# Hier jetzt der Prompt:
+
 
 ## 🚀 **Schnellstart**
 
