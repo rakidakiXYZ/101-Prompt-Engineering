@@ -477,6 +477,4 @@ Zu viele Accessoires (ablenkend vom Kernthema)
 
 ---
 
-Möchtest du, dass ich zum Abschluss noch eine **Markdown-kompatible Exportvorlage (z. B. als Handbuch-Seite für Confluence)** erstelle, die dieses gesamte Material strukturiert mit Inhaltsverzeichnis, Quicklinks und Copy-Buttons für jedes JSON enthält?
-Damit könnte euer Team es direkt als interne Prompt-Bibliothek einsetzen.
 
