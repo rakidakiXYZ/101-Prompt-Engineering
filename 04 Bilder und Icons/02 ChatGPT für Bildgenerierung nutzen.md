@@ -8,7 +8,9 @@
 * Öffne ChatGPT.
 * Wähle oben das Modell **„GPT-5“** oder **„GPT-5 mit Bildgenerierung (GPT-Image)“**.
 
-  > 💡 Wenn kein separates „Image“-Modell sichtbar ist, ist die Funktion meist schon integriert.
+  > 💡 Wenn kein separates „Image“-Modell sichtbar ist, ist die Funktion meist schon integriert. Über das + Icon im Chat Fenster können Sie auch den Befehl "Bild erstellen" auswählen und danach den Prompt eingeben
+
+<img width="2468" height="1310" alt="CleanShot 2025-10-19 at 10 33 22@2x" src="https://github.com/user-attachments/assets/31cd96f8-4cab-4ac0-bdf5-a13c3ce5b7fe" />
 
 ---
 
