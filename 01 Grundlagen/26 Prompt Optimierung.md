@@ -17,15 +17,8 @@ Notieren Sie ihn separat (z. B. in Word).
 1. Öffnen Sie einen **neuen Chat**.
 2. **Kopieren** Sie den Evaluations-Prompt (siehe „Prompts zum Kopieren“ weiter unten) **vollständig** in den Chat und senden ihn ab.
 3. Direkt danach **fügen Sie Ihren Arbeits-Prompt** ein – **zwischen drei Backticks** `…` – und senden.
-   **Beispiel, wie es aussehen muss:**
-
-   ```
-   ```
-
-   Erstelle eine kurze, freundliche Kundenmail (max. 120 Wörter) zur Einführung unseres Nachhaltigkeitskontos. Zielgruppe: Bestandskunden. Abschluss mit klarem Call-to-Action.
-
-   ```
-   ```
+  
+  
 
 **Ergebnis, das Sie erwarten:**
 Ein Bewertungsbericht mit **Punktzahlen (1–5)** zu 35 Kriterien + **konkreten Verbesserungsvorschlägen** (z. B. „Zielgruppe präzisieren“, „Wortzahl begrenzen“, „Ton spezifizieren“).
@@ -363,5 +356,4 @@ Ja – genau dafür ist er gedacht.
 
 ---
 
-Wenn Sie möchten, erstelle ich Ihnen daraus gern eine **1-seitige PDF-Handreichung** oder **PowerPoint (5 Folien)** für Ihr Team – sagen Sie einfach Bescheid.
 
