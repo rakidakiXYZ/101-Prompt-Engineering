@@ -1,4 +1,3 @@
----
 
 # 🏦 **ChatGPT für die Unternehmensentwicklung einer Volksbank**
 
