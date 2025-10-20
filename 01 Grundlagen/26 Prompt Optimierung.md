@@ -1,4 +1,3 @@
----
 
 # 🏁 Quick Start: In 10 Minuten zum besseren Prompt
 
