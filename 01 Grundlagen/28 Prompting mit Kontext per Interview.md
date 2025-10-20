@@ -1,70 +1,87 @@
-# 🏦 Anleitung: Wie man gezielt mit dem „Kontext-Prompt“ arbeitet
+
+# 🏦 Anleitung: Wie man KI gezielt mit dem „Kontext-Prompt“ steuern können
 
 ## 📘 Ziel der Anleitung
 
-Diese Anleitung zeigt Ihnen, **wie Sie mit einem einfachen, aber wirkungsvollen Prompt (Eingabebefehl)** bessere, genauere und individuellere Ergebnisse aus einem KI-System (z. B. ChatGPT) erhalten.
+Diese Anleitung zeigt Ihnen, wie Sie mit einem sogenannten **„Kontext-Prompt“** gezielt **bessere und individuellere Antworten** von einer Künstlichen Intelligenz (z. B. ChatGPT) erhalten.
 
-Der sogenannte **„Kontext-Prompt“** sorgt dafür, dass die KI **zuerst versteht, was Sie wirklich wollen**, bevor sie antwortet.
-Dadurch vermeiden Sie unpassende oder zu allgemeine Ergebnisse und bekommen **Antworten, die zu Ihrer Situation, Ihrem Team und Ihrer Volksbank passen.**
+Der Prompt sorgt dafür, dass die KI **zuerst Ihre Ziele, Ihren Kontext und Ihre Erwartungen versteht**, bevor sie antwortet.
+So vermeiden Sie unpassende oder zu allgemeine Ergebnisse – und bekommen Antworten, die **wirklich zu Ihrer Volksbank und Ihrem Arbeitsbereich passen**.
 
 ---
 
 ## 💡 Warum dieser Prompt wichtig ist
 
-Viele KI-Nutzer stellen eine Frage – und bekommen eine Antwort, die **zu theoretisch, zu allgemein oder nicht praxisnah** ist.
-Das liegt meist daran, dass die KI zu wenig **Kontext** kennt.
+Viele Menschen stellen einer KI einfach eine Frage – und bekommen eine Antwort, die **zu theoretisch oder zu allgemein** ist.
+Das passiert, weil die KI nicht weiß, **wer Sie sind, was Sie brauchen oder in welchem Zusammenhang Sie fragen.**
 
-Der hier vorgestellte Prompt löst dieses Problem, weil die KI damit:
+Mit dem „Kontext-Prompt“ stellen Sie sicher, dass die KI:
 
-* **gezielt Rückfragen stellt**, um Ihre Ziele und den Kontext zu verstehen,
-* **eine passende Rolle** einnimmt (z. B. Trainer, Kommunikationsberater oder Kreditexperte),
-* den **richtigen Ton** trifft (z. B. vertrauenswürdig, bodenständig, kollegial),
-* und **unnötige oder unpassende Inhalte vermeidet**.
+* **gezielte Rückfragen** stellt, um Ihr Ziel zu verstehen,
+* **eine passende Rolle** übernimmt (z. B. Personalcoach, Prozessberater oder Marketingexperte),
+* **den richtigen Ton** trifft (z. B. kollegial, klar, vertrauenswürdig),
+* und **unnötige Inhalte** vermeidet.
 
 ---
 
 ## ⚙️ So funktioniert der Prompt
 
-Starten Sie, in dem Sie diesen Prompt in ChatGPT eingeben, es passiert dann folgendes:
-
-1. **Die KI liest Ihre Anfrage**, führt sie aber **noch nicht sofort aus**.
-2. **Zuerst stellt sie Ihnen gezielte Fragen**, um fehlende Informationen zu ergänzen.
-3. Dann **übernimmt sie eine Rolle**, die zu Ihrem Anliegen passt.
-4. Schließlich **liefert sie eine maßgeschneiderte, verständliche und praxisorientierte Antwort.**
+1. Sie schreiben Ihre Anfrage und setzen den **Kontext-Prompt** davor.
+2. Die KI **stellt Ihnen zuerst Rückfragen**, um den Auftrag besser zu verstehen.
+3. Danach **übernimmt sie eine Rolle**, die zu Ihrem Anliegen passt.
+4. Anschließend **liefert sie eine klare, praxisnahe und passgenaue Antwort**.
 
 ---
 
 ## 🧩 Der vollständige „Kontext-Prompt“ (auf Deutsch)
 
 ```markdown
-Bevor du meine eigentliche Aufgabe ausführst, stelle mir bitte zuerst alle Fragen, die dir fehlen, um meine Anfrage besser zu verstehen. So kannst du deine Antwort persönlicher, genauer und hilfreicher gestalten. Frage nach allem, was du brauchst, um Missverständnisse zu vermeiden und mir wirklich weiterzuhelfen.  
+Bevor du meine eigentliche Aufgabe ausführst, 
+stelle mir bitte zuerst alle Fragen, die dir fehlen, 
+um meine Anfrage besser zu verstehen. 
 
-Wenn ich nicht klar gesagt habe, welches Ergebnis oder Format ich mir wünsche, frage auch das nach.  
+So kannst du deine Antwort persönlicher, genauer und hilfreicher gestalten. 
+Frage nach allem, was du brauchst, um Missverständnisse zu vermeiden 
+und mir wirklich weiterzuhelfen.  
 
-Verwende dann folgende Struktur, um meine Aufgabe umzusetzen:  
+Wenn ich nicht klar gesagt habe, welches Ergebnis oder Format ich mir wünsche, 
+frage auch das nach.  
 
-„[Aufgabe oder Handlung] zum Thema [Thema], so als wärst du [Rolle oder Kontext], der einer Person hilft, [Ziel oder Problem] effizient zu erreichen. Formuliere es [Tonfall/Stil]. Vermeide [unerwünschte Elemente].“
+Verwende dann folgende Struktur, um meine Aufgabe umzusetzen:
+
+„[Aufgabe oder Handlung] zum Thema [Thema], 
+so als wärst du [Rolle oder Kontext], 
+der einer Person hilft, [Ziel oder Problem] effizient zu erreichen. 
+Formuliere es [Tonfall/Stil]. 
+Vermeide [unerwünschte Elemente].“
 ```
 
 ---
 
-## 🏦 Praxisbeispiele für verschiedene Abteilungen einer Volksbank
+## 🏦 Praxisbeispiele aus verschiedenen Abteilungen einer Volksbank
 
-Im Folgenden finden Sie fünf konkrete Beispiele, wie Sie diesen Prompt in Ihrem Arbeitsalltag nutzen können.
-Die Beispiele sind **realitätsnah**, **einfach anpassbar** und direkt **in ChatGPT oder ein anderes KI-Tool einsetzbar**.
+Die folgenden Beispiele zeigen, wie Sie den Prompt **in unterschiedlichen Bereichen** praktisch einsetzen können.
+Jedes Beispiel können Sie direkt **kopieren und ausprobieren** – die KI wird Sie dann zuerst um fehlende Informationen bitten und danach eine passende Antwort erstellen.
 
 ---
 
 ### 1. **Personalabteilung (HR)**
 
-**Ziel:** Unterstützung bei Mitarbeitergesprächen
+**Ziel:** Vorbereitung auf Mitarbeitergespräche
 
 ```markdown
-Erstelle eine Anleitung zum Thema „Vorbereitung auf ein konstruktives Mitarbeiterentwicklungsgespräch“, so als wärst du ein erfahrener HR-Coach, der eine Führungskraft darin unterstützt, Gespräche klar und wertschätzend zu führen. Formuliere es praxisnah und freundlich. Vermeide theoretischen HR-Fachjargon.
+Erstelle eine Anleitung zum Thema 
+„Vorbereitung auf ein konstruktives Mitarbeiterentwicklungsgespräch“, 
+so als wärst du ein erfahrener HR-Coach, 
+der eine Führungskraft dabei unterstützt, 
+Gespräche klar, wertschätzend und zielorientiert zu führen.  
+Formuliere es praxisnah und freundlich.  
+Vermeide theoretischen HR-Fachjargon.
 ```
 
 💬 **Nutzen:**
-Die KI fragt zunächst nach Abteilung, Gesprächsziel und Mitarbeitertyp und erstellt danach eine konkrete Gesprächsstruktur mit Tipps zur Kommunikation.
+Die KI fragt nach Gesprächsziel, Mitarbeitertyp und gewünschtem Stil –
+und erstellt dann eine konkrete Gesprächsstruktur mit praktischen Tipps.
 
 ---
 
@@ -73,11 +90,17 @@ Die KI fragt zunächst nach Abteilung, Gesprächsziel und Mitarbeitertyp und ers
 **Ziel:** Entwicklung einer regionalen Kundenbindungsaktion
 
 ```markdown
-Erstelle ein Konzept für „eine Kundenbindungsaktion für regionale Unternehmen“, so als wärst du ein Marketingberater einer Volksbank, der ein kleines Kommunikationsteam begleitet. Formuliere es regional, vertrauenswürdig und bodenständig. Vermeide übertriebene Werbesprache.
+Erstelle ein Konzept für 
+„eine Kundenbindungsaktion für regionale Unternehmen“, 
+so als wärst du ein Marketingberater einer Volksbank, 
+der ein kleines Kommunikationsteam begleitet.  
+Formuliere es regional, vertrauenswürdig und bodenständig.  
+Vermeide übertriebene Werbesprache oder Fachchinesisch.
 ```
 
 💬 **Nutzen:**
-Die KI fragt vorab nach Zielgruppe, Region und Budgetrahmen und entwickelt dann eine umsetzbare Kampagnenidee mit passendem Tonfall.
+Die KI fragt zuerst nach Zielgruppe, Region und Budget
+und entwickelt dann ein umsetzbares Kampagnenkonzept im passenden Tonfall.
 
 ---
 
@@ -86,24 +109,36 @@ Die KI fragt vorab nach Zielgruppe, Region und Budgetrahmen und entwickelt dann 
 **Ziel:** Schulungsmaterial für neue Mitarbeitende
 
 ```markdown
-Erkläre „wie man einen Kreditantrag eines kleinen Unternehmens beurteilt“, so als wärst du ein erfahrener Kreditanalyst, der eine neue Kollegin einarbeitet. Formuliere es schrittweise und verständlich. Vermeide zu lange theoretische Ausführungen.
+Erkläre, 
+„wie man einen Kreditantrag eines kleinen Unternehmens beurteilt“, 
+so als wärst du ein erfahrener Kreditanalyst, 
+der eine neue Kollegin Schritt für Schritt einarbeitet.  
+Formuliere es verständlich, strukturiert und praxisnah.  
+Vermeide lange theoretische Erklärungen.
 ```
 
 💬 **Nutzen:**
-Die KI fragt nach Kreditarten, Risikokriterien und Erfahrungsstand und erstellt daraus eine klare, leicht nachvollziehbare Anleitung.
+Die KI fragt nach Kreditarten und Bewertungskriterien
+und erstellt daraus eine leicht verständliche Lernanleitung.
 
 ---
 
 ### 4. **Digitalisierung / IT**
 
-**Ziel:** Ideen für Prozessautomatisierung mit KI
+**Ziel:** Ideen zur Prozessautomatisierung
 
 ```markdown
-Erstelle einen Plan für „die Automatisierung wiederkehrender Backoffice-Aufgaben mit KI“, so als wärst du ein Prozessberater, der das Digitalisierungsteam einer Volksbank unterstützt. Formuliere es realistisch, sicherheitsbewusst und datenschutzkonform. Vermeide technische Schlagwörter ohne Erklärung.
+Erstelle einen Plan für 
+„die Automatisierung wiederkehrender Backoffice-Aufgaben mit KI“, 
+so als wärst du ein Prozessberater, 
+der das Digitalisierungsteam einer Volksbank unterstützt.  
+Formuliere es realistisch, sicherheitsbewusst und datenschutzkonform.  
+Vermeide technische Schlagwörter ohne Erklärung.
 ```
 
 💬 **Nutzen:**
-Die KI fragt zuerst nach bestehenden Systemen, Sicherheitsrichtlinien und Zielen und schlägt danach praktikable Automatisierungsideen vor.
+Die KI fragt nach bestehenden Systemen und Datenschutzrichtlinien
+und schlägt anschließend konkrete Automatisierungsideen vor.
 
 ---
 
@@ -112,11 +147,17 @@ Die KI fragt zuerst nach bestehenden Systemen, Sicherheitsrichtlinien und Zielen
 **Ziel:** Nachhaltigkeitsstrategie entwickeln
 
 ```markdown
-Erstelle ein Briefing zum Thema „Nachhaltigkeitsstrategie für eine regionale Genossenschaftsbank“, so als wärst du ein Strategieberater, der den Vorstand begleitet. Formuliere es visionär, aber praxisnah. Vermeide akademische Sprache und leere Floskeln.
+Erstelle ein Briefing zum Thema 
+„Nachhaltigkeitsstrategie für eine regionale Genossenschaftsbank“, 
+so als wärst du ein Strategieberater, 
+der den Vorstand begleitet.  
+Formuliere es visionär, aber praxisnah und klar.  
+Vermeide akademische Sprache und leere Floskeln.
 ```
 
 💬 **Nutzen:**
-Die KI entwickelt nach gezielten Rückfragen eine klare, handlungsorientierte Roadmap für nachhaltiges Wachstum.
+Die KI stellt zunächst Fragen zu Zielsetzungen, Werten und Ressourcen
+und entwickelt daraus eine handlungsorientierte Roadmap.
 
 ---
 
@@ -125,9 +166,9 @@ Die KI entwickelt nach gezielten Rückfragen eine klare, handlungsorientierte Ro
 Der „Kontext-Prompt“ ist wie ein **digitaler Sparringspartner**:
 Er sorgt dafür, dass die KI **versteht, was Sie wirklich brauchen**, bevor sie antwortet.
 
-Das Ergebnis sind **präzise, praxisnahe und glaubwürdige Antworten**, die in Ton und Inhalt zu Ihrer Volksbank passen – egal ob im Marketing, in der Personalentwicklung, der Kreditanalyse oder in der Strategiearbeit.
+Damit erhalten Sie **präzise, praxisnahe und glaubwürdige Ergebnisse**,
+die sprachlich und inhaltlich zu Ihrer Volksbank passen –
+egal ob im **Personalwesen**, **Marketing**, **Kreditgeschäft**, **IT** oder **Vorstand**.
 
 ---
-
-Möchtest du, dass ich diese Anleitung als **PowerPoint-Präsentation für eine interne Schulung** aufbereite (z. B. mit 8–10 Folien und Beispielen)?
 
