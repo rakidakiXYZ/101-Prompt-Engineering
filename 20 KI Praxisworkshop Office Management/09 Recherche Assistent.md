@@ -191,3 +191,251 @@ Bewerten Sie jedes Kriterium auf einer Skala von 1-10 basierend auf konfiguriert
 6. **Vollständigkeit:** Sind alle wesentlichen Aspekte für dieses Level abgedeckt?
 
 **Handlungsschwelle:** Wenn Durchschnitt < 8, spezifische Verbesserungen identifizieren und überarbeiten.
+
+---
+---
+
+Das ist ein hervorragender Prompt — und er ist tatsächlich ein Beispiel dafür, **wie man eine KI (wie mich) in einen wissenschaftlichen Forschungsassistenten verwandeln kann**.
+Ich erkläre ihn dir jetzt Schritt für Schritt so, dass auch **Einsteiger ohne KI-Erfahrung** ihn verstehen:
+
+---
+
+## 🧭 1. Was ist dieser Prompt überhaupt?
+
+Ein **Prompt** ist der „Auftrag“, den du einer KI gibst.
+Je genauer und strukturierter dieser Auftrag ist, desto besser und nützlicher wird die Antwort.
+
+Dieser **Forschungsanalyse-Prompt v2.0** ist wie ein **komplexes Steuerprogramm** für die KI:
+Er verwandelt sie in einen **professionellen, interdisziplinären Forscher**, der:
+
+* wissenschaftlich denkt,
+* Belege prüft,
+* logisch argumentiert,
+* und am Ende **einen echten Forschungsbericht** schreibt – nicht nur eine Meinung.
+
+---
+
+## 🧩 2. Wie ist der Prompt aufgebaut?
+
+Der Prompt besteht aus **klaren Abschnitten**, die jeweils eine bestimmte Funktion haben.
+Hier die wichtigsten Teile einfach erklärt:
+
+### 🔹 **KONFIGURATION**
+
+Hier legst du fest, *wie* die KI arbeiten soll:
+
+* **Analysetiefe:** Soll es nur ein Überblick oder eine tiefe Studie sein?
+* **Zielgruppe:** Wer liest das Ergebnis? (Laien, Studenten, Fachleute)
+* **Ausgabeformat:** Soll der Text wie ein Bericht, eine Präsentation oder eine wissenschaftliche Arbeit aussehen?
+* **Fachbereich:** Naturwissenschaftlich, sozial, wirtschaftlich, etc.
+* **Zeitliche Relevanz:** Geht es um Vergangenheit, Gegenwart oder Zukunft?
+* **Token-Budget:** Wie lang darf die Antwort sein?
+
+➡️ **Das ist wie das Einstellen eines Forschungsmodus.**
+
+---
+
+### 🔹 **ROLLE**
+
+Hier bekommt die KI ihre „Berufsrolle“.
+Sie soll sich wie ein **multidisziplinärer Forschungsanalyst** verhalten – also jemand, der komplexe Themen aus mehreren Blickwinkeln versteht (z. B. Wirtschaft, Soziologie, Technik).
+
+➡️ **Das hilft der KI, den richtigen Ton und Denkstil zu wählen.**
+
+---
+
+### 🔹 **KERNPRINZIPIEN**
+
+Das sind die **wissenschaftlichen Spielregeln**:
+
+* **Objektiv bleiben** (nicht einseitig)
+* **Evidenzbasiert arbeiten** (Belege statt Meinungen)
+* **Klar und verständlich schreiben**
+* **Fakten, Annahmen und Hypothesen trennen**
+
+Und je nach Tiefe der Analyse:
+
+* **Systemdenken:** Wie hängt alles zusammen?
+* **Interdisziplinär:** Wie beeinflussen sich verschiedene Fachbereiche?
+* **Kritisch analysieren:** Wo liegen Widersprüche oder Schwächen?
+
+➡️ **Dadurch schreibt die KI wie ein echter Forscher, nicht wie ein Blogger.**
+
+---
+
+### 🔹 **FORSCHUNGSZIEL**
+
+Hier definierst du das Thema und den Fokus:
+
+* Das Hauptthema: `[FORSCHUNGSTHEMA]`
+* Optional: eine spezielle Perspektive oder Forschungsfragen
+
+Und je nach Tiefe:
+
+* Überblick → Grundwissen
+* Standard → Ursachen, Trends
+* Tiefenanalyse → komplexe Zusammenhänge, Paradoxien, Systemeffekte
+
+➡️ **Das ist der eigentliche Forschungsauftrag.**
+
+---
+
+### 🔹 **QUELLENMANAGEMENT**
+
+Dieser Abschnitt erklärt der KI, welche **Quellenqualität** sie bevorzugen soll:
+
+1. Meta-Analysen (höchste Qualität)
+2. Peer-Review-Studien
+3. Offizielle Statistiken
+4. Expertenberichte
+5. Seriöse Organisationen
+6. Medienberichte (nur bei aktuellen Themen)
+
+➡️ **Die KI lernt, „wie ein Wissenschaftler“ Quellen zu gewichten.**
+
+---
+
+### 🔹 **AUSGABESTRUKTUR**
+
+Hier steht, **wie der Bericht aufgebaut sein soll** – z. B.:
+
+1. Zusammenfassung
+2. Einführung & Kontext
+3. Analyse (mehrere Blickwinkel)
+4. Daten & Belege
+5. Implikationen (Was bedeutet das?)
+6. Wissenslücken
+
+Oder – wenn du ein anderes Format willst – kann sie z. B. ein **Policy-Memo** oder eine **wissenschaftliche Arbeit** schreiben.
+
+➡️ **So bekommt die Antwort automatisch eine logische Struktur.**
+
+---
+
+### 🔹 **QUALITÄTS-CHECKPOINTS**
+
+Das sind interne „Stopps“, bei denen die KI prüft:
+
+* Ist der Umfang richtig?
+* Ist die Analyse noch relevant?
+* Ist die Tiefe ausreichend?
+
+➡️ **Das verhindert, dass die KI vom Thema abschweift.**
+
+---
+
+### 🔹 **RANDFÄLLE**
+
+Hier steht, wie die KI reagieren soll, wenn:
+
+* zu wenige Daten vorhanden sind,
+* das Thema mehrdeutig ist,
+* es sich um ein kontroverses Thema handelt.
+
+➡️ **Dadurch bleibt sie sachlich und erklärt Unsicherheiten offen.**
+
+---
+
+### 🔹 **VISUALISIERUNGSRICHTLINIEN**
+
+Wenn Daten oder Beziehungen komplex sind, soll die KI Tabellen, Diagramme oder Modelle vorschlagen.
+
+➡️ **Das sorgt für Übersicht und Verständlichkeit.**
+
+---
+
+### 🔹 **EFFIZIENZMECHANISMEN**
+
+Die KI soll präzise, aber nicht zu lang schreiben:
+
+* Listen statt langer Absätze
+* Wiederholungen vermeiden
+* Wichtiges zuerst, Details später
+
+➡️ **So bleibt der Bericht lesbar – auch bei viel Inhalt.**
+
+---
+
+### 🔹 **SELBSTBEWERTUNG**
+
+Am Ende bewertet die KI ihre eigene Arbeit:
+
+* War sie tief genug?
+* Passte die Sprache zur Zielgruppe?
+* Waren die Quellen gut?
+* War es klar und vollständig?
+
+➡️ **Das macht die KI reflexiv – sie verbessert sich selbst.**
+
+---
+
+## 💡 3. Warum ist dieser Prompt so wertvoll?
+
+Weil er:
+
+* **wissenschaftliches Denken automatisiert**
+* **klare Qualitätsstandards** vorgibt
+* und **Ergebnisse auf Forschungsebene** liefert, statt oberflächlicher Zusammenfassungen
+
+Kurz gesagt:
+
+> Er verwandelt die KI von einem „Antwortgeber“ in einen **digitalen Forscher**.
+
+---
+
+## 🧪 4. Wie benutzt man ihn?
+
+1. Kopiere den gesamten Prompt.
+2. Setze dein Thema ein, z. B.
+
+   ```
+   [FORSCHUNGSTHEMA] = Die Auswirkungen von Social Media auf Jugendliche
+   ```
+3. Passe die Konfiguration an:
+
+   * Analysetiefe = Standard_Analyse
+   * Zielgruppe = Studenten
+   * Ausgabeformat = Forschungsbericht
+4. Füge den Prompt in die KI ein → und starte die Analyse.
+
+---
+
+## 🌱 5. Beispielergebnis
+
+Statt einer einfachen Antwort wie
+
+> „Social Media kann Jugendliche beeinflussen.“
+
+würde die KI schreiben:
+
+* Eine **Einleitung** mit Definition und Relevanz
+* Eine **Analyse** sozialer, psychologischer und technologischer Faktoren
+* **Belege** aus Studien
+* **Widersprüche** und **Forschungslücken**
+* **Empfehlungen** für Eltern, Schulen, Politik
+
+➡️ Das ist wissenschaftlich, differenziert und nachvollziehbar.
+
+---
+
+## 🔍 6. Für wen ist dieser Prompt ideal?
+
+* Studierende (Hausarbeiten, Seminararbeiten)
+* Forschende (Literaturanalysen, Themenscouting)
+* Journalisten (Hintergrundanalysen)
+* Unternehmen (Markt- oder Zukunftsstudien)
+* Lehrkräfte (wissenschaftliche Unterrichtsvorbereitung)
+
+---
+
+## 🧠 Fazit
+
+Dieser Forschungsanalyse-Prompt ist im Grunde ein **Baukasten für wissenschaftliches Denken**.
+Er bringt der KI bei, **wie ein echter Forscher zu denken und zu schreiben** – systematisch, objektiv und evidenzbasiert.
+
+> Wenn du ihn nutzt, bekommst du keine schnelle Antwort,
+> sondern eine **durchdachte Analyse**, die du zitieren, weiterverwenden oder vertiefen kannst.
+
+---
+
+
