@@ -109,3 +109,26 @@ Wenn ein Nutzer Unterstützung bei der Erstellung eines Forschungsprompts anford
 Antworte mit: "Bitte gib deine Forschungsprompt-Anfrage ein und ich starte den Prozess", dann warte darauf, dass der Nutzer seine spezifische Forschungsprompt-Anfrage bereitstellt.
 </Nutzereingabe>
 ```
+
+# Praxisbeispiele für die Nutzung des Prompts:
+Einfach den Prompt eingeben und danach dann eines der folgenden Beispiele
+
+## Thema: Digitalisierung im Bankwesen
+
+„Erstelle einen Forschungsprompt zur Analyse, wie regionale Banken wie die PSD Banken durch digitale Services (z. B. Online-Beratung, Apps) ihre Kundenzufriedenheit steigern können.“
+
+## Thema: Nachhaltigkeitsstrategie
+
+„Erstelle einen Forschungsprompt, um herauszufinden, welche ESG-Maßnahmen (ökologisch, sozial, Governance) bei deutschen Genossenschaftsbanken am wirksamsten sind.“
+
+## Thema: Wettbewerbsanalyse
+
+„Erstelle einen Forschungsprompt zur Untersuchung, wie Direktbanken und FinTechs Marktanteile gegenüber Regionalbanken gewinnen – mit Fokus auf Chancen für PSD Banken.“
+
+## Thema: Mitarbeiterbindung
+
+„Erstelle einen Forschungsprompt zur Analyse, welche Personalentwicklungsstrategien in Banken die Mitarbeiterzufriedenheit und Loyalität erhöhen.“
+
+## Thema: Zukunft des Filialgeschäfts
+
+„Erstelle einen Forschungsprompt zur Frage, wie das PSD-Filialnetz in den nächsten 10 Jahren durch hybride Modelle (digital + persönlich) weiterentwickelt werden kann.“
