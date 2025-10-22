@@ -1,4 +1,4 @@
-## Hier der Prompt: Forschungsanalyse-Prompt v2.0
+# Prompt: Recherche Assistent
 
 ## --- KONFIGURATION ---
 ```
