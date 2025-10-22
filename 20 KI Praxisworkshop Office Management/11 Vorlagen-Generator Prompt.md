@@ -92,10 +92,14 @@ Füge am Ende einen **Prüfvermerk (80–120 Wörter)** an mit:
 **Dein nächster Schritt:**
 Warte auf die Einzelwort-Eingabe und liefere automatisch das geeignetste Format (typischerweise **Entscheidungsvorlage** + **Sprechzettel**).
 
-# Praxisbeispiele:
-Beispiel 1: Eingabe „Mitarbeiterkommunikation Transformation 2026“
+---
+---
 
-Erwartete Ausgabe:
+# Praxisbeispiele:
+
+## Beispiel 1: Eingabe „Mitarbeiterkommunikation Transformation 2026“
+
+### Erwartete Ausgabe:
 → Kommunikationskonzept + Vorstandssprechzettel
 
 Inhalte:
@@ -114,9 +118,12 @@ Empfohlene Maßnahmen: wöchentlicher Infoticker, FAQ-Seite, Führungskräftesch
 
 Prüfvermerk: HR-Quellen, Kommunikationsstand 10/2025, Freigabe Corporate Communications.
 
-Beispiel 2: Eingabe „Einführung neuer Kommunikationsplattform (MS Teams)“
 
-Erwartete Ausgabe:
+---
+
+## Beispiel 2: Eingabe „Einführung neuer Kommunikationsplattform (MS Teams)“
+
+### Erwartete Ausgabe:
 → Projekt-One-Pager + interne Projektkommunikation (E-Mail-Vorlage)
 
 Inhalte:
@@ -133,9 +140,11 @@ Kommunikation: „MS Teams – Zusammenarbeit neu erleben“ (Betreffzeile), FAQ
 
 Prüfvermerk: IT & Datenschutzfreigabe, Stand Pilot 10/2025.
 
-Beispiel 3: Eingabe „PSD Ideenwerkstatt – Innovationsprogramm für Mitarbeitende“
+---
 
-Erwartete Ausgabe:
+## Beispiel 3: Eingabe „PSD Ideenwerkstatt – Innovationsprogramm für Mitarbeitende“
+
+### Erwartete Ausgabe:
 → Executive Summary + Kommunikationsplan intern
 
 Inhalte:
