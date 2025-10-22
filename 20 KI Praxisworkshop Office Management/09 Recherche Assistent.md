@@ -1,4 +1,4 @@
-# Prompt: Recherche Assistent
+# Recherche Assistent Prompt:
 
 ## --- KONFIGURATION ---
 ```
