@@ -1,6 +1,4 @@
-# Seminar-Handout (für Assistenz der Vorstände in PSD Banken)
-
-## Halluzinationen & Bias bei LLMs im Bankalltag vermeiden
+## Halluzinationen & Bias bei LLMs vermeiden
 
 ---
 
@@ -400,5 +398,3 @@ Vermeide Stereotype; nutze inklusive Sprache.
 
 ---
 
-**Hinweis für das Seminar:**
-Speichert die besten Prompts als geprüfte Templates, hinterlegt Quellenlisten (nur Primärquellen), und nutzt RAG auf **freigegebene** interne Dokumente. So senkt ihr Halluzinationen, bleibt compliant – und liefert dem Vorstand verlässlich aufbereitete Unterlagen.
