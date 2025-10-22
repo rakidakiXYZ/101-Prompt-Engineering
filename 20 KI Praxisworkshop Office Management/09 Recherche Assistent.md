@@ -195,27 +195,9 @@ Bewerten Sie jedes Kriterium auf einer Skala von 1-10 basierend auf konfiguriert
 ---
 ---
 
-Das ist ein hervorragender Prompt — und er ist tatsächlich ein Beispiel dafür, **wie man eine KI (wie mich) in einen wissenschaftlichen Forschungsassistenten verwandeln kann**.
-Ich erkläre ihn dir jetzt Schritt für Schritt so, dass auch **Einsteiger ohne KI-Erfahrung** ihn verstehen:
 
----
 
-## 🧭 1. Was ist dieser Prompt überhaupt?
-
-Ein **Prompt** ist der „Auftrag“, den du einer KI gibst.
-Je genauer und strukturierter dieser Auftrag ist, desto besser und nützlicher wird die Antwort.
-
-Dieser **Forschungsanalyse-Prompt v2.0** ist wie ein **komplexes Steuerprogramm** für die KI:
-Er verwandelt sie in einen **professionellen, interdisziplinären Forscher**, der:
-
-* wissenschaftlich denkt,
-* Belege prüft,
-* logisch argumentiert,
-* und am Ende **einen echten Forschungsbericht** schreibt – nicht nur eine Meinung.
-
----
-
-## 🧩 2. Wie ist der Prompt aufgebaut?
+## 🧩 Wie funktioniert dieser Prompt aufgebaut?
 
 Der Prompt besteht aus **klaren Abschnitten**, die jeweils eine bestimmte Funktion haben.
 Hier die wichtigsten Teile einfach erklärt:
@@ -369,7 +351,7 @@ Am Ende bewertet die KI ihre eigene Arbeit:
 
 ---
 
-## 💡 3. Warum ist dieser Prompt so wertvoll?
+## 💡 Warum ist dieser Prompt so wertvoll?
 
 Weil er:
 
@@ -383,7 +365,7 @@ Kurz gesagt:
 
 ---
 
-## 🧪 4. Wie benutzt man ihn?
+## 🧪 Wie benutzt man ihn?
 
 1. Kopiere den gesamten Prompt.
 2. Setze dein Thema ein, z. B.
@@ -400,42 +382,112 @@ Kurz gesagt:
 
 ---
 
-## 🌱 5. Beispielergebnis
+Drei **praxisnahe, realistische Beispiele**, wie sie in solchen Vorstandsstrukturen vorkommen — jeweils mit:
 
-Statt einer einfachen Antwort wie
-
-> „Social Media kann Jugendliche beeinflussen.“
-
-würde die KI schreiben:
-
-* Eine **Einleitung** mit Definition und Relevanz
-* Eine **Analyse** sozialer, psychologischer und technologischer Faktoren
-* **Belege** aus Studien
-* **Widersprüche** und **Forschungslücken**
-* **Empfehlungen** für Eltern, Schulen, Politik
-
-➡️ Das ist wissenschaftlich, differenziert und nachvollziehbar.
+* **Thema / Forschungsziel**
+* **Kontext / Anlass**
+* **Erwartete Analyseparameter**
+* **Ergebnisform (z. B. Memo, Präsentation, Bericht)**
 
 ---
 
-## 🔍 6. Für wen ist dieser Prompt ideal?
+## 🧩 Beispiel 1: Zukunft des Privatkundengeschäfts
 
-* Studierende (Hausarbeiten, Seminararbeiten)
-* Forschende (Literaturanalysen, Themenscouting)
-* Journalisten (Hintergrundanalysen)
-* Unternehmen (Markt- oder Zukunftsstudien)
-* Lehrkräfte (wissenschaftliche Unterrichtsvorbereitung)
+**Thema:**
+Strategische Perspektiven für das Privatkundengeschäft regionaler Banken im Zeitalter von Neo-Banken und KI-basierten Finanz-Apps
+
+**Kontext:**
+Der Vorstand möchte verstehen, wie sich Kundenverhalten, Wettbewerbsumfeld und Margenentwicklung bis 2030 verändern. Ziel ist eine Entscheidungsgrundlage für Produkt- und Digitalisierungsstrategie.
+
+**Aufgabenstellung an die Assistenz:**
+
+* Marktanalyse aktueller Trends im Retailbanking (Deutschland & EU)
+* Bewertung der größten Wettbewerber (N26, Revolut, Tomorrow, Sparkassen, Volksbanken)
+* Einschätzung: Wo können PSD Banken Differenzierungsvorteile behalten oder ausbauen?
+* Überblick regulatorischer Trends (Digital Operational Resilience Act, PSD3)
+* Zusammenfassung in Form eines **Policy Memos (3–4 Seiten)** mit Handlungsempfehlungen für den Vorstand
+
+**Parameter:**
+
+```
+ANALYSETIEFE: Standard_Analyse  
+ZIELGRUPPE: Fachpublikum (Vorstand & Bereichsleiter)  
+AUSGABEFORMAT: Policy_Memo  
+FACHBEREICH: Wirtschaftlich  
+ZEITLICHE_RELEVANZ: Zukunftsprojektion  
+TOKEN_BUDGET: Standard ~2500
+```
 
 ---
 
-## 🧠 Fazit
+## 🧩 Beispiel 2: Nachhaltigkeitsfinanzierung und ESG-Strategie
 
-Dieser Forschungsanalyse-Prompt ist im Grunde ein **Baukasten für wissenschaftliches Denken**.
-Er bringt der KI bei, **wie ein echter Forscher zu denken und zu schreiben** – systematisch, objektiv und evidenzbasiert.
+**Thema:**
+ESG-Regulatorik und nachhaltige Finanzprodukte – Chancen und Risiken für PSD Banken
 
-> Wenn du ihn nutzt, bekommst du keine schnelle Antwort,
-> sondern eine **durchdachte Analyse**, die du zitieren, weiterverwenden oder vertiefen kannst.
+**Kontext:**
+Neue EU-Vorgaben (CSRD, EU-Taxonomie, Green Bond Standards) erhöhen den Druck auf regionale Institute, ESG-konforme Finanzprodukte anzubieten und Nachhaltigkeitsberichte zu erstellen.
+
+**Aufgabenstellung an die Assistenz:**
+
+* Überblick regulatorischer Anforderungen (EU, BaFin)
+* Beispiele guter Praxis aus vergleichbaren Instituten
+* Wirtschaftliche Bewertung: Welche Produkte (z. B. grüne Baufinanzierungen, nachhaltige Fonds) sind tragfähig?
+* Empfehlung: Priorisierte Handlungsfelder für die PSD Bank
+* Ergebnis: **Forschungsbericht mit 5–7 Seiten**, inkl. Quellen
+
+**Parameter:**
+
+```
+ANALYSETIEFE: Standard_Analyse  
+ZIELGRUPPE: Führungskräfte (Nachhaltigkeitsbeauftragte, Vorstand)  
+AUSGABEFORMAT: Forschungsbericht  
+FACHBEREICH: Interdisziplinär (Wirtschaft + Regulierung + Nachhaltigkeit)  
+ZEITLICHE_RELEVANZ: Aktuell  
+TOKEN_BUDGET: Standard ~2500
+```
 
 ---
+
+## 🧩 Beispiel 3: Regionalökonomische Bedeutung der PSD Banken
+
+**Thema:**
+Die volkswirtschaftliche Rolle der PSD Banken in ihren Regionen – Beitrag zu lokaler Wertschöpfung, Mittelstandsförderung und sozialem Zusammenhalt
+
+**Kontext:**
+Die Verbandskommunikation plant einen Bericht über den Beitrag der PSD Banken zur regionalen Entwicklung. Der Vorstand wünscht eine evidenzbasierte Grundlage für Lobbyarbeit und PR.
+
+**Aufgabenstellung an die Assistenz:**
+
+* Analyse empirischer Daten (Kreditvolumen, regionale Investitionen, Beschäftigungseffekte)
+* Vergleich mit Sparkassen und Genossenschaftsbanken
+* Darstellung qualitativer Effekte (z. B. Kundennähe, soziale Initiativen)
+* Erarbeitung einer **Präsentation für Stakeholder (10–12 Slides)**
+
+**Parameter:**
+
+```
+ANALYSETIEFE: Kurzer_Überblick  
+ZIELGRUPPE: Allgemeine_Öffentlichkeit & Stakeholder  
+AUSGABEFORMAT: Präsentation  
+FACHBEREICH: Wirtschaftlich / Sozial_Humanistisch  
+ZEITLICHE_RELEVANZ: Historisch + Aktuell  
+TOKEN_BUDGET: Kompakt ~1000
+```
+
+---
+
+### 📊 Zusammenfassung der drei Recherchetypen
+
+| Nr. | Thema                             | Zielrichtung                           | Ausgabeformat     | Hauptnutzen für den Vorstand            |
+| --- | --------------------------------- | -------------------------------------- | ----------------- | --------------------------------------- |
+| 1   | Zukunft des Privatkundengeschäfts | Strategisch                            | Policy Memo       | Wettbewerbs- & Digitalstrategie         |
+| 2   | ESG & Nachhaltigkeitsfinanzierung | Regulatorisch / Produktentwicklung     | Forschungsbericht | Compliance & Wachstumsfelder            |
+| 3   | Regionalökonomische Rolle         | Öffentlichkeitsarbeit / Positionierung | Präsentation      | Reputations- & Stakeholderkommunikation |
+
+---
+
+Möchtest du, dass ich eines dieser drei Beispiele **nach dem Forschungsanalyse-Prompt v2.0 vollständig ausarbeite** (z. B. das ESG-Thema oder das Zukunftsthema)?
+Ich kann dann direkt die passende Analyseebene und Struktur übernehmen.
 
 
