@@ -93,3 +93,63 @@ Füge am Ende einen **Prüfvermerk (80–120 Wörter)** an mit:
 Warte auf die Einzelwort-Eingabe und liefere automatisch das geeignetste Format (typischerweise **Entscheidungsvorlage** + **Sprechzettel**).
 
 # Praxisbeispiele:
+Beispiel 1: Eingabe „Mitarbeiterkommunikation Transformation 2026“
+
+Erwartete Ausgabe:
+→ Kommunikationskonzept + Vorstandssprechzettel
+
+Inhalte:
+
+Ziel: Verständnis und Akzeptanz für die neue Organisationsstruktur („agilere PSD 2026“).
+
+Kernbotschaften: Transparenz, Beteiligung, Sicherheit, Chancen.
+
+Kanalplan: Intranet-Serie, Townhall, Führungskräftebriefing, Video-Statement.
+
+Stakeholderanalyse: Mitarbeitende, Betriebsrat, Aufsichtsrat, Regionalvertretungen.
+
+Risiken: Gerüchtebildung, Überlastungswahrnehmung.
+
+Empfohlene Maßnahmen: wöchentlicher Infoticker, FAQ-Seite, Führungskräfteschulung „Kommunikation in Veränderung“.
+
+Prüfvermerk: HR-Quellen, Kommunikationsstand 10/2025, Freigabe Corporate Communications.
+
+Beispiel 2: Eingabe „Einführung neuer Kommunikationsplattform (MS Teams)“
+
+Erwartete Ausgabe:
+→ Projekt-One-Pager + interne Projektkommunikation (E-Mail-Vorlage)
+
+Inhalte:
+
+Ziel: Vereinheitlichung der internen Kommunikation, Ablösung lokaler Tools.
+
+Projektumfang: Pilotierung in 3 Filialen, Rollout bis Q2/2026.
+
+Vorteile: Effizientere Abstimmung, Videokonferenzen, DSGVO-konforme Datenhaltung (EU-Cloud).
+
+Risiken: Schulungsbedarf, Datenschutz, Change-Resistenz.
+
+Kommunikation: „MS Teams – Zusammenarbeit neu erleben“ (Betreffzeile), FAQ-Link, Helpdesk-Kontakt.
+
+Prüfvermerk: IT & Datenschutzfreigabe, Stand Pilot 10/2025.
+
+Beispiel 3: Eingabe „PSD Ideenwerkstatt – Innovationsprogramm für Mitarbeitende“
+
+Erwartete Ausgabe:
+→ Executive Summary + Kommunikationsplan intern
+
+Inhalte:
+
+Ziel: Förderung von Innovationskultur und Bottom-up-Ideen aus den Filialen und Fachbereichen.
+
+Format: Quartalsweise Wettbewerbe, Jury aus Bereichsleitungen, Prämienmodell.
+
+Erwarteter Nutzen: Mitarbeiterbindung, Prozessverbesserung, Imageförderung.
+
+Kommunikation: Intranetbanner, Vorstandsposting, Kick-off-Event, regelmäßige Erfolgsstories.
+
+Risiken: geringe Beteiligung, Ideen ohne Umsetzungsreife.
+
+Empfohlene Steuerung: Einbindung HR & Organisationsentwicklung, Reporting ans Vorstandsbüro.
+
+Prüfvermerk: interne Umfrageergebnisse 2025, Kommunikationsfreigabe Corporate Development.
