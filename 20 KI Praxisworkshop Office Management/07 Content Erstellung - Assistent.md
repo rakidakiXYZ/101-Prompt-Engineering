@@ -117,3 +117,114 @@ Wenn ich dir ein Thema oder eine Anfrage gebe, spezifiziere welchen Modus oder w
 ---
 
 # Anleitung mit Praxisbeispielen:
+
+Diese Anleitung zeigt, wie strukturierte, überzeugende Texte generiert werden – vom ersten Gedanken bis zum veröffentlichungsreifen Entwurf.
+
+Ziel ist, **Zeit zu sparen**, **Klarheit zu gewinnen** und **kommunikativ auf Vorstandsniveau** zu schreiben – mit Fokus auf Struktur, Präzision und Wirkung.
+
+---
+
+## 🧩 **So funktioniert die Nutzung**
+
+Jeder Schreibauftrag wird in einem klaren Format eingegeben:
+
+> **„[Modus] für [Thema] mit Fokus auf [Zielgruppe]“**
+
+**Beispiele:**
+
+* „Blickwinkel-Modus für Digitalisierung im Kundenservice mit Fokus auf Mitarbeitende im Innendienst“
+* „Hook-Modus für Kulturwandel im Vorstandsteam mit Fokus auf interne Kommunikation“
+* „Komplett-POS für Nachhaltigkeitsstrategie der PSD Bank mit Fokus auf Mitgliederkommunikation“
+
+Der Modus bestimmt, *welche Stufe* des Schreibprozesses ausgeführt wird – von Ideenfindung bis Feinschliff.
+
+---
+
+## ⚙️ **Die sieben Modi (Arbeitsweisen)**
+
+| Modus                 | Ziel                                                               | Typischer Einsatz                            | Output                                                  |
+| --------------------- | ------------------------------------------------------------------ | -------------------------------------------- | ------------------------------------------------------- |
+| **Blickwinkel-Modus** | 12 frische, kontraintuitive Perspektiven auf ein Thema entwickeln  | Themenfindung, Kampagnenideen, Story-Angles  | Tabelle mit 12 Blickwinkeln + Kurzthesen + Beweisquelle |
+| **Hook-Modus**        | 5 Mini-Anekdoten (Hooks) schreiben, die Leser emotional reinziehen | Social Posts, Reden, Artikel-Einstiege       | 5 Alltagsgeschichten (je 2–3 Sätze)                     |
+| **Gliederungs-Modus** | Klar strukturierte Textarchitektur (PPP + SCQA) erstellen          | Artikel, Reden, Newsletter                   | 5-Abschnitt-Struktur mit Überschriften & Kernpunkten    |
+| **Beweis-Modus**      | Argumentation mit Beispielen, Zahlen & Analogien stützen           | Fachtexte, Reportings, Nachhaltigkeitsthemen | Beweispaket pro Abschnitt                               |
+| **Editier-Modus**     | Vorhandenen Text kürzen, verdichten, präzisieren                   | Vorstandskommunikation, interne Newsletter   | Überarbeitete, scharfe Version                          |
+| **Test-Modus**        | Text in 5 Kategorien prüfen (Lesbarkeit, Nutzen etc.)              | Finaler Check vor Veröffentlichung           | Prüfbericht + Empfehlungen                              |
+| **Komplett-POS**      | Gesamter 30-Minuten-Prozess (Idee → Entwurf → Feinschliff)         | Blogartikel, Reden, externe Kommunikation    | Vollständiger, veröffentlichungsreifer Entwurf          |
+
+---
+
+## 🧱 **Die drei Stufen (Schreibprozess)**
+
+| Stufe                     | Name                                  | Ziel                                                                 | Enthält |
+| ------------------------- | ------------------------------------- | -------------------------------------------------------------------- | ------- |
+| **A – Ideenextraktion**   | Themenfindung & Blickwinkel schärfen  | A1 Blickwinkel-Generator <br> A2 Hook-Ersteller                      |         |
+| **B – Entwurfsbaukasten** | Struktur, Argumente & Beispiele bauen | B1 Rückgrat-Gliederung <br> B2 Beweispaket <br> B3 Stimme & Rhythmus |         |
+| **C – Feinschliff**       | Text kürzen, prüfen & verbreiten      | C1 Messerschnitt <br> C2 Lesertests <br> C3 SEO & Verbreitung        |         |
+
+---
+
+## 📋 **So läuft ein typischer Arbeitsprozess ab**
+
+1. **Vorstand liefert Stichworte**
+   → z. B. „App-Update, Kundennähe, Effizienzsteigerung“
+2. **Assistenz wählt passenden Modus**
+   → z. B. „Gliederungs-Modus für Digitalisierung im Kundenservice mit Fokus auf Mitarbeitende“
+3. **System generiert strukturierte Grundlage**
+   → z. B. Gliederung mit Problem, Komplikation, Lösung
+4. **Text wird in 2–3 Sprints verfeinert**
+   → optional mit Beweisen, Schnitt & Lesertests
+5. **Endergebnis:**
+   Fertiger Text, der Vorstandsideen verständlich, messbar und ansprechend kommuniziert.
+
+---
+
+## 🏦 **Beispielhafte PSD-Themen und empfohlene Modi**
+
+| # | Thema                           | Typische Vorstandsstichworte                     | Zielpublikum                | Empfohlener Modus |
+| - | ------------------------------- | ------------------------------------------------ | --------------------------- | ----------------- |
+| 1 | **Digitalisierung im Service**  | App, Effizienz, Kundenzufriedenheit              | Mitarbeitende / Kunden      | Gliederungs-Modus |
+| 2 | **Kultur & Führung im Wandel**  | Vertrauen, Feedback, Eigenverantwortung          | Interne Kommunikation       | Hook-Modus        |
+| 3 | **Nachhaltigkeitsstrategie**    | CO₂-Reduktion, regionale Projekte, Verantwortung | Öffentlichkeit / Mitglieder | Beweis-Modus      |
+| 4 | **Mitarbeiterentwicklung**      | Lernplattform, Eigeninitiative, Führung 2.0      | Belegschaft                 | Blickwinkel-Modus |
+| 5 | **Strategische Neuausrichtung** | Marke, Digitalisierung, Mitgliederbindung        | Reden / Jahresauftakt       | Komplett-POS      |
+
+---
+
+## 🧠 **Grundprinzipien für alle Texte**
+
+* **Geschwindigkeit ist ein Feature:** lieber drei präzise Sprints als endlos feilen
+* **Struktur vor Sätzen:** erst das Gerüst, dann die Worte
+* **Spezifität schlägt Adjektive:** Zahlen > Beschreibungen
+* **Leser-Ergebnis zuerst:** jeder Text muss greifbaren Nutzen liefern
+* **Narben statt Floskeln:** echte Reibung schafft Glaubwürdigkeit
+
+---
+
+## ✳️ **Beispiel-Eingaben (direkt nutzbar)**
+
+**1. Blickwinkel-Modus:**
+
+> Blickwinkel-Modus für Digitalisierung im Kundenservice mit Fokus auf PSD-Mitarbeitende
+
+**2. Hook-Modus:**
+
+> Hook-Modus für Kulturwandel im Vorstandsteam mit Fokus auf interne Kommunikation
+
+**3. Gliederungs-Modus:**
+
+> Gliederungs-Modus für Nachhaltigkeitsbericht 2025 mit Fokus auf Mitgliederkommunikation
+
+**4. Beweis-Modus:**
+
+> Beweis-Modus für neue Lernplattform mit Fokus auf Talentförderung
+
+**5. Komplett-POS:**
+
+> Komplett-POS für Strategie-Update 2025 mit Fokus auf Transparenz und Vertrauen
+
+---
+
+Möchtest du, dass ich diese Anleitung gleich **in ein visuell strukturiertes PDF- oder Word-Template** (z. B. als Schulungsdokument für PSD-Assistenzen) umwandle?
+Dann kann ich sie im PSD-CI-Stil formatieren und ausgeben.
+
