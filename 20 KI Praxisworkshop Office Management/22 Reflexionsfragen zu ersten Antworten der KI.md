@@ -125,5 +125,116 @@ Dieser kombinierte Prompt (Stack) verbindet Reflexion, Mustererkennung und Persp
 
 ---
 
+Perfekt — das ist ein super Anwendungsfeld für Prompt Engineering.
+Gerade im Umfeld einer **Bank mit Fokus auf Kommunikation, Koordination und Klarheit** kannst du diese Techniken enorm effektiv nutzen.
+
+Hier sind **5 praxisnahe Beispiele**, speziell zugeschnitten auf deinen Alltag als **Assistent des Vorstands einer PSD Bank** – jedes Beispiel zeigt **den Anlass**, **den passenden Prompt** und **was du davon erwarten kannst**:
+
+---
+
+# 🏦 5 Prompt-Beispiele für deinen Arbeitsalltag 
+
+---
+
+## 🔹 1. Vorstandsvorlage oder Protokoll: Fokus & Klarheit schaffen
+
+**Anlass:**
+Du hast viele Informationen aus Meetings und willst eine **klare Zusammenfassung** oder **prägnante Vorlage** für den Vorstand erstellen.
+
+**Prompt:**
+
+```text
+Erkläre mir das Schritt für Schritt: Wie kann ich die wichtigsten Punkte aus diesem Meeting so zusammenfassen, dass sie für den Vorstand klar, priorisiert und entscheidungsrelevant sind?  
+Was übersehe ich hier vielleicht noch?
+```
+
+🎯 **Nutzen:**
+Die KI hilft dir, Inhalte zu strukturieren, Prioritäten herauszuarbeiten und mögliche Lücken zu erkennen.
+
+---
+
+## 🔹 2. Interne Kommunikation: Perspektivwechsel für bessere Texte
+
+**Anlass:**
+Du schreibst eine **E-Mail an Teams oder Abteilungen**, um über Prozessänderungen oder Projekte zu informieren.
+
+**Prompt:**
+
+```text
+Was würdest du an meiner Stelle tun, um diese Nachricht an alle Kolleginnen und Kollegen klar, empathisch und motivierend zu formulieren?  
+Was sollte ich sonst noch beachten, damit die Botschaft positiv ankommt?
+```
+
+🎯 **Nutzen:**
+Die KI achtet auf Tonalität, Wirkung und mögliche Missverständnisse – deine Kommunikation wird klarer und verbindender.
+
+---
+
+## 🔹 3. Vorbereitung auf Kundenevent oder Messe: Kreativität aktivieren
+
+**Anlass:**
+Du planst ein Event, eine Kundenveranstaltung oder einen externen Auftritt der Bank.
+
+**Prompt:**
+
+```text
+Lass uns anders über dieses Event nachdenken.  
+Wie könnten wir den Ablauf oder die Kommunikation gestalten, damit sie für unsere Kunden wirklich überraschend positiv und nahbar wirkt?  
+Was übersehe ich hier?
+```
+
+🎯 **Nutzen:**
+Du bekommst kreative Ideen, die trotzdem zur Marke und Seriosität der Bank passen – z. B. für Einladungstexte, Themen oder Ablauf.
+
+---
+
+## 🔹 4. Entscheidungsunterstützung im Projektmanagement: Tiefenanalyse mit Loop Stack
+
+**Anlass:**
+Ein internes Projekt stagniert oder es gibt Spannungen zwischen Abteilungen.
+
+**Prompt:**
+
+```text
+Lass uns so denken, als wären wir schon einmal in dieser Situation gewesen.  
+Welches Muster wiederholen wir gerade in diesem Projekt?  
+Welche Nachricht würde ich meinem zukünftigen Ich hinterlassen, um es beim nächsten Mal besser zu machen?
+```
+
+🎯 **Nutzen:**
+Hilft, strukturelle oder kommunikative Muster zu erkennen (z. B. Entscheidungsverzögerungen, Missverständnisse) und daraus konkrete Handlungsempfehlungen abzuleiten.
+
+---
+
+## 🔹 5. Vorbereitung auf schwierige Gespräche oder Feedbackrunden
+
+**Anlass:**
+Du musst ein Gespräch mit einem Teammitglied, Dienstleister oder Stakeholder führen, das sensibel ist.
+
+**Prompt:**
+
+```text
+Was ich eigentlich wirklich wissen will, ist: Wie kann ich dieses Gespräch so führen, dass ich klar bleibe, aber trotzdem fair und respektvoll wirke?  
+Was würdest du an meiner Stelle tun?  
+Was sollte ich sonst noch wissen?
+```
+
+🎯 **Nutzen:**
+Die KI hilft dir, Argumente und Formulierungen vorzubereiten, Emotionen zu reflektieren und professionell aufzutreten.
+
+---
+
+## ⚙️ Fazit – Wie du das praktisch nutzt
+
+| Situation                      | Empfohlene Technik                                                                       | Ziel                             |
+| ------------------------------ | ---------------------------------------------------------------------------------------- | -------------------------------- |
+| Vorstandsvorlagen & Protokolle | „Erkläre mir das Schritt für Schritt“ + „Was übersehe ich hier?“                         | Struktur, Fokus, Vollständigkeit |
+| Interne Kommunikation          | „Was würdest du an meiner Stelle tun?“ + „Was sollte ich sonst noch wissen?“             | Empathische, klare Kommunikation |
+| Kunden- oder Eventplanung      | „Lass uns anders über dieses Thema nachdenken“                                           | Kreative, markennahe Ideen       |
+| Projektreflexion               | „Loop Stack“-Technik                                                                     | Muster erkennen & besser managen |
+| Feedback- & Konfliktgespräche  | „Was ich eigentlich wirklich wissen will, ist:“ + „Was würdest du an meiner Stelle tun?“ | Klare, faire Gesprächsführung    |
+
+---
+
 
 
