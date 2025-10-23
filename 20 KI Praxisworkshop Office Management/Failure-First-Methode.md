@@ -17,7 +17,7 @@ Im zweiten Schritt kannst du dann gezielt nach den „besseren“ Lösungen frag
 
 ---
 
-## 💼 **5 Praxisbeispiele **
+## 💼 **5 Schnelle einfache Praxisbeispiele **
 
 ---
 
@@ -75,17 +75,28 @@ Hilft dir, Change-Kommunikation empathisch zu gestalten – wichtig bei Digitali
 Du lernst, wie du Informationen so strukturierst, dass Vorstände schnell Entscheidungen treffen können – fokussiert, transparent, entscheidungsreif.
 
 ---
-
-## 🧩 **Warum das in deiner Rolle besonders stark ist**
-
-Als Assistenz des Vorstands bist du ein **Filter und Verstärker**:
-
-* Du übersetzt komplexe Themen für die Entscheiderebene.
-* Du erkennst Kommunikationsrisiken früh.
-* Du brauchst Argumentationen, die psychologisch und strategisch klug sind.
-
-Die **„Failure First“-Methode** hilft dir, nicht nur *bessere Texte oder Präsentationen* zu erstellen, sondern auch *tiefere Einsichten* in Entscheidungsprozesse, Kommunikation und Führung zu gewinnen.
-
 ---
 
+# 🧩 Prompt-Vorlage (zum direkten Kopieren und Anpassen)
 
+## Thema: [Beschreibe kurz das Ziel oder die Aufgabe, z. B. „Einführung eines neuen digitalen Tools im Vertrieb“ oder „Vorstandspräsentation zu ESG-Maßnahmen“]
+
+## Aufgabe: Wende die „Failure First“-Methode an.
+
+### Schritt 1 – Fehleranalyse:
+Gib mir 3–5 schlechte oder ineffektive Arten, dieses Thema umzusetzen, zu kommunizieren oder zu präsentieren.
+Erkläre zu jedem Beispiel warum es nicht funktioniert – mit Fokus auf Kommunikationspsychologie, Wirkung auf Zielgruppen, organisatorische Stolpersteine oder strategische Schwächen.
+
+### Schritt 2 – Erfolgsprinzipien:
+Leite aus diesen Fehlern die zentralen Erfolgsfaktoren ab: Was muss beachtet werden, damit die Kommunikation/Strategie/Entscheidung wirklich überzeugt?
+
+### Schritt 3 – Optimierte Umsetzung:
+Erstelle auf dieser Basis ein konkretes Beispiel, das die Erfolgsprinzipien optimal umsetzt (z. B. Textentwurf, Präsentationsstruktur, Argumentationslinie etc.).
+
+## Kontextinformationen:
+
+### Zielgruppe: [Vorstand / Mitarbeitende / Kund:innen / Regulatoren / Presse]
+
+### Ziel: [z. B. Überzeugung schaffen, Veränderung ankündigen, Vertrauen stärken, Innovation erklären]
+
+## Kommunikationsstil: [formell, inspirierend, sachlich, klar, empathisch etc.]
