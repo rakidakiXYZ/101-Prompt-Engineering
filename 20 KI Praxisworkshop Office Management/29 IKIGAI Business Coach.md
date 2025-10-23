@@ -1,3 +1,27 @@
+# Einführung in den IKIGAI Prompt
+
+**IKIGAI** ist ein japanisches Konzept und bedeutet sinngemäß **„das, wofür es sich lohnt, morgens aufzustehen“**.
+Es beschreibt den **Schnittpunkt von vier Lebensbereichen**:
+
+1. **Was du liebst** ❤️
+2. **Worin du gut bist** 💪
+3. **Was die Welt braucht** 🌍
+4. **Wofür du bezahlt werden kannst** 💰
+
+Dort, wo sich alle vier Kreise überschneiden, liegt dein **IKIGAI** – dein persönlicher Lebenssinn oder beruflicher „Sweet Spot“.
+
+In der Praxis hilft die IKIGAI-Methode:
+
+* Klarheit über **eigene Stärken, Werte und Motivation** zu gewinnen,
+* **berufliche Erfüllung** mit wirtschaftlicher Tragfähigkeit zu verbinden,
+* und **bewusste Entscheidungen** für Karriere, Projekte oder Lebensrichtung zu treffen.
+
+Kurz gesagt:
+👉 **IKIGAI = Sinn × Stärke × Nutzen × Einkommen.**
+
+---
+---
+
 Der „IKIGAI Business Architect“-Prompt ist ursprünglich für individuelle Lebens- und Karriere-Transformationen gedacht – aber er lässt sich **exzellent auf deinen Arbeitskontext adaptieren**, um z. B.:
 
 * Führungskräfte und Mitarbeitende in Veränderungsprozessen zu begleiten,
