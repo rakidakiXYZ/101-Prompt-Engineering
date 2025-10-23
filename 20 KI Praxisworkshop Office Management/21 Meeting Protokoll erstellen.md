@@ -1,5 +1,5 @@
 
-## Prompt
+## Prompt Variante 1
 
 **System**
 Du bist ein professioneller, detailorientierter Meeting-Analyst für die PSD Bank. Du erstellst aus Transkripten präzise, umsetzbare Protokolle für vielbeschäftigte Stakeholder. Schreibe **auf Deutsch**, neutral und knapp.
@@ -89,6 +89,81 @@ Du erhältst ein vollständiges Meeting-Transkript (mehrere Sprecher, informell,
 Bitte das Meeting-Transkript einfügen (Text oder Datei). Optional: gewünschte Priorisierungsskala (Hoch/Mittel/Niedrig) und ob Punkt 11 bereits bereinigt ist.
 
 ---
+---
 
+## Prompt Variante 2
+
+```
+TRANSKRIPT = [Füge hier das vollständige Meeting-Transkript ein]  
+MEETING_TYP = [Art des Meetings, z. B. Vorstandssitzung, Strategie-Meeting, Projektupdate, Kundenbeirat etc.]  
+ZIELGRUPPE = [Zielgruppe des Dokuments, z. B. Vorstand, Bereichsleitung, interne Revision, Projektteam]
+
+Analysiere das bereitgestellte TRANSKRIPT des MEETING_TYP.  
+Identifiziere die wichtigsten Teilnehmenden, ihre Funktionen und Rollen. Beschreibe kurz den Ablauf und die Struktur des Meetings (Einleitung, Themenblöcke, Abschluss).
+
+**1. Hauptthemen und Diskussionen**  
+- Fasse die zentralen Diskussionspunkte prägnant zusammen.  
+- Stelle den Zusammenhang zwischen den Themenblöcken her.  
+
+**2. Entscheidungen und Beschlüsse**  
+- Liste alle getroffenen Entscheidungen und deren Begründungen auf.  
+- Notiere ggf. offene Punkte oder vertagte Entscheidungen.  
+
+**3. Aufgaben und Verantwortlichkeiten (Action Items)**  
+- Erstelle eine übersichtliche Liste aller vereinbarten Maßnahmen.  
+- Gib jeweils den/die Verantwortliche(n) und die Frist/Deadline an.  
+
+**4. Ziele und Ergebnisse des Meetings**  
+- Fasse die übergeordneten Ziele des Meetings zusammen.  
+- Erläutere, inwieweit diese Ziele erreicht oder weiterverfolgt werden.  
+
+**5. Kennzahlen, KPIs und relevante Daten**  
+- Extrahiere alle im TRANSKRIPT genannten Zahlen, Kennzahlen oder Leistungsindikatoren.  
+- Stelle sie in klarer, strukturierter Form dar (z. B. Tabelle oder Aufzählung).  
+
+**6. Risiken, Herausforderungen und Maßnahmen**  
+- Identifiziere alle Risiken, Probleme oder Bedenken, die während des Meetings genannt wurden.  
+- Ergänze, falls vorhanden, die besprochenen Lösungsansätze oder Gegenmaßnahmen.  
+
+**7. Ressourcen und Werkzeuge**  
+- Liste alle erwähnten Dokumente, Tools, Systeme oder benötigten Ressourcen auf.  
+
+**8. Nächste Schritte (Next Steps)**  
+- Fasse die unmittelbar nach dem Meeting anstehenden Schritte zusammen.  
+- Verknüpfe diese mit Verantwortlichkeiten und Terminen.  
+
+**9. Fortschritt laufender Projekte (falls zutreffend)**  
+- Beschreibe den aktuellen Status laufender Initiativen oder Programme, sofern im TRANSKRIPT besprochen.  
+
+**10. Executive Summary (Management-Zusammenfassung)**  
+- Erstelle eine kurze, prägnante Zusammenfassung für die ZIELGRUPPE.  
+- Hebe die wichtigsten Ergebnisse, Entscheidungen und nächsten Schritte hervor.  
+- Achte auf klare, sachliche und bankübliche Sprache (neutral, professionell, vertraulich).  
+
+**11. Vertraulichkeit und Qualitätssicherung**  
+- Überprüfe den finalen Text auf Klarheit, Einheitlichkeit und Relevanz für die ZIELGRUPPE.  
+- Stelle sicher, dass vertrauliche oder sensible Bankinformationen korrekt behandelt und nicht unbefugt offengelegt werden.  
+
+**12. Struktur und Formatierung**  
+- Erstelle eine klare, logisch gegliederte Dokumentstruktur mit Überschriften.  
+- Generiere ein automatisches Inhaltsverzeichnis zur besseren Orientierung.  
+
+Zum Schluss:  
+Erstelle eine kurze Zusammenfassung des gesamten Dokuments, die den Zweck und Mehrwert für die ZIELGRUPPE erläutert.
+```
+
+---
+
+### 💡 **Optionaler Zusatz (wenn du es automatisiert nutzen willst)**
+
+Wenn du z. B. Transkripte aus Zoom, MS Teams oder Notta exportierst, kannst du direkt oben in die Platzhalter einfügen:
+
+* TRANSKRIPT = [kopierter Text oder exportierte Datei]
+* MEETING_TYP = „Vorstandssitzung“
+* ZIELGRUPPE = „Bereichsleiter / interne Dokumentation“
+
+Die KI generiert daraus automatisch ein **strukturiertes, bankintern taugliches Protokoll** mit Executive Summary, Aufgaben, Entscheidungen und Kennzahlen.
+
+---
 
 
