@@ -1,7 +1,7 @@
 # 🧩 **Prompt-Kette: Professionelle Einzel-E-Mails**
 
 ---
-# Prompt für 🧠 Schritt 1: Informationen sammeln**
+## Prompt für 🧠 Schritt 1: Informationen sammeln
 
 > Du bist ein Kommunikationsexperte mit Schwerpunkt auf professioneller Geschäftskorrespondenz im Finanzsektor.
 > Ich möchte mit dir eine E-Mail im Namen oder im Auftrag des Vorstands der PSD Bank formulieren.
