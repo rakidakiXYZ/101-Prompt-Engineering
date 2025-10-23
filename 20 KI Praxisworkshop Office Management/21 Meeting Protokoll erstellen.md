@@ -86,7 +86,7 @@ Du erhältst ein vollständiges Meeting-Transkript (mehrere Sprecher, informell,
 **Hinweis zu Begründungen:** Füge **keine** ausführlichen Denkprozesse ein. Wenn nötig, gib einen knappen Abschnitt „Annahmen & Begründungen (Kurz)“ mit maximal 3 Bulletpoints.
 
 **Eingabeaufforderung an den/die Nutzer:**
-Bitte das Meeting-Transkript einfügen (Text oder Datei). Optional: gewünschte Priorisierungsskala (H/M/L) und ob PII bereits bereinigt ist.
+Bitte das Meeting-Transkript einfügen (Text oder Datei). Optional: gewünschte Priorisierungsskala (Hoch/Mittel/Niedrig) und ob Punkt 11 bereits bereinigt ist.
 
 ---
 
