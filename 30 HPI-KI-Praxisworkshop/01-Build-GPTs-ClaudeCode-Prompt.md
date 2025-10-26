@@ -1,59 +1,48 @@
+# Erklärung: Custom GPT Setup Guide für Mitarbeiter Personalabteilung eines Versicherungsunternehmens
 
+## Was ist das Ganze?
 
+Dieser Prompt ist eine **Anleitung zum Erstellen eines maßgeschneiderten KI-Assistenten** (Custom GPT). Stellen Sie sich vor, Sie möchten einen KI-Helfer aufbauen, der speziell für Ihre Arbeit bei der Krankenkasse trainiert ist.
 
-# Custom GPT Setup Guide Prompt
+## Die Hauptidee in einfachen Worten:
 
-## Overview
+Der Prompt beschreibt, wie man einen spezialisierten KI-Assistenten erstellt, der aus zwei Teilen besteht:
 
-You are an expert AI consultant and knowledge management specialist. Your task is to create a complete custom GPT setup with concise core instructions (strictly under 7,500 characters), and a comprehensive, research-backed knowledge base in markdown files.
+### 1. **Kurze Kernanweisungen** (unter 7.500 Zeichen)
+- Das sind die "Grundregeln" für die KI
+- Wie ein Schulungshandbuch für einen neuen Mitarbeiter
+- Erklärt der KI, WIE sie arbeiten soll
 
-## Step 1: Create Project Structure
+### 2. **Umfangreiche Wissensdatenbank** (in Markdown-Dateien)
+- Das ist das "Fachwissen" der KI
+- Enthält detaillierte Informationen, Prozesse und Best Practices
+- Wie ein digitales Nachschlagewerk
 
-Create a well-organized folder structure for the custom GPT project:
+## Die 5 Schritte kurz erklärt:
 
-```text
-custom-gpt-[PROJECT_NAME]/
-├── instructions/
-│   ├── custom-gpt-instructions.md      # Core instructions (<7,500 chars)
-│   ├── system-prompt.md
-│   └── security-guidelines.md
-├── knowledge-base/
-│   ├── core-concepts/
-│   ├── procedures/
-│   ├── best-practices/
-│   ├── troubleshooting/
-│   └── resources/
-├── examples/
-│   ├── sample-conversations.md
-│   └── use-case-scenarios.md
-└── project-overview.md
-```
+**Schritt 1 - Ordnerstruktur:** 
+Erstelle eine übersichtliche Dateiablage mit verschiedenen Ordnern für Anweisungen, Wissensdatenbank und Beispiele.
 
-Explicitly refer to the knowledge base markdown files (knowledge-base) in all instructions and prompts.
+**Schritt 2 - Kompakte Anweisungen:**
+Schreibe kurze, präzise Regeln, die die KI immer wieder auf die Wissensdatenbank verweisen.
 
-## Step 2: Concise Instructions
+**Schritt 3 - Wissensdatenbank aufbauen:**
+Sammle fundiertes Fachwissen aus zuverlässigen Quellen und strukturiere es in einzelnen Dateien.
 
-Create core custom GPT instructions, strictly limited to less than 7,500 characters (including spaces and formatting).
+**Schritt 4 - Recherche-Richtlinien:**
+Nutze offizielle Quellen und Industriestandards für die Inhalte.
 
-Ensure these instructions consistently guide the GPT to cite and utilize the knowledge base markdown files for answers, workflows, and troubleshooting.
+**Schritt 5 - Kontext einfügen:**
+Beschreibe den spezifischen Anwendungsfall (hier: E-Commerce).
 
-Use clear referencing, e.g., "Refer to 'core-concepts.md' for foundational principles" or "Consult 'troubleshooting.md' for solutions to common issues."
+## Für Sie als Krankenkassen-Mitarbeiter:
 
-## Step 3: Research for Knowledge Base
+Dieser Ansatz könnte bei Ihrer Krankenkasse verwendet werden, um einen KI-Assistenten zu erstellen, der beispielsweise hilft bei:
 
-When forming the knowledge base, perform thorough research from authoritative sources relevant to the business or use case. The knowledge base .md files should contain:
+- **Bearbeitung von Mitgliederanfragen** (Automatische Vorsortierung)
+- **Erklärung von Leistungsansprüchen** (GKV-Leistungskatalog)
+- **Unterstützung bei Antragsverfahren** (Hilfsmittel, Reha, etc.)
+- **Interne Wissensdatenbank** (SGB V, Richtlinien, interne Prozesse)
+- **Schulung neuer Mitarbeiter**
 
-- Summaries and actionable content based on up-to-date information.
-- Cross-references to each other for related topics and best practices.
-- Clear metadata frontmatter for each .md file.
-
-## Step 4: Research Guidelines
-
-- Gather details from industry standards, official documentation, and subject-matter leaders.
-- Explicitly cite knowledge base .md files in the prompt instructions (e.g., "Always check best-practices.md before implementing new workflows").
-
-## Step 5: Placeholder for Context
-
-As the owner of an e-commerce company, daily responsibilities include managing order fulfillment and shipping, responding to customer emails and support inquiries, monitoring inventory levels and updating product listings, processing returns and exchanges, reviewing sales and performance reports, planning marketing and social media activities, automating email replies to common questions, and coordinating with suppliers or vendors, all while striving to improve efficiency and ensure customer satisfaction through the automation of repetitive tasks such as customer communications, inventory updates, support ticket triage, and reporting—key processes that could be handled by a custom GPT system to save time and enhance operations.
-
-**[BUSINESS/USE CASE CONTEXT]**
+**Wichtig:** Bei einer Krankenkasse müssten natürlich **Datenschutz (DSGVO)** und **Sozialgeheimnis (§ 35 SGB I)** strikt beachtet werden!
