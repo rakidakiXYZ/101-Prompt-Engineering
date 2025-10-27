@@ -2,6 +2,7 @@
 
 ## Englischer JSON Prompt
 
+```
 1) JSON-Style Prompt Template (copy → edit placeholders)
 {
   "task": "image-to-image",
@@ -47,6 +48,7 @@
     "dirty wall, clutter, watermark, logo, text"
   ]
 }
+```
 
 ## Englischer Text Prompt
 
@@ -55,6 +57,7 @@ Ultra-realistic cinematic vertical portrait (9:16). Use the uploaded photo as re
 
 ## Deutscher JSON Prompt:
 
+```
 1) JSON-Style Prompt-Vorlage (kopieren → Platzhalter anpassen)
 {
   "aufgabe": "image-to-image",
@@ -100,6 +103,7 @@ Ultra-realistic cinematic vertical portrait (9:16). Use the uploaded photo as re
     "schmutzige Wand, Unordnung, Wasserzeichen, Logo, Text"
   ]
 }
+```
 
 ## Deutscher Text Prompt: 
 
