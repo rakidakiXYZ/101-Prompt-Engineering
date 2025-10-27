@@ -48,8 +48,24 @@ Dieser Ansatz könnte bei Ihrer Krankenkasse verwendet werden, um einen KI-Assis
 **Wichtig:** Bei einer Krankenkasse müssten natürlich **Datenschutz (DSGVO)** und **Sozialgeheimnis (§ 35 SGB I)** strikt beachtet werden!
 
 ---
+## Iterationen in ChatGPT - bis man den finalen Prompt mit seinem eigenen Geschäftsvorfall hat
 ---
+Der nachfolgende Prompt ist bereits für die Benutzung im Krankenkassen-Umfeld angepasst worden. Wenn Sie diesen Prompt für ein anderes Unternehmen oder einen anderen Geschäftszwei anpassen wollen, dann fügen Sie diesen Prompt in ChatGPT oder Claude in das Input Fenster ein und fügen Sie dann noch folgenden Text in das Input-Fenster hinzu:
 
+```
+Generiere den obigen Prompt in einer neuen Vesion, so dass ich diesen als Mitarbeiter der Unternehmensentwicklung der Volksbank Wiesbaden nutzen kann.
+```
+
+Über diesen Weg erhalten Sie einen neuen optimierten Prompt. Es fehlt jetzt nur noch der letzte Teil, die Geschäftsanwendung bzw. der Prozess oder Anwendungsfall, für den Sie dann mit diesem Prompt einen GPT oder ein Projekt erstellen wollen. Dafür kann man als nächsten Schritt sich jetzt einfach ein paar Beispiele für Anwendungsfälle oder Geschäftsanwendungen oder Vorgänge generieren lassen von ChatGPT oder Claude in dem man im Kontextfenster einfach diese Anfrage stellt:
+
+```
+Generiere mir 5 Beispiel-Anwendungsfälle, für den Abschnitt 5 "Kontext-Platzhalter"
+```
+
+Damit erhalten Sie dann Beispiele, die Sie konkret auf ihren Anwendungsfall anpassen und dann können Sie den gesamten Prompt in Claude Code nutzen, um damit dann alle Daten für einen GPT bzw. für ein Projekt zu erstellen.
+
+---
+---
 # Prompt in der Version 1: Deutsche Version (DE)
 
 ## Leitfaden zur Erstellung eines Custom GPT Systems
