@@ -207,6 +207,25 @@ Take the business context provided below and use it to generate a completely cus
 - Priority goals and timeline
 </business_context_instructions>
 
+<business_context>
+
+I work in the Human Resources department of a German health insurance company.
+My primary responsibility is managing the organization’s social media channels
+and developing marketing content to strengthen the employer brand. The goal is
+to attract and retain highly qualified professionals in the healthcare and insurance sectors.  
+
+Day-to-day tasks include planning and publishing social media campaigns on platforms
+such as LinkedIn, Instagram, and X, coordinating with internal departments and external
+agencies, writing and editing content that highlights the company’s values, benefits,
+and workplace culture, and analyzing engagement metrics to refine our communication strategy.  
+
+A custom GPT system could support these activities by automating content ideation,
+drafting engaging social media posts aligned with our corporate tone, scheduling publication
+workflows, providing data-driven recommendations for talent attraction campaigns, and
+assisting in monitoring and reporting on campaign performance — ultimately improving
+efficiency and ensuring consistent, high-quality employer branding communication.
+
+</business_context>
 
 ```
 
@@ -419,5 +438,28 @@ Achte besonders auf:
 - Compliance- und regulatorische Anforderungen  
 - Priorisierte Ziele und Zeitplan
 </business_context_instructions>
+
+<business_context
+
+**Geschäfts- / Anwendungsfallkontext**
+
+Ich arbeite in der Personalabteilung einer deutschen Krankenkasse. Meine Hauptverantwortung
+liegt in der Betreuung der Social-Media-Kanäle des Unternehmens sowie in der Erstellung von
+Marketinginhalten, um die Arbeitgebermarke zu stärken. Ziel ist es, qualifizierte Fachkräfte
+im Gesundheits- und Versicherungswesen anzuziehen und langfristig zu binden.  
+
+Zu meinen täglichen Aufgaben gehören die Planung und Veröffentlichung von Social-Media-Kampagnen
+auf Plattformen wie LinkedIn, Instagram und X, die Abstimmung mit internen Abteilungen und externen
+Agenturen, das Verfassen und Bearbeiten von Inhalten, die die Unternehmenswerte, Vorteile und die
+Arbeitskultur hervorheben, sowie die Analyse von Engagement-Kennzahlen zur Optimierung der Kommunikationsstrategie.  
+
+Ein maßgeschneidertes GPT-System könnte diese Aktivitäten unterstützen, indem es die Ideenfindung
+für Inhalte automatisiert, ansprechende Social-Media-Beiträge im unternehmenseigenen Stil entwirft,
+Veröffentlichungsprozesse strukturiert, datenbasierte Empfehlungen für Recruiting- und Employer-Branding-Kampagnen
+liefert und bei der Überwachung sowie Auswertung der Kampagnenleistung hilft – um so die Effizienz zu steigern
+und eine konsistente, qualitativ hochwertige Arbeitgeberkommunikation sicherzustellen.
+
+
+</business_context>
 
 ```
