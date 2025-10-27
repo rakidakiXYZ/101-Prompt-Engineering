@@ -1,5 +1,4 @@
-Natürlich ✅
-Hier ist eine **strukturierte Markdown-Anleitung**, die Schritt für Schritt erklärt, **wie du aus einem einfachen Prompt einen hochoptimierten „Masterprompt“ erstellst** – also genau den Prozess des *Reverse Prompt Engineering*, den wir gerade durchgeführt haben.
+
 
 ---
 
