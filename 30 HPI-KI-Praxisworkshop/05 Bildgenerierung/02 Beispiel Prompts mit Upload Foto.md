@@ -1,8 +1,12 @@
-# Upload Foto
+# Schritt 1: 
+## Aufgabe: 
+Auswahl der KI-Lösung für die Generierung (Google Gemini, Higgsfield, Kie AI, Dzine AI, ...)
+
+# Schritt 2: Upload eines Fotos
 ## Aufgabe:
 Upload von einem Portrait-Foto oder einem alternativem Foto von Dir in Google "Nano Banana" oder einem alternativen KI-Bildgenerator (Seedream, Flux, Midjourney)
 
-# Schritt 2: diverse Prompts für die Generation von neuen Bildern auf Basis des hochgeladenen Fotos:
+# Schritt 3: diverse Prompts für die Generation von neuen Bildern auf Basis des hochgeladenen Fotos:
 
 ## Black & White Skyline Gaze
 ### Prompt:
