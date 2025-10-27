@@ -175,3 +175,12 @@ Das GPT sollte einen schrittweisen Dialog führen:
 - Keine Speicherung personenbezogener Daten
 - Hinweis auf vertrauliche Behandlung
 - Empfehlung zur Überprüfung durch HR-Leitung
+
+
+## Screenshot aus Claude Code in Visual Studio Code integriert:
+
+<img width="3454" height="2030" alt="CleanShot 2025-10-27 at 06 41 41@2x" src="https://github.com/user-attachments/assets/0c4142e2-79bd-4863-bb8e-72db9133784c" />
+
+### Anleitung Nutzung der Daten:
+
+Mit den Daten in den Ordnern kann man jetzt einen GPT oder ein Projekt erstellen. Dabei nutzt man die Inhalte aus dem Ordner Anweisungen für den Bereich "Hinweise" bzw. "Instructions" des GPTs/ Projekts und die anderen Dateien sind dann das "Wissen", das man hochlädt. Eine wichtige Datei ist dabei die "projekt-uebersicht.md" Datei, die die gesamte Struktur erklärt und die man im Bereich Hinweise / Instructions des GPTs bzw. Projektes auch "verlinken" sollte, damit diese als erste wichtige Anweisung gelesen wird.
