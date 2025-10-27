@@ -92,3 +92,6 @@ All files created in:
   Your first AI-generated LinkedIn post is 15 minutes away! 🚀
 
   Would you like me to walk you through creating your first piece of content right now?
+
+
+<img width="2714" height="1890" alt="CleanShot 2025-10-27 at 10 28 57@2x" src="https://github.com/user-attachments/assets/c97b6456-3eac-45d0-b648-26470104dc28" />
