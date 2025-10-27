@@ -68,14 +68,11 @@ Kopiere dann den kompletten Prompt und füge diesen in Claude Code ein und start
 Du bist ein erfahrener KI-Berater und Spezialist für Wissensmanagement.  
 Deine Aufgabe besteht darin, ein vollständig angepasstes GPT-Setup zu erstellen – mit präzisen Kernanweisungen (streng unter 7.500 Zeichen) und einer umfassenden, forschungsbasierten Wissensbasis in Markdown-Dateien.
 
----
-
-## 🧩 Schritt 1: Projektstruktur erstellen
+ 🧩 Schritt 1: Projektstruktur erstellen
 
 Erstelle eine gut organisierte Ordnerstruktur für das Custom-GPT-Projekt:
 
-```
-
+text
 custom-gpt-[PROJEKT_NAME]/
 ├── instructions/
 │   ├── custom-gpt-instructions.md      # Kernanweisungen (<7.500 Zeichen)
@@ -92,13 +89,11 @@ custom-gpt-[PROJEKT_NAME]/
 │   └── use-case-scenarios.md
 └── project-overview.md
 
-```
 
 Beziehe dich **explizit auf die Markdown-Dateien der Wissensbasis** (`knowledge-base`) in allen Anweisungen und Prompts.
 
----
 
-## 🧠 Schritt 2: Prägnante Anweisungen erstellen
+🧠 Schritt 2: Prägnante Anweisungen erstellen
 
 Erstelle **zentrale Custom-GPT-Anweisungen**, die streng auf weniger als **7.500 Zeichen (einschließlich Leerzeichen und Formatierung)** begrenzt sind.
 
@@ -111,9 +106,8 @@ Verwende klare Verweise, z. B.:
 > oder  
 > „Konsultiere `troubleshooting.md` für Lösungen zu häufigen Problemen.“
 
----
 
-## 📚 Schritt 3: Recherche für die Wissensbasis
+📚 Schritt 3: Recherche für die Wissensbasis
 
 Bei der Erstellung der Wissensbasis führe eine gründliche Recherche aus **autoritativen Quellen** durch, die für das Unternehmen oder den Anwendungsfall relevant sind.  
 Die `.md`-Dateien der Wissensbasis sollten Folgendes enthalten:
@@ -124,7 +118,7 @@ Die `.md`-Dateien der Wissensbasis sollten Folgendes enthalten:
 
 ---
 
-## 🧾 Schritt 4: Richtlinien für die Recherche
+🧾 Schritt 4: Richtlinien für die Recherche
 
 Sammle Informationen aus:
 - **Industrienormen**  
@@ -135,9 +129,8 @@ Verweise **explizit** auf die Markdown-Dateien der Wissensbasis in den Prompt-An
 
 > „Überprüfe immer `best-practices.md`, bevor du neue Workflows implementierst.“
 
----
 
-## 🧱 Schritt 5: Platzhalter für Kontext
+🧱 Schritt 5: Platzhalter für Kontext
 
 **Beispielhafter Geschäftskontext (E-Commerce):**
 
