@@ -1,7 +1,6 @@
---- START OF FILE ultimate-prompt-engineering-mastery-guide-2025.md ---
 
-# Der Ultimative Leitfaden zur Meisterschaft im Prompt Engineering: September 2025
-## Vollständiges technisches Referenzwerk für Text-, Bild-, Video- und Sprach-KI-Systeme
+
+# Vollständiges technisches Referenzwerk für Text-, Bild-, Video- und Sprach-KI-Systeme
 
 *Der endgültige Leitfaden zur Beherrschung jeder wichtigen KI-Plattform und -Modalität in der Produktion*
 
