@@ -109,6 +109,7 @@ Als Mitarbeiter in der Personalabteilung einer gesetzlichen Krankenkasse in Deut
 
 **[GESCHÄFTS-/ANWENDUNGSFALL-KONTEXT]**
 
+Hier bitte dann den eigentlichen Geschäfts- oder Anwendungsfall beschreiben, für den dann der Custom GPT bzw. das Projekt erstellt werden soll.
 ---
 
 # Prompt in der Version 2: English Version (EN)
@@ -169,3 +170,5 @@ When forming the knowledge base, perform thorough research from authoritative so
 As an HR employee in the human resources department of a statutory health insurance company (gesetzliche Krankenkasse) in Germany, daily responsibilities include managing the entire employee lifecycle from recruitment through onboarding to offboarding, administering personnel files in compliance with data protection regulations (GDPR) and social security confidentiality requirements, handling labor law inquiries from employees and managers, coordinating continuing education and training programs (e.g., social security code training), organizing application processes and job interviews, maintaining time-tracking systems and vacation management, supporting payroll processing in collaboration with accounting, conducting employee evaluations and performance reviews, coordinating occupational health management and workplace safety initiatives, and providing guidance on collective bargaining agreements (e.g., TV-L, TV-TgDRV) – repetitive processes such as responding to standardized HR inquiries, creating employment references and certificates, onboarding new employees, managing personnel master data, and providing HR policy information could be automated through a custom GPT system to save time and enhance service quality for internal customers.
 
 **[BUSINESS/USE CASE CONTEXT]**
+
+Here you describe your specific use case in detail to generate the GPT or Project Description
