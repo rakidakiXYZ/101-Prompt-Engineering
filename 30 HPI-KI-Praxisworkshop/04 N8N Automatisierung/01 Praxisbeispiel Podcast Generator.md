@@ -197,6 +197,16 @@ Also müssen wir hier den Variablen Namen "inputs" eintragen
 So das wars jetzt:
 <img width="3412" height="1868" alt="CleanShot 2025-10-28 at 10 22 21@2x" src="https://github.com/user-attachments/assets/047e3ed5-425c-4b67-b2c9-c42c3297c546" />
 
+Wir können den Node ausführen und den Workflow testen:
+
+<img width="3404" height="1866" alt="CleanShot 2025-10-28 at 10 23 49@2x" src="https://github.com/user-attachments/assets/fa396ecd-7128-407d-8d12-33318f72fa44" />
+
+Die Generierung dauert in der Regel 2-3 Minuten
+
+<img width="3396" height="1862" alt="CleanShot 2025-10-28 at 10 24 31@2x" src="https://github.com/user-attachments/assets/99105b17-675e-4370-b539-081f0482cff2" />
+
+
+
 
 
 
