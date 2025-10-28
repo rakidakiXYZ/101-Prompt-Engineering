@@ -168,6 +168,46 @@ Im obigen Screenshot sieht man, dass es bereits eine Eleven Labs Integration gib
 
 <img width="3418" height="1890" alt="CleanShot 2025-10-28 at 10 05 59@2x" src="https://github.com/user-attachments/assets/9067c370-1203-4fba-8bf2-a8011a94c63d" />
 
+Wir wollen ja die Inhalte (die generierten Textdialoge) senden, also verwenden wir die Post Methode und wir benötigen dann die URL wohin es gesendet werden soll. Die bekommen wir von der API Webseite, wo wir schon mal waren: https://elevenlabs.io/docs/api-reference/text-to-dialogue/convert
+
+<img width="2948" height="1344" alt="CleanShot 2025-10-28 at 10 07 58@2x" src="https://github.com/user-attachments/assets/ac8745f5-76f7-4592-90b9-3a745ecff35b" />
+
+Jetzt müssen wir noch einen API Key hinterlegen (und vorher bei Eleven Labs generieren), um auf den Service zugreifen zu dürfen:
+
+<img width="3386" height="1848" alt="CleanShot 2025-10-28 at 10 09 43@2x" src="https://github.com/user-attachments/assets/c882d50a-6a1d-4ae8-a30b-018ca22adeef" />
+
+Im vorhergehenden Dialog haben wir schon gesehen, dass die API mit dem Namen xi-api-key angesprochen wird. Den API Key bekommen wir auf der Eleven Labs Webseite nach der Anmeldung über den Eintrag Developers in der linken Navigationsleiste:
+
+<img width="3450" height="1906" alt="CleanShot 2025-10-28 at 10 12 05@2x" src="https://github.com/user-attachments/assets/af06b267-6416-4958-9a70-9891d0a7d210" />
+
+Hier kann man dann einen API Key erstellen und diesen "limitieren" für die Nutzung oder als unlimitierten Key freischalten:
+<img width="3450" height="1910" alt="CleanShot 2025-10-28 at 10 13 10@2x" src="https://github.com/user-attachments/assets/89bc2818-87fd-468a-b46b-6f1a38ec78ae" />
+
+Wir erstellen hier mal einen unlimitierten Key für die Nutzung für unseren Podcast Generator und fügen diesen in N8N ein:
+<img width="3388" height="1864" alt="CleanShot 2025-10-28 at 10 14 51@2x" src="https://github.com/user-attachments/assets/59c9e9f2-e4a6-45a9-8418-1a770758ddcd" />
+
+So jetzt müssen wir noch definieren, was wir versenden wollen:
+<img width="3382" height="1854" alt="CleanShot 2025-10-28 at 10 18 45@2x" src="https://github.com/user-attachments/assets/e1302fae-d602-47a9-8138-7c6418db096b" />
+
+Das ist ja das JSON Output Format aus dem vorherigen Node, dass wir hier definieren, d.h. Send Body, welchen Input und wie soll die Variable für diesen Input heißen. Welchen Input ist einfach, das ist der Output aus dem vorhergehenden Node. Den Namen der Variablen für Eleven Labs zur Verarbeitung bekommen wir von der ElevenLabs Webseite: 
+<img width="2928" height="1310" alt="CleanShot 2025-10-28 at 10 21 28@2x" src="https://github.com/user-attachments/assets/418caa9b-3632-44ad-89d5-15cc56e7375e" />
+
+Also müssen wir hier den Variablen Namen "inputs" eintragen
+
+So das wars jetzt:
+<img width="3412" height="1868" alt="CleanShot 2025-10-28 at 10 22 21@2x" src="https://github.com/user-attachments/assets/047e3ed5-425c-4b67-b2c9-c42c3297c546" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
