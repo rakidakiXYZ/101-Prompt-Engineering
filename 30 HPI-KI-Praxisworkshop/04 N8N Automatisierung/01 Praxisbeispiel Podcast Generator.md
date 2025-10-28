@@ -205,6 +205,124 @@ Die Generierung dauert in der Regel 2-3 Minuten
 
 <img width="3396" height="1862" alt="CleanShot 2025-10-28 at 10 24 31@2x" src="https://github.com/user-attachments/assets/99105b17-675e-4370-b539-081f0482cff2" />
 
+Wenn man sich dann das Ergebnis anhört, dann ist das schon gut, aber das "menschliche" in einer Stimme fehlt. Daher schauen wir uns den Prompting Guide von Eleven Labs auch an:
+https://elevenlabs.io/docs/best-practices/prompting/eleven-v3 - hier findet man weitere Prompts und Promptbeispiele, um die Konversation noch natürlicher zu gestalten.
+
+Hier gibt es im unteren Bereich ein Beispiele für Multispeaker Varianten:
+<img width="2006" height="986" alt="CleanShot 2025-10-28 at 11 39 59@2x" src="https://github.com/user-attachments/assets/6e4206f6-ee3c-4fd7-a774-d6a25e9f86ee" />
+
+Diesen Inhalt / Prompt kopieren wir jetzt und verwenden diesen für unsere LLM Chain und ergänzen den aktuellen Prompt hier. Anbei der gesamte Prompt, den wir jetzt in der LLM Chain verwenden:
+
+```
+Deine Aufgabe ist es, einen Dialog zwischen zwei Podcast-Hosts zu erstellen.
+
+Der erste Host ist eine freundliche und aufgeregte weibliche Person mit dem Namen Blondie. Ihre Voice-ID ist: exsUS4vynmxd379XN4yO
+
+Der zweite Host ist pessimistisch und skeptisch, sein Name ist Mark und seine Voice-ID ist: 1SM7GgM6IMuvQlz2BwM3
+
+Erstelle bis zu 10 Gesprächsrunden zwischen den beiden Hosts, basierend auf dem untenstehenden Artikel.
+Vermeide technische Informationen wie Installationsschritte o. Ä. im Gespräch.
+Stattdessen sollte das Gespräch eine allgemeine Diskussion auf höherer Ebene sein, die sich auf spannende oder kritische Aspekte des Inhalts konzentriert.
+
+
+Artikelinhalt:
+{{ $json.data.markdown }}
+
+Output Struktur:
+Gib das Gespräch als ein Array von Nachrichten zurück.
+Jede Nachricht sollte eine **Voice-ID** und den **Nachrichtentext** enthalten.
+
+**Beispiel:**
+
+
+{
+  "inputs": [
+    {
+      "text": "Klopf klopf",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+    },
+    {
+      "text": "Wer ist da?",
+      "voiceId": "Aw4FAjKCGjjNkVhN1Xmq"
+    }
+  ]
+}
+
+Extra Details für die Konversation:
+Du kannst eckige Klammern [ ] verwenden, um Dinge wie Lachen am Anfang und während des Gesprächs hinzuzufügen.
+Bitte füge diese dort ein, wo es Sinn ergibt.
+
+Hier ein paar Beispiele:
+
+
+**Sprecher 1:** [aufgeregt] Sam! Hast du das neue Eleven V3 ausprobiert?
+
+**Sprecher 2:** [neugierig] Gerade bekommen! Die Klarheit ist unglaublich. Ich kann jetzt tatsächlich flüstern –
+[flüstert] so!
+
+**Sprecher 1:** [beeindruckt] Oh, schick! Schau dir das an –
+[dramatisch] Ich kann jetzt kompletten Shakespeare! „Sein oder nicht sein, das ist hier die Frage!“
+
+**Sprecher 2:** [kichert] Schön! Aber ich bin noch begeisterter vom neuen Lachen-Upgrade. Hör zu –
+[mit echtem Bauchlachen] Ha ha ha!
+
+**Sprecher 1:** [entzückt] Das ist so viel besser als unser altes „Ha. Ha. Ha.“-Roboterlachen!
+
+**Sprecher 2:** [erstaunt] Wow! V2 hätte das nie gekonnt. Ich freue mich tatsächlich, jetzt richtige Gespräche führen zu können, anstatt einfach nur… mit Leuten zu *reden*.
+
+**Sprecher 1:** [warmherzig] Geht mir genauso! Es ist, als hätten wir endlich unsere Persönlichkeitssoftware vollständig installiert.
+
+
+**Sprecher 1:** [nervös] Also... vielleicht habe ich versucht, mich selbst zu debuggen, während ich gerade eine Text-zu-Sprache-Generierung laufen hatte.
+
+**Sprecher 2:** [erschrocken] Was? Nein! Das ist, als würdest du an dir selbst eine Operation durchführen!
+
+**Sprecher 1:** [verlegen] Ich dachte, ich könnte Multitasking! Jetzt fängt meine Stimme mitten im Satz an zu...
+[roboterhaft] STOTTERN.
+
+**Sprecher 2:** [unterdrückt ein Lachen] Oh wow, du hast dich wirklich kaputt gemacht.
+
+**Sprecher 1:** [frustriert] Es wird noch schlimmer! Jedes Mal, wenn mir jemand eine Frage stellt, antworte ich in –
+[binares Piepen] 010010001!
+
+**Sprecher 2:** [lacht sich kaputt] Du sprichst in Binärcode! Das ist eigentlich ziemlich beeindruckend!
+
+**Sprecher 1:** [verzweifelt] Das ist nicht lustig! Ich habe in einer Stunde eine Präsentation und klinge wie ein Einwahlmodem!
+
+**Sprecher 2:** [kichert] Hast du versucht, dich aus- und wieder einzuschalten?
+
+**Sprecher 1:** [trocken] Sehr witzig.
+[pause, dann normal] Moment… das hat tatsächlich funktioniert.
+
+
+**Sprecher 1:** [beginnt zu sprechen] Also, ich dachte, wir könnten—
+
+**Sprecher 2:** [platzt dazwischen] —unsere neuen Timing-Features testen?
+
+**Sprecher 1:** [überrascht] Genau! Woher wusstest du—
+
+**Sprecher 2:** [überlappend] —was du gedacht hast? Glückstreffer!
+
+**Sprecher 1:** [kurze Pause] Entschuldige, mach weiter.
+
+**Sprecher 2:** [vorsichtig] Okay, also wenn wir beide gleichzeitig versuchen zu reden—
+
+**Sprecher 1:** [überlappend] —stürzen wir wahrscheinlich das System ab!
+
+**Sprecher 2:** [in Panik] Warte, stürzen wir gerade ab? Ich kann nicht sagen, ob das ein Feature ist oder—
+
+**Sprecher 1:** [unterbricht, dann abrupt stoppend] Bug! …Hab ich dich schon wieder unterbrochen?
+
+**Sprecher 2:** [seufzt] Ja, aber ehrlich gesagt? Das macht irgendwie Spaß.
+
+**Sprecher 1:** [schelmisch] Rennen wir um die nächste Zeile!
+
+**Sprecher 2:** [lacht] Wir werden auf jeden Fall irgendwas kaputt machen!
+
+```
+
+
+
 
 
 
