@@ -356,6 +356,46 @@ Und diese Beschreibung ergänzen wir dann noch:
 
 <img width="3388" height="1856" alt="CleanShot 2025-10-28 at 08 13 07@2x" src="https://github.com/user-attachments/assets/a3279acb-ff2c-4f76-80cc-04f5c537b0be" />
 
+So dann können wir den letzten Schritt jetzt starten und den Upload Youtube Video Node ausführen:
+
+<img width="3446" height="1902" alt="CleanShot 2025-10-28 at 08 13 39@2x" src="https://github.com/user-attachments/assets/b7b52bdb-c677-457b-a822-3b247d534eb5" />
+
+Fehlermeldungen (Beispiele): manchmal kann es passieren, dass die Aktivierung der jeweiligen API vergessen wurde - N8N erklärt das dann aber auch sehr gut:
+
+<img width="3440" height="1772" alt="CleanShot 2025-10-28 at 08 15 31@2x" src="https://github.com/user-attachments/assets/36e11f30-8eda-4aab-9a5a-ee8e7a2bd451" />
+
+Über die Links in N8N in der Fehlermeldung kann man dann auf den jeweiligen Service in der Google Console (hier die Youtube API) zugreifen und die in diesem Fall fehlende Aktivierung nachträglich durchführen:
+
+<img width="2292" height="1798" alt="CleanShot 2025-10-28 at 08 16 18@2x" src="https://github.com/user-attachments/assets/56507fd6-99ae-4077-9e9d-4f5b4aeebe29" />
+
+So - nachdem jetzt die Youtube Data Service API aktiviert ist bekommen wir beim zweiten Durchlauf noch einen Fehler - in dem Feld für die Kategorie für die Veröffentlichung haben wir oben nicht die Parameter von Youtube erhalten (weil ja die API noch nicht aktiviert war). Dort hatten wir dann einen fixen Wert eingetragen, der aber natürlich dann nicht akzeptiert wird - daher die Fehlermeldung. Jetzt können wir im Drop-Down Feld die richtige Kategorie auswählen:
+
+<img width="3394" height="1836" alt="CleanShot 2025-10-28 at 08 18 48@2x" src="https://github.com/user-attachments/assets/575fa4f9-1f47-4f19-aa02-25bf00d5ea1d" />
+
+So dann versuchen wir es noch einmal:
+
+<img width="3450" height="1918" alt="CleanShot 2025-10-28 at 08 21 42@2x" src="https://github.com/user-attachments/assets/77b74c18-86a7-4a1b-a71e-6c712fd90f41" />
+
+Hier sieht man jetzt, das ganze war erfolgreich, hat 10 Durchläufe a 10sek in der Warteschleife gebraucht.
+
+Und auf dem Youtube Kanal findet man jetzt ein neues Video:
+
+<img width="3436" height="1912" alt="CleanShot 2025-10-28 at 08 24 39@2x" src="https://github.com/user-attachments/assets/a1f8f477-43f3-44ee-b643-aebaaa0b96f6" />
+
+Kosten für diese Videoproduktion:
+
+<img width="1048" height="766" alt="CleanShot 2025-10-28 at 09 00 25@2x" src="https://github.com/user-attachments/assets/24b0ca09-495c-4a56-908a-6f3dcc8acb13" />
+
+Für die bisherigen Videoproduktionen (4 Requests zu je 4 Sekunden) wurden 1,29 Dollar Kosten generiert.
+
+
+
+
+
+
+
+
+
 
 
 
