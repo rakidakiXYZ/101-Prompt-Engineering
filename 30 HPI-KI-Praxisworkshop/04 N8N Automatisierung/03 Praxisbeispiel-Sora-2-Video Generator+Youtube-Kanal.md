@@ -253,17 +253,82 @@ Wir starten hier mit dem Button erste Schritte
 
 Dann geben wir die Informationen für den Anwendungsnamen und die E-Mail Adresse ein
 
-<img width="2734" height="1776" alt="CleanShot 2025-10-28 at 07 25 26@2x" src="https://github.com/user-attachments/assets/2442a0ca-a221-4563-99b8-6f4626f08bfa" />
+<img width="3450" height="1914" alt="CleanShot 2025-10-28 at 07 27 02@2x" src="https://github.com/user-attachments/assets/9675a025-a5b6-4db5-889c-115ca144d147" />
 
-Der Zugriff soll nur über Google Account Benutzer dieser Organisation möglich sein
+Hier verwenden wir einen sinnvollen Namen und in diesem Fall die E-Mail Adresse des Google Accounts
 
-<img width="2734" height="1292" alt="CleanShot 2025-10-28 at 07 26 02@2x" src="https://github.com/user-attachments/assets/d584640f-570f-4b96-8b94-a3bfa949301f" />
+<img width="2692" height="1756" alt="CleanShot 2025-10-28 at 07 36 23@2x" src="https://github.com/user-attachments/assets/1bb8d693-ba55-4e49-be09-0caca8385462" />
 
-Dann geben wir die Kontaktdaten für dieses Account ein
+Zugriff auf diesen Service muss definiert werden: intern bedeutet, dass wir die E-Mail Adressen angeben müssen, extern bedeutet, dass beliebige User zugreifen dürfen
 
-<img width="2782" height="1140" alt="CleanShot 2025-10-28 at 07 26 28@2x" src="https://github.com/user-attachments/assets/319964ee-f269-4ee2-ab04-892141c19aff" />
+<img width="2700" height="1336" alt="CleanShot 2025-10-28 at 07 37 55@2x" src="https://github.com/user-attachments/assets/2191e9bf-404c-4ae3-a4d5-506539cf1d72" />
 
-Dann klicken wir auf Erstellen
+Für den Service geben wir dann noch eine Kontaktadresse ein
+
+<img width="3450" height="1910" alt="CleanShot 2025-10-28 at 07 38 33@2x" src="https://github.com/user-attachments/assets/53a03404-f246-4756-bf4d-edaddbcfb133" />
+
+Dann bestätigen wir das ganz und machen weiter
+
+<img width="3446" height="1904" alt="CleanShot 2025-10-28 at 07 38 59@2x" src="https://github.com/user-attachments/assets/f1e27361-c5c6-4d5d-bc7b-5629788ce25e" />
+
+Damit haben wir auf diesen OAuth Client auch zugreifen können müssen wir diesen veröffentlichen. Dazu klicken wir auf Zielgruppe:
+
+<img width="3448" height="1914" alt="CleanShot 2025-10-28 at 07 40 25@2x" src="https://github.com/user-attachments/assets/5258a7f6-e409-4cfd-b6fa-d5bfde2c128d" />
+
+Wir klicken hier auf veröffentlichen - für die Veröffentlichung als produktiven Service
+
+<img width="3454" height="1910" alt="CleanShot 2025-10-28 at 07 41 09@2x" src="https://github.com/user-attachments/assets/8c9a32f8-e57c-4617-ad17-8b5d05b2fca2" />
+
+Dann gehen wir in der Navigationsleiste links auf Clients
+
+<img width="3454" height="1912" alt="CleanShot 2025-10-28 at 07 42 02@2x" src="https://github.com/user-attachments/assets/47904872-af45-468e-9c3c-a28f2de54a56" />
+
+Hier sehen wir, dass noch keine Client-IDs erstellt sind, daher starten wir mit der Erstellung:
+
+<img width="2686" height="1910" alt="CleanShot 2025-10-28 at 07 42 44@2x" src="https://github.com/user-attachments/assets/b87ab36f-bf81-4084-aec2-2aef4b29a036" />
+
+Wir vergeben einen Namen (hier kann man für verschiedene Projekte, Szenarien, ... sinnvolle Namen definieren)
+<img width="2752" height="1836" alt="CleanShot 2025-10-28 at 07 44 09@2x" src="https://github.com/user-attachments/assets/d654736f-0513-4c3b-96f1-f3bee7459a68" />
+
+Da wir über eine Domain von N8N Cloud auf diesen Google Service zugreifen und hier mit JavaScript Code u.a. gearbeitet wird, sollten wir die N8N Cloud Domain hier angeben, siehe nachfolgender URL Screenshot:
+
+<img width="804" height="262" alt="CleanShot 2025-10-28 at 07 45 34@2x" src="https://github.com/user-attachments/assets/cb31690d-d21f-45ab-a2cc-262c4bcfe4c3" />
+
+Diese Domain fügen wir hier ein:
+<img width="2702" height="1894" alt="CleanShot 2025-10-28 at 07 46 27@2x" src="https://github.com/user-attachments/assets/ca054b1b-25f5-4709-b56f-b5b01493609e" />
+
+Jetzt benötigen wir noch eine Redirect URL von N8N - also die Rücksprung Verbindung, die bekommen wir aus der Authorisierungsmaske für Youtube aus N8N oder aus einer anderen N8N Node Authorisierung für einen Google Service:
+
+<img width="3408" height="1880" alt="CleanShot 2025-10-28 at 07 47 39@2x" src="https://github.com/user-attachments/assets/db8c5205-b403-4a53-b69c-8d886535c2da" />
+
+Diese URL können wir hier in N8N kopieren und dann wieder zurück in der Google Console einfügen:
+
+<img width="3436" height="1918" alt="CleanShot 2025-10-28 at 07 48 21@2x" src="https://github.com/user-attachments/assets/3f6c8233-3dd0-4f99-a433-5a779da21c1a" />
+
+Dann können wir auf Erstellen klicken
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
