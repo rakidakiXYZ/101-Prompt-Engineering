@@ -55,6 +55,34 @@ Vermeide technische Informationen wie Installationsschritte oder ähnliches im G
 Stattdessen sollte das Gespräch eine allgemeine Diskussion auf höherer Ebene sein, die sich auf spannende oder kritische Aspekte des Inhalts konzentriert.
 ```
 
+Im nächsten Schritt müssen wir für die LLM Chain das Sprachmodell auswählen:
+<img width="3410" height="1870" alt="CleanShot 2025-10-28 at 09 38 59@2x" src="https://github.com/user-attachments/assets/a1979d99-69e9-4e23-8f26-107eb0b007f9" />
+
+Für die Nutzung müssen wir dann wieder einen OPENAI API Key generieren, damit wir diesen in N8N verwenden können:
+<img width="3350" height="1858" alt="CleanShot 2025-10-28 at 09 40 39@2x" src="https://github.com/user-attachments/assets/9434dcdd-92c8-43fb-beda-2a8620e1bc90" />
+
+
+Generierung eines OpenAI API Keys über die URL: https://platform.openai.com/api-keys
+<img width="3430" height="1894" alt="CleanShot 2025-10-28 at 09 39 29@2x" src="https://github.com/user-attachments/assets/590ba40f-8f24-4f1f-bfa6-adc6550ce661" />
+
+Als Sprachmodell verwenden wir dann GPT 4.1:
+<img width="3406" height="1858" alt="CleanShot 2025-10-28 at 09 41 16@2x" src="https://github.com/user-attachments/assets/d5a4e0d8-15e2-4f2c-8cb0-b8ffbc40aaf2" />
+
+Im nächsten Schritt wählen wir dann den Structured Output Parser aus:
+<img width="3446" height="1910" alt="CleanShot 2025-10-28 at 09 41 50@2x" src="https://github.com/user-attachments/assets/5a4675b7-be09-479a-b0be-8af80a8a68c0" />
+
+Hier wollen wir jetzt unser eigenes Output JSON Schema definieren:
+<img width="3422" height="1884" alt="CleanShot 2025-10-28 at 09 42 29@2x" src="https://github.com/user-attachments/assets/3bcecf85-0250-4272-9752-ad0828c22758" />
+
+
+
+
+
+
+
+
+
+
 
 
 
