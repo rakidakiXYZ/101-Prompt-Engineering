@@ -307,6 +307,54 @@ Diese URL können wir hier in N8N kopieren und dann wieder zurück in der Google
 
 Dann können wir auf Erstellen klicken
 
+Es erscheint dann ein Dialogfenster mit der Client ID und dem Client Secret, welche wir dann kopieren und in N8N einfügen:
+
+<img width="2406" height="1494" alt="CleanShot 2025-10-28 at 07 53 37@2x" src="https://github.com/user-attachments/assets/324c4e00-e132-4034-9490-ff69ac9c3d26" />
+
+Und in der Google Console sehen wir den Eintrag für diesen OAuth Client
+<img width="3442" height="884" alt="CleanShot 2025-10-28 at 07 53 55@2x" src="https://github.com/user-attachments/assets/54151f42-ab3b-44d3-ad7a-cacdceca5932" />
+
+Ganz unten in dem N8N Auth Fenster können wir jetzt mit dem Google Konto uns anmelden und damit sozusagen als authorisierter User die Verbindung zu N8N mit Google Services bestätigen 
+
+<img width="3066" height="1734" alt="CleanShot 2025-10-28 at 07 55 41@2x" src="https://github.com/user-attachments/assets/9ea924a3-4b82-4a52-bdcc-b36ddb440929" />
+
+Hier erfolgt dann auch noch die Abfrage für welchen Youtube Kanal man das mit dem angemeldeten Google Konto machen möchte, also hier den gerade erstellten Kanal auswählen:
+
+<img width="984" height="1382" alt="CleanShot 2025-10-28 at 08 01 39@2x" src="https://github.com/user-attachments/assets/b5794f9f-41c2-49ad-a309-d3766c433450" />
+
+
+Es wird dann noch angezeigt, welche Services Sie jetzt freigeben zur Nutzung mit N8N:
+<img width="968" height="1138" alt="CleanShot 2025-10-28 at 07 57 18@2x" src="https://github.com/user-attachments/assets/11e1dfe6-3de8-4d6e-833c-e83d8397957e" />
+
+
+
+
+In N8N erhält man dann noch eine Rückmeldung, dass die Verbindung erfolgreich war:
+
+<img width="2370" height="596" alt="CleanShot 2025-10-28 at 07 58 03@2x" src="https://github.com/user-attachments/assets/dea0982a-58bf-4e60-a0a1-68a0dbea9359" />
+
+So - jetzt können wir weitermachen, um den Upload genauer zu definieren:
+
+<img width="3402" height="1852" alt="CleanShot 2025-10-28 at 08 04 56@2x" src="https://github.com/user-attachments/assets/7207761f-50d5-426c-8fa1-6311b9de56da" />
+
+Im oberen Bereich wechseln wir die linke Anzeige von Binary auf Schema, wo wir dann im unteren linken Bereich die einzelnen Ergebnisse der Workflow Schritte sehen:
+
+<img width="3382" height="1832" alt="CleanShot 2025-10-28 at 08 05 24@2x" src="https://github.com/user-attachments/assets/e3087b77-38d5-4adc-aa95-e5c8246db227" />
+
+Dort können wir die Basic LLM Chain aufklappen und sehen hier den Output und u.a. den Titel
+
+<img width="3410" height="1866" alt="CleanShot 2025-10-28 at 08 06 03@2x" src="https://github.com/user-attachments/assets/7a51ebf0-ac52-4eb8-863a-6ce164a65cb5" />
+
+
+
+
+
+
+
+
+
+
+
 
 
 
