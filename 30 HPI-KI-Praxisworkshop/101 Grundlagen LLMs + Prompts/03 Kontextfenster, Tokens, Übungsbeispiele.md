@@ -1,4 +1,4 @@
-Ich schaue mir zunächst die hochgeladene Datei an, um die Anleitung für euch anzupassen.Perfekt! Ich passe jetzt diese umfangreiche Anleitung für die Techniker Krankenkasse im Bereich HR und Marketing an. Die Struktur und Formatierung bleiben exakt gleich.
+
 
 # 📚 Teil A: Grundverständnis – Wie KI mit Sprache arbeitet 
 
