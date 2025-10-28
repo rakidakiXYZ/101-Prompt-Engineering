@@ -322,6 +322,17 @@ Hier ein paar Beispiele:
 ```
 
 
+Mit diesem neuen Prompt führen wir den Workflow erneut aus und erhalten ein neues Skript, dass jetzt um weitere Dialog-Inhalte in eckigen Klammer (zur Steuerung der Stimme) angereichert wurde:
+
+<img width="3394" height="1866" alt="CleanShot 2025-10-28 at 11 46 33@2x" src="https://github.com/user-attachments/assets/2624f9c0-f99f-4e49-9761-fbe51c4192f0" />
+
+Damit können wir jetzt den nächsten Node zur Generierung des Podcasts starten:
+<img width="2176" height="848" alt="CleanShot 2025-10-28 at 11 47 13@2x" src="https://github.com/user-attachments/assets/bfa6d8d7-323a-425f-ad8e-46afdb32ea90" />
+
+Wenn wir uns dann das Ergebnis anhöre, dann ist jetzt ein deutlicher Unterschied festzustellen:
+
+
+
 
 
 
