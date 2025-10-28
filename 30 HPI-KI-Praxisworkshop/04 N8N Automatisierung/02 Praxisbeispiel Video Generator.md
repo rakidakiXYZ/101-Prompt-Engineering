@@ -42,7 +42,7 @@ Wir starten mit ChatGPT, um einen Prompt zu generieren, hier der Input:
 Please improve my prompt to work with Veo 3.1.
 
 This is my prompt
-"Create a script for a short, 8-second social-media video promoting health and fitness for a health insurance company."
+"Create a script for a short, 8-second social-media video promoting health and fitness for a health insurance company. Output return a JSON structure containing: Videoscript - Youtube Title - Youtube Description"
 
 Here is the veo 3.1 prompt guide and example prompts:
 
