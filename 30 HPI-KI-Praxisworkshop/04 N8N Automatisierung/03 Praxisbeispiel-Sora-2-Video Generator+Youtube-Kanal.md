@@ -99,8 +99,18 @@ Return a JSON object with exactly these properties:
 
 ---
 
-```
+<img width="3440" height="1898" alt="CleanShot 2025-10-28 at 05 06 55@2x" src="https://github.com/user-attachments/assets/9eb0f272-6eaf-43ca-8ced-4aa7365fb339" />
 
 
+# Sprachmodell LLM auswählen
+Wir verwenden hier jetzt OpenAI GPT Modelle
+<img width="3440" height="1906" alt="CleanShot 2025-10-28 at 05 11 02@2x" src="https://github.com/user-attachments/assets/663d658d-9191-4476-bd63-f39a7b65f296" />
 
-```
+
+Um das Modell zu verwenden brauchen wir wieder ein API Key
+<img width="3442" height="1900" alt="CleanShot 2025-10-28 at 05 10 28@2x" src="https://github.com/user-attachments/assets/0a291af7-5568-4ed2-b70c-e763d8954eaf" />
+
+Den API Key bekommen wir von der Webseite [platform](https://platform.openai.com/api-keys) (hier müssen wir natürlich auch wieder eine Kreditkarte hinterlegen)
+<img width="3434" height="1888" alt="CleanShot 2025-10-28 at 05 08 45@2x" src="https://github.com/user-attachments/assets/0e8aa998-687a-4cf0-954d-5b997122ff4f" />
+
+
