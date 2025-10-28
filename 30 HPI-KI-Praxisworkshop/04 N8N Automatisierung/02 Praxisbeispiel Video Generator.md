@@ -107,3 +107,60 @@ Uses warm, emotionally resonant visual language aligned with Veo’s cinematic s
 
 Would you like me to **adapt this prompt for a specific tone** (e.g., *corporate professional*, *inspirational lifestyle*, or *youthful energy*)?
 That tweak would help align Veo’s mood and pacing with your target audience.
+
+---
+
+# Prompt als System Message in die LLM Chain integrieren
+
+<img width="3432" height="1890" alt="CleanShot 2025-10-28 at 03 04 18@2x" src="https://github.com/user-attachments/assets/cbd057f3-6988-451b-b3d4-555605c55ea7" />
+
+# Output Format in LLM Chain aktivieren
+<img width="3448" height="1884" alt="CleanShot 2025-10-28 at 03 05 26@2x" src="https://github.com/user-attachments/assets/5c07473a-dac5-432d-9d55-b17b958033d0" />
+
+# Structured Output Parser auswählen
+<img width="3450" height="1902" alt="CleanShot 2025-10-28 at 03 05 55@2x" src="https://github.com/user-attachments/assets/cc7f65ea-a6d0-4f44-b036-515bdd79eeae" />
+
+Und dann das "Structured Format" definieren:
+<img width="3438" height="1898" alt="CleanShot 2025-10-28 at 03 06 29@2x" src="https://github.com/user-attachments/assets/574105e1-5f24-4963-b362-cc222dca6bc4" />
+
+Wir definieren dann den Output über Variablen
+<img width="3440" height="1894" alt="CleanShot 2025-10-28 at 03 08 26@2x" src="https://github.com/user-attachments/assets/ebeac8f9-edef-47bc-b773-cef1a3703746" />
+
+# LLM Chain jetzt zum ersten Mal das Script generieren lassen:
+<img width="3436" height="1900" alt="CleanShot 2025-10-28 at 03 10 25@2x" src="https://github.com/user-attachments/assets/9d48b7f9-af4d-424c-9c17-cd2363fc63c2" />
+
+# Jetzt können wir mit diesem Input das Video generieren lassen
+Hier zu wählen wir ein LLM aus und dann die Aufgabe
+
+<img width="3442" height="1910" alt="CleanShot 2025-10-28 at 03 11 55@2x" src="https://github.com/user-attachments/assets/2c1fedb4-0e32-440a-8661-466e4e839632" />
+
+Nach der Auswahl können wir das ganze konfigurieren:
+<img width="3452" height="1906" alt="CleanShot 2025-10-28 at 03 12 41@2x" src="https://github.com/user-attachments/assets/784019ae-6993-45d5-b013-8cad02363aeb" />
+
+Wir definieren das Modell für die Video generierung: veo3.1 ...
+Wir definieren wir als Eingabe für den Prompt das zuvor generierte Skript in dem wir die Variable per Drag&Drop reinziehen in das Feld
+Wir definieren die Länge und die Aspect Ratio
+
+Dann können wir das ganze mit Execute Node ausprobieren (Achtung - sie müssen den verwendeten API Key auch mit einem Abrechnungskonto verknüpfen)
+
+<img width="3432" height="1884" alt="CleanShot 2025-10-28 at 03 23 53@2x" src="https://github.com/user-attachments/assets/24b4c364-d6a1-435c-a12e-5903afb95047" />
+
+Die Generierung eines 8 sec Videos dauert einige Minuten
+
+<img width="3434" height="1894" alt="CleanShot 2025-10-28 at 03 25 16@2x" src="https://github.com/user-attachments/assets/fffd28b9-eedd-4115-98cc-389debe76b8e" />
+
+# Download des Videos zu Google Drive
+<img width="3424" height="1894" alt="CleanShot 2025-10-28 at 03 35 25@2x" src="https://github.com/user-attachments/assets/14680fdf-bab3-4efb-b0ea-29d454d1027c" />
+
+Danach kann man dann das Video herunterladen
+
+
+
+
+
+
+
+
+
+
+
