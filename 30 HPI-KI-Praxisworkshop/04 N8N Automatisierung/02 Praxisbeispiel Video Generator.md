@@ -31,4 +31,20 @@ Wir erstellen eine System Message
 
 <img width="3440" height="1898" alt="CleanShot 2025-10-28 at 02 48 12@2x" src="https://github.com/user-attachments/assets/edb49602-385e-4459-bab5-c543c4124ed8" />
 
+# Wir nutzen ChatGPT, um dann den Prompt hier zu generieren
+Wissen 1: https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1?hl=en
+Wissen 2: https://deepmind.google/models/veo/prompt-guide/
 
+# Prompt:
+Wir starten mit ChatGPT, um einen Prompt zu generieren, hier der Input:
+
+```
+Please improve my prompt to work with Veo 3.1.
+
+This is my prompt
+"Create a script for a short, 8-second social-media video promoting health and fitness for a health insurance company."
+
+Here is the veo 3.1 prompt guide and example prompts:
+
+Und danach fügen wir dann das Wissen von den obigen beiden Seiten ein Copy&Paste
+```
