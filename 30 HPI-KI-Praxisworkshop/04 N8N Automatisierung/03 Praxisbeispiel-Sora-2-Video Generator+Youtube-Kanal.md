@@ -193,6 +193,18 @@ So sieht der Workflow jetzt aus:
 
 Hier haben wir jetzt auch den IF Node ausgeführt und gesehen, dass es mit dem TRUE Pfad weitergehen wird
 
+So, wenn also das Video fertig ist, wollen wir es noch herunterladen, dazu brauchen wir auch wieder einen HTTPRequest Node
+
+Wir verwenden die GET Methode, da wir das Video ja abholen wollen und die gleiche URL wieder mit der ID des Scripts plus der Ergänzung /content
+Also: https://api.openai.com/v1/videos/...(id des Videos)/content
+
+<img width="3436" height="1884" alt="CleanShot 2025-10-28 at 05 54 46@2x" src="https://github.com/user-attachments/assets/b2afe65d-4044-4a79-82d9-b855fd41e523" />
+
+
+
+
+
+
 
 
 
