@@ -113,4 +113,19 @@ Um das Modell zu verwenden brauchen wir wieder ein API Key
 Den API Key bekommen wir von der Webseite [platform](https://platform.openai.com/api-keys) (hier müssen wir natürlich auch wieder eine Kreditkarte hinterlegen)
 <img width="3434" height="1888" alt="CleanShot 2025-10-28 at 05 08 45@2x" src="https://github.com/user-attachments/assets/0e8aa998-687a-4cf0-954d-5b997122ff4f" />
 
+Anschließend wählen wir dann GPT-5 mini als Modell aus
+
+<img width="3442" height="1888" alt="CleanShot 2025-10-28 at 05 13 48@2x" src="https://github.com/user-attachments/assets/7bac46cd-2330-4894-ad1d-78b9594e160c" />
+
+In der LLM Chain fügen wir dann noch den Prompt "Generate Script" als Anweisung für die LLM Chain hinzu. In der System Message habenw wir ja die komplette Rolle hinterlegt
+<img width="3452" height="1904" alt="CleanShot 2025-10-28 at 05 15 11@2x" src="https://github.com/user-attachments/assets/1e3864ee-c877-4b18-bf5c-3339e46b250f" />
+
+Jetzt können wir das ganze schon mal testen:
+<img width="3422" height="1892" alt="CleanShot 2025-10-28 at 05 16 36@2x" src="https://github.com/user-attachments/assets/062d358d-9772-4cd1-8833-c71284911bcc" />
+
+Diesen Output benötigen wir jetzt noch als Structure Output:
+<img width="3446" height="1898" alt="CleanShot 2025-10-28 at 05 22 34@2x" src="https://github.com/user-attachments/assets/963a289f-c09e-4979-a9b3-9c76bf8ea5ee" />
+
+
+
 
