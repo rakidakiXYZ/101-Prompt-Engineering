@@ -200,6 +200,20 @@ Also: https://api.openai.com/v1/videos/...(id des Videos)/content
 
 <img width="3436" height="1884" alt="CleanShot 2025-10-28 at 05 54 46@2x" src="https://github.com/user-attachments/assets/b2afe65d-4044-4a79-82d9-b855fd41e523" />
 
+Dann müssen wir noch die Credentials (Header, Auth, ...) wie zuvor hinterlegen, wir haben das ja schon gemacht und müssen nur den Eintrag OpenAI jetzt auswählen
+<img width="3436" height="1902" alt="CleanShot 2025-10-28 at 05 56 20@2x" src="https://github.com/user-attachments/assets/ce3096b0-565d-45e9-944f-b31be38284a7" />
+
+Anschließend können wir den Node ausführen und prüfen, ob das Video heruntergeladen wird
+
+<img width="3436" height="1902" alt="CleanShot 2025-10-28 at 05 57 28@2x" src="https://github.com/user-attachments/assets/cfc61a43-209f-493b-8f8a-dc4bb31b114a" />
+
+Das Video steht zur Verfügung und man kann es sich anschauen:
+<img width="1202" height="2096" alt="CleanShot 2025-10-28 at 05 58 01@2x" src="https://github.com/user-attachments/assets/4c1e36fa-c8db-415c-8583-e1efc6147dec" />
+
+
+
+
+
 
 
 
