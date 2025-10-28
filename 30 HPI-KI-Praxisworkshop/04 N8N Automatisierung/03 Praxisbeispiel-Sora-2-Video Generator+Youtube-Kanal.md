@@ -17,4 +17,7 @@ Für das Foto zum Channel lassen wir uns ein Bild mit OpenAI generieren, ebenso 
 
 # Wir erstellen jetzt einen N8N Workflow für die Videos:
 
+Wir starten mit dem manuellen Trigger und fügen dann eine LLM Chain hinzu (wir brauchen keinen Agenten mit Tools und Konnektoren dafür)
+
+<img width="3444" height="1912" alt="CleanShot 2025-10-28 at 04 51 20@2x" src="https://github.com/user-attachments/assets/74b9e429-2cb6-43c1-ad7b-dee09db11c44" />
 
