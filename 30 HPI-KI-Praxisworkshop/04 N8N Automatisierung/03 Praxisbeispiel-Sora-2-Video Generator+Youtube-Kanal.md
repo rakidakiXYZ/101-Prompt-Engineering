@@ -211,6 +211,43 @@ Das Video steht zur Verfügung und man kann es sich anschauen:
 <img width="1202" height="2096" alt="CleanShot 2025-10-28 at 05 58 01@2x" src="https://github.com/user-attachments/assets/4c1e36fa-c8db-415c-8583-e1efc6147dec" />
 
 
+# Upload to Youtube
+Jetzt müssen wir das generierte Video nur noch zu Youtube hochladen
+
+<img width="3444" height="1902" alt="CleanShot 2025-10-28 at 06 03 58@2x" src="https://github.com/user-attachments/assets/d5e222b5-3bb8-4c70-9574-ac32cfde5bc8" />
+Dazu wählen wir die Aktion Upload Video für Youtube aus
+
+<img width="3436" height="1898" alt="CleanShot 2025-10-28 at 06 04 41@2x" src="https://github.com/user-attachments/assets/1bb3e5fa-a867-48df-a61b-2886b66033c9" />
+
+## Google Account - Youtube - Credentials für Google Services
+
+Grundvoraussetzung ist ein Google Account 
+<img width="3434" height="1906" alt="CleanShot 2025-10-28 at 07 16 30@2x" src="https://github.com/user-attachments/assets/0692fbad-0f3f-4b89-9868-78f8bbb25748" />
+
+Aufruf der Konsole für die Google Cloud Services über folgende URL: https://console.cloud.google.com/
+
+<img width="3446" height="1908" alt="CleanShot 2025-10-28 at 07 17 26@2x" src="https://github.com/user-attachments/assets/7cc35ca0-a05c-4c18-a7dc-6c7c72cad592" />
+
+Erstellung eines neuen Projektes in der Google Cloud Console
+<img width="3454" height="1710" alt="CleanShot 2025-10-28 at 07 18 16@2x" src="https://github.com/user-attachments/assets/2832e4f0-36d3-420f-a939-9e359a5c3ba3" />
+
+Wenn man über Neues Projekt dann ein Projekt anlegt ist in der Regel auch noch keine Organisation vorhanden, die wird dann zuerst angelegt
+
+<img width="2550" height="1094" alt="CleanShot 2025-10-28 at 07 18 58@2x" src="https://github.com/user-attachments/assets/ac2d9837-1936-42da-b949-671339d882b0" />
+
+Projekte dienen dazu die verschiedenen Leistungen von Google und natürlich auch die dazu passenden Abrechnungen zu ordnen, daher hat man irgendwann auch diverse Projekte und ggf. auch Organisationen in der Verwaltung in der Console:
+
+<img width="3448" height="1656" alt="CleanShot 2025-10-28 at 07 19 48@2x" src="https://github.com/user-attachments/assets/84d582ba-bfbf-475b-bf3a-f606859ec611" />
+
+Über den Menüeintrag oben links kann man dann auf die diversen Services zugreifen und wir wollen jetzt zu den APIs und Diensten, um die Zugriffe von N8N auf die Google Services zu definieren
+
+<img width="3442" height="1732" alt="CleanShot 2025-10-28 at 07 20 58@2x" src="https://github.com/user-attachments/assets/edc07ab0-2bac-4f3e-b882-b1cf8d055c58" />
+
+
+
+
+
+
 
 
 
