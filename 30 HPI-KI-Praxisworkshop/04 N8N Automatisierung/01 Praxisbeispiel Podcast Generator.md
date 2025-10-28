@@ -154,6 +154,24 @@ Jede Nachricht sollte eine **Voice-ID** und den **Nachrichtentext** enthalten.
 Dann starten wir das ganze jetzt:
 <img width="3452" height="1418" alt="CleanShot 2025-10-28 at 10 01 09@2x" src="https://github.com/user-attachments/assets/6f5c1657-c437-410e-b88d-de30c9b28517" />
 
+Wenn wir dann die LLM Chain für die Konversation öffnen, sehen wir hier das Ergebnis:
+<img width="3390" height="1842" alt="CleanShot 2025-10-28 at 10 02 59@2x" src="https://github.com/user-attachments/assets/89550fb7-6d97-4089-ba5e-760c41f1c4c5" />
+
+Wenn wir uns das im JSON Format anschauen, dann sieht es wie folgt aus:
+<img width="3396" height="1854" alt="CleanShot 2025-10-28 at 10 03 51@2x" src="https://github.com/user-attachments/assets/2b0f9560-88fa-43a0-b4c2-ea1aaa1101d8" />
+
+So, jetzt haben wir alle Daten für den Dialog und brauchen Eleven Labs Service jetzt, um mit diesen Texten und ausgewählten Stimmen den Dialog zu erstellen:
+
+<img width="3436" height="1910" alt="CleanShot 2025-10-28 at 10 04 54@2x" src="https://github.com/user-attachments/assets/203d1106-4cd1-454e-97de-708b1aa3a240" />
+
+Im obigen Screenshot sieht man, dass es bereits eine Eleven Labs Integration gibt, aber die Funktion aus einem Text ein Dialog zu erstellen fehlt hier. Daher müssen wir über einen HTTPRequest direkt die API ansprechen:
+
+<img width="3418" height="1890" alt="CleanShot 2025-10-28 at 10 05 59@2x" src="https://github.com/user-attachments/assets/9067c370-1203-4fba-8bf2-a8011a94c63d" />
+
+
+
+
+
 
 
 
