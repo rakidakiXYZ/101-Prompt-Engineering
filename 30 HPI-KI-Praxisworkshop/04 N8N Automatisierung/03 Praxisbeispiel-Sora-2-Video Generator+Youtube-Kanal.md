@@ -243,6 +243,31 @@ Projekte dienen dazu die verschiedenen Leistungen von Google und natürlich auch
 
 <img width="3442" height="1732" alt="CleanShot 2025-10-28 at 07 20 58@2x" src="https://github.com/user-attachments/assets/edc07ab0-2bac-4f3e-b882-b1cf8d055c58" />
 
+Hier wollen wir auf den Dienst OAUTH-Zustimmungsbildschirm zugreifen, um die Credentials für den Zugriff von N8N zu ermöglichen
+
+<img width="3446" height="1906" alt="CleanShot 2025-10-28 at 07 23 43@2x" src="https://github.com/user-attachments/assets/cc9f2646-18fd-4c21-9115-41630deff3c5" />
+
+Wir starten hier mit dem Button erste Schritte
+
+<img width="2736" height="1424" alt="CleanShot 2025-10-28 at 07 24 23@2x" src="https://github.com/user-attachments/assets/a4aec5c7-d933-404e-87e0-a8a53ba858a9" />
+
+Dann geben wir die Informationen für den Anwendungsnamen und die E-Mail Adresse ein
+
+<img width="2734" height="1776" alt="CleanShot 2025-10-28 at 07 25 26@2x" src="https://github.com/user-attachments/assets/2442a0ca-a221-4563-99b8-6f4626f08bfa" />
+
+Der Zugriff soll nur über Google Account Benutzer dieser Organisation möglich sein
+
+<img width="2734" height="1292" alt="CleanShot 2025-10-28 at 07 26 02@2x" src="https://github.com/user-attachments/assets/d584640f-570f-4b96-8b94-a3bfa949301f" />
+
+Dann geben wir die Kontaktdaten für dieses Account ein
+
+<img width="2782" height="1140" alt="CleanShot 2025-10-28 at 07 26 28@2x" src="https://github.com/user-attachments/assets/319964ee-f269-4ee2-ab04-892141c19aff" />
+
+Dann klicken wir auf Erstellen
+
+
+
+
 
 
 
