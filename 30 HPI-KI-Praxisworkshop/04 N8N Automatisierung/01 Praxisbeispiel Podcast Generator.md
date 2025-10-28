@@ -74,6 +74,38 @@ Im nächsten Schritt wählen wir dann den Structured Output Parser aus:
 Hier wollen wir jetzt unser eigenes Output JSON Schema definieren:
 <img width="3422" height="1884" alt="CleanShot 2025-10-28 at 09 42 29@2x" src="https://github.com/user-attachments/assets/3bcecf85-0250-4272-9752-ad0828c22758" />
 
+Die Frage ist jetzt, wie genau dieses Output Schema aussehen soll, dass wir dann verwenden wollen für die Generierung eines Podcasts. 
+<img width="3378" height="1844" alt="CleanShot 2025-10-28 at 09 44 44@2x" src="https://github.com/user-attachments/assets/616aec45-4283-4a1b-ab5d-9ddb38051a18" />
+
+Wir wollen für die Stimmen und die Generierung des Podcasts den Service von Eleven Labs verwenden: https://elevenlabs.io/de
+<img width="2924" height="1480" alt="CleanShot 2025-10-28 at 09 45 46@2x" src="https://github.com/user-attachments/assets/b49fd521-4b41-436c-97ea-126b7430642a" />
+
+Um die genaue Struktur für ein Schema zu finden, gehen wir auf die API-Referenz unter dem Bereich Entwickler:
+<img width="2866" height="912" alt="CleanShot 2025-10-28 at 09 46 38@2x" src="https://github.com/user-attachments/assets/925a6c6d-7fd0-441f-a212-8e70f6c779fa" />
+
+Dort gibt es alle Services von Eleven Labs, die man per API ansteuern kann unter anderem Text to Dialogue:
+<img width="3414" height="1586" alt="CleanShot 2025-10-28 at 09 47 26@2x" src="https://github.com/user-attachments/assets/6e0fb144-eacb-4975-b406-0129e14dc4f9" />
+
+Man kann jetzt das Beispiel für einen Dialog auf der rechten Seite kopieren in ChatGPT reingehen und sich dann ein Schema generieren lassen für N8N:
+<img width="2866" height="1278" alt="CleanShot 2025-10-28 at 09 48 18@2x" src="https://github.com/user-attachments/assets/4a6cd159-c2c9-4d46-bd8e-e8f5552a19b3" />
+
+Mit nachfolgendem Prompt erhält man dann ein Schema:
+```
+Erstelle ein JSON Schema basierend auf dem nachfolgenden Output, um diesen zu generieren von einem Input: [ { "text": "Knock knock", "voice_id": "JBFqnCBsd6RMkjVDRZzb" }, { "text": "Who is there?", "voice_id": "Aw4FAjKCGjjNkVhN1Xmq" } ]
+```
+
+Hier dann das Ergebnis in ChatGPT, welches wir dann in N8N reinkopieren (also nur die Schema Definition):
+
+<img width="3382" height="1840" alt="CleanShot 2025-10-28 at 09 51 24@2x" src="https://github.com/user-attachments/assets/d6e06cbe-7ece-466c-a1d7-c9d727efd416" />
+
+In dem Schema sieht man noch die Definition von Stimmen über Voice-IDs, diese können wir jetzt bei Eleven Labs uns raussuchen:
+<img width="1228" height="888" alt="CleanShot 2025-10-28 at 09 52 06@2x" src="https://github.com/user-attachments/assets/d98679e5-ebbf-449e-80f0-ab78a2fb7e47" />
+
+
+
+
+
+
 
 
 
