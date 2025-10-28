@@ -167,6 +167,35 @@ Wir wollen etwas abfragen, also verwenden wir die GET Methode und fragen dann be
 
 <img width="3430" height="1878" alt="CleanShot 2025-10-28 at 05 42 31@2x" src="https://github.com/user-attachments/assets/c2e32bc2-124c-40b1-8e32-5f7cd771a51f" />
 
+Dazu verwenden wir die schon zuvor verwendete URL: https://api.openai.com/v1/videos und hängen einen / und dann die ID des Videos daran
+
+Dann müssen wir den Zugriff authorisieren mit den zuvor schon erstellten Credentials:
+
+<img width="3440" height="1902" alt="CleanShot 2025-10-28 at 05 45 38@2x" src="https://github.com/user-attachments/assets/326c15af-9548-45d2-b2a9-2ac0aa704e3a" />
+
+Wenn wir den Node jetzt ausführen, sehen wir den Status für dieses Video:
+
+<img width="3430" height="1894" alt="CleanShot 2025-10-28 at 05 46 21@2x" src="https://github.com/user-attachments/assets/1026367b-3857-409c-b9d2-d0c2d403d0da" />
+
+Hier sehen wir jetzt den Status "completed"
+
+Was wir jetzt noch machen müssen ist eine kleine Abfrage hinzufügen, um diesen Status zu prüfen und wenn dieser von queued auf completed springt, dann mit dem nächsten Schritt weiter zu machen.
+
+<img width="3432" height="1884" alt="CleanShot 2025-10-28 at 05 48 59@2x" src="https://github.com/user-attachments/assets/d89204b0-09cf-4666-9015-6f38e53d5527" />
+
+Jetzt haben wir zwei Ausgänge von diesem IF Node: wenn der Status "completed" dann geht es weiter und wenn nicht, dann soll noch mal gewartet werden, d.h. wir fügen eine Warteschleife jetzt noch ein, die dann nach 5 sek. z.B. erneut den Status abfragen wird
+
+<img width="3436" height="1894" alt="CleanShot 2025-10-28 at 05 50 49@2x" src="https://github.com/user-attachments/assets/7073e895-4d9a-493c-8204-ba217f75e860" />
+
+
+So sieht der Workflow jetzt aus:
+<img width="3436" height="1898" alt="CleanShot 2025-10-28 at 05 51 32@2x" src="https://github.com/user-attachments/assets/39d33e45-5c91-43fe-bb2c-a4745cf81e9f" />
+
+Hier haben wir jetzt auch den IF Node ausgeführt und gesehen, dass es mit dem TRUE Pfad weitergehen wird
+
+
+
+
 
 
 
