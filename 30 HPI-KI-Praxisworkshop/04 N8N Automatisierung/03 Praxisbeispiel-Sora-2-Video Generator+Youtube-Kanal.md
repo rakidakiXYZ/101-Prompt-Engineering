@@ -345,49 +345,16 @@ Dort können wir die Basic LLM Chain aufklappen und sehen hier den Output und u.
 
 <img width="3410" height="1866" alt="CleanShot 2025-10-28 at 08 06 03@2x" src="https://github.com/user-attachments/assets/7a51ebf0-ac52-4eb8-863a-6ce164a65cb5" />
 
+Wir füllen jetzt die Felder Titel mit der ID aus dem Workfow, die Region wählen wir aus "Germany" und die Kategorie für Youtube wird entweder im Drop-Down zur Auswahl gestellt, wir wählen hier Entertainment aus. Bei den Daten wählen wir oben anstellen von Schema wieder Binary und sehen, das die Datei den Variablen Namen "data" hat, den wir hier übernehmen.
 
+<img width="3398" height="1846" alt="CleanShot 2025-10-28 at 08 11 04@2x" src="https://github.com/user-attachments/assets/ae73ccf8-8c06-4715-98d6-0e3a8bcef27e" />
 
+Wir können dann noch einen zusätzlichen Parameter hinzufügen - die Beschreibung / Description:
+<img width="3368" height="1824" alt="CleanShot 2025-10-28 at 08 12 09@2x" src="https://github.com/user-attachments/assets/41cc5494-2272-4cfa-9ccb-a0c5d77737ce" />
 
+Und diese Beschreibung ergänzen wir dann noch:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="3388" height="1856" alt="CleanShot 2025-10-28 at 08 13 07@2x" src="https://github.com/user-attachments/assets/a3279acb-ff2c-4f76-80cc-04f5c537b0be" />
 
 
 
