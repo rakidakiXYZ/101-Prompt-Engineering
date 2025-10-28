@@ -101,6 +101,63 @@ Hier dann das Ergebnis in ChatGPT, welches wir dann in N8N reinkopieren (also nu
 In dem Schema sieht man noch die Definition von Stimmen über Voice-IDs, diese können wir jetzt bei Eleven Labs uns raussuchen:
 <img width="1228" height="888" alt="CleanShot 2025-10-28 at 09 52 06@2x" src="https://github.com/user-attachments/assets/d98679e5-ebbf-449e-80f0-ab78a2fb7e47" />
 
+Auf der Webseite von ElevenLabs nach der Anmeldung kann man über Voices dann auf Best Voices for Eleven V3 zugreifen:
+<img width="3440" height="1898" alt="CleanShot 2025-10-28 at 09 54 15@2x" src="https://github.com/user-attachments/assets/9b1d5bf1-3639-4e44-aaff-9d3dac7def8b" />
+
+Hier finden wir dann zahlreiche Stimmen und können rechts immer auf die ID zugreifen:
+<img width="3434" height="1902" alt="CleanShot 2025-10-28 at 09 54 39@2x" src="https://github.com/user-attachments/assets/6adb4857-ccce-4820-859a-8129e498705b" />
+
+Mit diesen IDs können wir dann bisherigen Prompt für die Generierung des Dialogs erweitern:
+
+In N8N ergänzen wir jetzt unseren Prompt einfach:
+<img width="3410" height="1852" alt="CleanShot 2025-10-28 at 09 57 32@2x" src="https://github.com/user-attachments/assets/26dc0fe7-7324-45eb-b093-9cd59298357a" />
+
+Prompt:
+
+```
+Deine Aufgabe ist es, einen Dialog zwischen zwei Podcast-Hosts zu erstellen.
+
+Der erste Host ist eine freundliche und aufgeregte weibliche Person mit dem Namen Blondie. Ihre Voice-ID ist: exsUS4vynmxd379XN4yO
+
+Der zweite Host ist pessimistisch und skeptisch, sein Name ist Mark und seine Voice-ID ist: 1SM7GgM6IMuvQlz2BwM3
+
+Erstelle bis zu 10 Gesprächsrunden zwischen den beiden Hosts, basierend auf dem untenstehenden Artikel.
+Vermeide technische Informationen wie Installationsschritte o. Ä. im Gespräch.
+Stattdessen sollte das Gespräch eine allgemeine Diskussion auf höherer Ebene sein, die sich auf spannende oder kritische Aspekte des Inhalts konzentriert.
+
+
+Artikelinhalt:
+{{ $json.data.markdown }}
+
+Output Struktur:
+Gib das Gespräch als ein Array von Nachrichten zurück.
+Jede Nachricht sollte eine **Voice-ID** und den **Nachrichtentext** enthalten.
+
+**Beispiel:**
+
+
+{
+  "inputs": [
+    {
+      "text": "Klopf klopf",
+      "voiceId": "JBFqnCBsd6RMkjVDRZzb"
+    },
+    {
+      "text": "Wer ist da?",
+      "voiceId": "Aw4FAjKCGjjNkVhN1Xmq"
+    }
+  ]
+}
+```
+
+
+Dann starten wir das ganze jetzt:
+<img width="3452" height="1418" alt="CleanShot 2025-10-28 at 10 01 09@2x" src="https://github.com/user-attachments/assets/6f5c1657-c437-410e-b88d-de30c9b28517" />
+
+
+
+
+
 
 
 
