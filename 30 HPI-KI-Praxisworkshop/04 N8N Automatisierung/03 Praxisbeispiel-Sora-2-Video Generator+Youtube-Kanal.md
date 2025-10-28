@@ -127,5 +127,45 @@ Diesen Output benötigen wir jetzt noch als Structure Output:
 <img width="3446" height="1898" alt="CleanShot 2025-10-28 at 05 22 34@2x" src="https://github.com/user-attachments/assets/963a289f-c09e-4979-a9b3-9c76bf8ea5ee" />
 
 
+# Wir wollen jetzt mit OpenAI Sora 2 das Video generieren
+<img width="3440" height="1908" alt="CleanShot 2025-10-28 at 05 25 47@2x" src="https://github.com/user-attachments/assets/d979f8c6-9f5a-45db-a726-9c980c923be1" />
+
+Hier sieht man, dass aktuell keine Aktion für Generate Video with Sora 2 zur Verfügung steht, daher müssen wir mit einem HTTPRequest arbeiten
+<img width="3442" height="1898" alt="CleanShot 2025-10-28 at 05 27 23@2x" src="https://github.com/user-attachments/assets/3a6e338d-aa58-4f63-b696-5108f865c811" />
+
+Wir müssen jetzt einen POST Request machen an die API von Open AI: https://api.openai.com/v1/videos
+
+
+Und dann müssen wir noch die Credentials für den Zugriff eingeben über "Generic Credential Type und Header Auth
+
+<img width="3434" height="1896" alt="CleanShot 2025-10-28 at 05 31 28@2x" src="https://github.com/user-attachments/assets/e8ae32f6-d7a4-4b82-9e4c-fa0be77c9dda" />
+
+Name ist "Authorization"
+Value ist der Begriff "Bearer" Leerzeichen gefolgt von dem OpenAI API Key
+
+<img width="720" height="262" alt="CleanShot 2025-10-28 at 05 33 12@2x" src="https://github.com/user-attachments/assets/e7f54f6d-dc7c-4801-b31e-71e980349870" />
+
+Das sieht dann so aus:
+<img width="3448" height="1896" alt="CleanShot 2025-10-28 at 05 33 41@2x" src="https://github.com/user-attachments/assets/e407901f-6508-4ff1-bf7d-0681f463bf69" />
+
+Jetzt müssen wir definieren was wir per HTTPRequest Post versenden wollen über Send Body:
+
+<img width="3436" height="1896" alt="CleanShot 2025-10-28 at 05 36 35@2x" src="https://github.com/user-attachments/assets/d1a952b6-1c89-46c8-a886-72f1004de3a8" />
+
+Hier müssen wir die Parameter definieren (Model, Auflösung, Dauer, ...)
+
+Diese Details findet man bei OpenAI über diese Webseite: https://platform.openai.com/docs/api-reference/videos
+
+Wir können das ganze jetzt testen:
+<img width="3426" height="1878" alt="CleanShot 2025-10-28 at 05 39 27@2x" src="https://github.com/user-attachments/assets/c38aeb79-e29c-4586-a2cd-a039e2aa07cb" />
+
+Hier sehen wir, dass die Produktion des Videos in einer "queued" Warteschlange sich befindet. Das bedeutet wir brauchen noch einen HTTPRequest, um den Status der Videoproduktion zu prüfen - also eine Art Warteschlagen Management
+
+
+
+
+
+
+
 
 
