@@ -40,6 +40,22 @@ Wir wollen jetzt die Inhalte nachh dem Scrapen, die im Markdown Format vorliegen
 Wir wollen jetzt den Prompt für diese LLM Chain definieren:
 <img width="3382" height="1852" alt="CleanShot 2025-10-28 at 09 28 16@2x" src="https://github.com/user-attachments/assets/d82e0b06-d28a-4066-9b53-20e24fb15203" />
 
+Wir nutzen im ersten Schritt den folgenden Prompt:
+<img width="3346" height="1738" alt="CleanShot 2025-10-28 at 09 31 22@2x" src="https://github.com/user-attachments/assets/ef8bac91-c591-43b2-971d-f8405e16261e" />
+
+Prompt
+```
+Deine Aufgabe ist es, einen Dialog zwischen zwei Podcast-Hosts zu erstellen.
+
+Der erste Host ist eine freundliche und aufgeregte Person.
+Der zweite Host ist pessimistisch und skeptisch.
+
+Erstelle bis zu 10 Gesprächsrunden zwischen den beiden Hosts, basierend auf dem untenstehenden Artikel.
+Vermeide technische Informationen wie Installationsschritte oder ähnliches im Gespräch.
+Stattdessen sollte das Gespräch eine allgemeine Diskussion auf höherer Ebene sein, die sich auf spannende oder kritische Aspekte des Inhalts konzentriert.
+```
+
+
 
 
 
