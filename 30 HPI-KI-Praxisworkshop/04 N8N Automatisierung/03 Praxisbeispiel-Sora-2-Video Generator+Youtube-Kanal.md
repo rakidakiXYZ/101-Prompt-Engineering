@@ -161,6 +161,13 @@ Wir können das ganze jetzt testen:
 
 Hier sehen wir, dass die Produktion des Videos in einer "queued" Warteschlange sich befindet. Das bedeutet wir brauchen noch einen HTTPRequest, um den Status der Videoproduktion zu prüfen - also eine Art Warteschlagen Management
 
+<img width="3452" height="1904" alt="CleanShot 2025-10-28 at 05 43 02@2x" src="https://github.com/user-attachments/assets/cdc837a7-b5bf-4ef4-867d-f11c873f9718" />
+
+Wir wollen etwas abfragen, also verwenden wir die GET Methode und fragen dann bei der Video-Generierungs-API von OpenAI den Status für die ID der aktuellen Videoproduktion ab
+
+<img width="3430" height="1878" alt="CleanShot 2025-10-28 at 05 42 31@2x" src="https://github.com/user-attachments/assets/c2e32bc2-124c-40b1-8e32-5f7cd771a51f" />
+
+
 
 
 
