@@ -189,7 +189,7 @@ Diese Anleitung zeigt Ihnen Schritt für Schritt, wie Sie mit dem optimierten Ve
 
 **In 5 Minuten zum ersten Video-Prompt:**
 
-1. JSON-Datei `tk_veo3_optimierter_prompt.json` öffnen
+1. JSON-Prompt öffnen
 2. Gesamten Inhalt kopieren
 3. In ChatGPT oder Claude einfügen
 4. Auf Begrüßung warten
