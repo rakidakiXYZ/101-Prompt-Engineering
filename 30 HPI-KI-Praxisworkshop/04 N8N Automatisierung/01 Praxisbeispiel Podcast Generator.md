@@ -407,6 +407,21 @@ So jetzt lassen wir mit Lovable.Dev eine kleine Webanwendung programmieren, die 
 
 <img width="3440" height="1900" alt="CleanShot 2025-10-29 at 05 46 07@2x" src="https://github.com/user-attachments/assets/bfba1413-f44d-4134-8cac-85d221dc4f5f" />
 
+Die Webseite mit dem Eingabefeld für die URL und dem Sende Button ist recht schnell fertig:
+
+<img width="3442" height="1896" alt="CleanShot 2025-10-29 at 05 50 17@2x" src="https://github.com/user-attachments/assets/4e1b46eb-5a62-4802-a613-37be18fd3f4f" />
+
+So jetzt können wir das auch testen:
+
+<img width="1598" height="532" alt="CleanShot 2025-10-29 at 05 51 07@2x" src="https://github.com/user-attachments/assets/db6c4315-3fae-4318-a2c0-0ac5845b7575" />
+
+es läuft und in N8N sehen wir in dem Reiter Executions das was ausgeführt wird:
+
+<img width="3422" height="1410" alt="CleanShot 2025-10-29 at 05 52 11@2x" src="https://github.com/user-attachments/assets/1380215f-4cb0-48a4-b187-69340754c80b" />
+
+
+
+
 
 
 
