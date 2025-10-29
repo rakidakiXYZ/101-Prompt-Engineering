@@ -329,7 +329,31 @@ Mit diesem neuen Prompt führen wir den Workflow erneut aus und erhalten ein neu
 Damit können wir jetzt den nächsten Node zur Generierung des Podcasts starten:
 <img width="2176" height="848" alt="CleanShot 2025-10-28 at 11 47 13@2x" src="https://github.com/user-attachments/assets/bfa6d8d7-323a-425f-ad8e-46afdb32ea90" />
 
-Wenn wir uns dann das Ergebnis anhöre, dann ist jetzt ein deutlicher Unterschied festzustellen:
+Wenn wir uns dann das Ergebnis anhöre, dann ist jetzt ein deutlicher Unterschied festzustellen.
+
+Im nächsten Schritt wollen wir jetzt den N8N Workflow über eine Webseite aufrufen und über eine Webseite auch das Ergebnis anzeigen lassen. Dafür brauchen wir eine Art Verbindung, einen Möglichkeit aus dem Internet den Workflow aufzurufen. Das kann man mit Webhooks HTTP Requests machen, die per POST oder GET Anfragen stellen. Dafür brauchen wir gleich dann eine URL über die wir den N8N Workflow aufrufen können.
+
+<img width="3440" height="1896" alt="CleanShot 2025-10-29 at 05 10 15@2x" src="https://github.com/user-attachments/assets/9c0a793e-1a83-42ec-8777-1ed5d8c3c4e8" />
+
+Wir fügen den WebHook Call Trigger als nächsten Node ein
+
+<img width="3414" height="1882" alt="CleanShot 2025-10-29 at 05 11 23@2x" src="https://github.com/user-attachments/assets/1b8c7321-39a0-4451-960a-fe13a738bd63" />
+
+Wir erstellen einen Webhook mit einer URL und der POST Methode. D.h. in einer anderen Anwendung, die wir noch mit KI entwickeln wird es einen Button geben, der dann diesen Webhook aufruft
+
+<img width="3416" height="1882" alt="CleanShot 2025-10-29 at 05 12 52@2x" src="https://github.com/user-attachments/assets/6117d391-4c9b-46e2-a86b-22f3cd10187e" />
+
+Damit erst eine Antwort zurück gesendet wird wenn der Workflow fertig ist, wählen wir bei Respond den Eintrag "Using Respond to Webhook Node" aus:
+<img width="3386" height="1848" alt="CleanShot 2025-10-29 at 05 13 32@2x" src="https://github.com/user-attachments/assets/207510dc-890c-4110-aa54-934905b21625" />
+
+Wir fügen dann diesen WebHook Call an den ersten Arbeits-Node - den Firecrawl Node
+
+<img width="3432" height="1336" alt="CleanShot 2025-10-29 at 05 15 13@2x" src="https://github.com/user-attachments/assets/c4496582-5839-4829-973d-44a9efcab7b9" />
+
+
+
+
+
 
 
 
