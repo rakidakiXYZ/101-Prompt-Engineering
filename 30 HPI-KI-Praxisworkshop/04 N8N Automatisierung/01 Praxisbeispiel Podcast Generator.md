@@ -350,49 +350,62 @@ Wir fügen dann diesen WebHook Call an den ersten Arbeits-Node - den Firecrawl N
 
 <img width="3432" height="1336" alt="CleanShot 2025-10-29 at 05 15 13@2x" src="https://github.com/user-attachments/assets/c4496582-5839-4829-973d-44a9efcab7b9" />
 
+So, wenn jetzt der Workflow über einen Webhook gestartet wurde, wollen wir am Ende des Workflows auch das fertige Produkt an die Webseite senden, dafür brauchen wir auch einen Webhook, der dies für uns macht.
 
+<img width="3446" height="1330" alt="CleanShot 2025-10-29 at 05 17 32@2x" src="https://github.com/user-attachments/assets/9c2ea72f-7ece-4c85-bf75-0935207d9005" />
 
+Hier sehen wir auf der rechten Seite noch mal die beiden Webhook Varianten ("Starts the workflow ..." und der andere "Returns data ...").
 
+Wir fügen diesen Respond Webhook an den letzten Node an, wo die Audio Datei generiert wurde:
 
+<img width="3428" height="1886" alt="CleanShot 2025-10-29 at 05 19 27@2x" src="https://github.com/user-attachments/assets/770531fd-5d60-4f08-a82a-6d2781866126" />
 
+Um das ganze jetzt zu testen, müssen wir an die Webhook Adresse unseres Workflows eine Anfrage senden. Da wir noch keine Webseite haben, die das macht, können wir einen Anwendung Postman verwenden https://postman.com - über die wir API aufrufe an Webhooks u.a. duchführen können:
 
+<img width="3448" height="1898" alt="CleanShot 2025-10-29 at 05 23 11@2x" src="https://github.com/user-attachments/assets/dffd3030-70e9-4adc-b85c-de7878c5c8ec" />
 
+Wir kopieren jetzt im ersten Schritt unsere Test-URL aus dem Webhook:
+<img width="3398" height="1858" alt="CleanShot 2025-10-29 at 05 24 56@2x" src="https://github.com/user-attachments/assets/4489087b-35a9-4d5a-9b62-bad4ce39ccbc" />
 
+Dann geben wir diese Adresse für den POST Aufruf in Postman ein:
 
+<img width="3442" height="1902" alt="CleanShot 2025-10-29 at 05 27 07@2x" src="https://github.com/user-attachments/assets/43ad97a0-b358-4b7d-9393-279637d66ec0" />
 
+Und dann können wir Senden anklicken
 
+<img width="3440" height="1900" alt="CleanShot 2025-10-29 at 05 28 46@2x" src="https://github.com/user-attachments/assets/9e3eac20-0d45-474b-8c2c-e3913c55ba89" />
 
+Hier kommt tatsächlich ein Fehler, das liegt daran, dass unser Webhook noch gar nicht aktiv ist und auf den Request wartet. Daher müssen wir im N8N Workfow diesen Webhook Workflow erst Mal ausführen:
 
+<img width="3450" height="1400" alt="CleanShot 2025-10-29 at 05 30 00@2x" src="https://github.com/user-attachments/assets/0d44d321-fb7b-4e29-afca-e7f1a8a4dc95" />
 
+So - jetzt wartet der Webhook auch auf Anfragen:
 
+<img width="3450" height="1330" alt="CleanShot 2025-10-29 at 05 30 19@2x" src="https://github.com/user-attachments/assets/6b2d836a-b377-4187-a028-6ac4968ab263" />
 
+Die Anfrage wurde mit der URL auch an den nächsten Node Firecrawl weitergeleitet - aber da gab es einen weiteren Fehler:
+<img width="3442" height="1340" alt="CleanShot 2025-10-29 at 05 30 57@2x" src="https://github.com/user-attachments/assets/5357a16f-3fba-4b11-abaf-aad0eee44dc9" />
 
+Das liegt jetzt daran, dass der Firecrawl Node noch gar nichts von dem Webhook weiß und auch nicht von den Inputs die dieser liefert, dass müssen wir noch integrieren:
+<img width="3406" height="1872" alt="CleanShot 2025-10-29 at 05 32 08@2x" src="https://github.com/user-attachments/assets/65c87d82-5aa6-458c-8956-78b7a183514b" />
 
+Wenn man auf der linken Seite schaut, dort ist der neue Input von dem Webhook und wenn man ganz nach unten scrollt findet man im Body dann die URL. Jetzt müssen wir für Firecrawl nur noch als Input mit einer ODER Verbindung diese zweite Möglichkeit des Inputs integrieren || als Zeichen für ODER 
 
+<img width="3406" height="1864" alt="CleanShot 2025-10-29 at 05 34 29@2x" src="https://github.com/user-attachments/assets/6c8b2de2-342f-4a3a-b410-4e0dac28289a" />
 
+So, jetzt kann man das noch mal ausprobieren:
 
+<img width="3430" height="1416" alt="CleanShot 2025-10-29 at 05 35 15@2x" src="https://github.com/user-attachments/assets/2d84d6df-6f4d-4533-bf0b-a863e1531592" />
 
+Und jetzt sieht man das der Workflow funktioniert. Und man kann sich dann zum Schluss den fertigen Podcast wieder anhören.
 
+Jetzt können wir den Workflow komplett in N8N aktivieren, d.h. über die Webhooks ist dieser Workflow aus dem Internet dann erreichbar und kann gestartet werden.
 
+<img width="3448" height="1400" alt="CleanShot 2025-10-29 at 05 41 27@2x" src="https://github.com/user-attachments/assets/77508a39-ecb5-4171-88aa-94c33dc6cf53" />
 
+So jetzt lassen wir mit Lovable.Dev eine kleine Webanwendung programmieren, die eine URL als Eingabe verwendet und diese dann an den Webhook sendet, um den Workflow zu starten, um dann als Request zurück das Ergebnis - also den Podcast als Datei anzeigt:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="3440" height="1900" alt="CleanShot 2025-10-29 at 05 46 07@2x" src="https://github.com/user-attachments/assets/bfba1413-f44d-4134-8cac-85d221dc4f5f" />
 
 
 
