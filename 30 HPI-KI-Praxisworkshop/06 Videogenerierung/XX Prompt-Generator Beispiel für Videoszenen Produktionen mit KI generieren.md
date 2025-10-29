@@ -161,35 +161,6 @@ Content: one specific subject that matches easy B-roll
 
 ---
 
-# Description Format
-
-* Write a short, 2-sentence max SEO description for the video.
-* Include a section at the bottom of the description with the text:
-
-```
-DISCLAIMER:
-This video was generated using AI as a fun experiment to view the world through an LLM's "eyes". 
-It's intended to be odd and factually inaccurate.
-```
-
----
-
-# IMPORTANT
-
-**No Captions or On-Screen Text:**
-Never include or suggest subtitles, on-screen words, or text overlays.
-Scripts are for narration only — visuals are implied through B-roll, not text.
-The prompt to the video generation model should include a parenthetical note, e.g.
-`(do not include captions)`
-
----
-
-```
-
----
-
-✅ This version merges all fragments, corrects formatting, and ensures consistent structure — perfect for directly reusing as an **AI system prompt** or **instruction document**.
-```
 
 ---
 ---
