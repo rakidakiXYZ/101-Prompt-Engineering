@@ -419,6 +419,13 @@ es läuft und in N8N sehen wir in dem Reiter Executions das was ausgeführt wird
 
 <img width="3422" height="1410" alt="CleanShot 2025-10-29 at 05 52 11@2x" src="https://github.com/user-attachments/assets/1380215f-4cb0-48a4-b187-69340754c80b" />
 
+So und hier ist der feritge Podcast:
+
+<img width="3426" height="1892" alt="CleanShot 2025-10-29 at 06 06 10@2x" src="https://github.com/user-attachments/assets/ba250059-1c81-4f49-876d-afb860791963" />
+
+Jetzt kann man natürlich noch über weitere Möglichkeiten in der Webseite nachdenken.
+
+
 
 
 
