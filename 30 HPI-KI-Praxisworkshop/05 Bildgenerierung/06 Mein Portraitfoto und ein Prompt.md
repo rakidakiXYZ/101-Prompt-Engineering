@@ -1,3 +1,100 @@
+# KI-Bildgenerierung: Anleitung für HR & Marketing
+
+## Was ist das?
+
+Dieser **JSON-Prompt** ist eine Vorlage zur Erstellung professioneller Portrait-Fotos mit KI-Bildgeneratoren. Sie können damit aus einem echten Foto eine Person in einem neuen Setting, mit neuer Kleidung und professioneller Beleuchtung darstellen lassen.
+
+---
+
+## 🎯 Anwendungsfälle für TK HR & Marketing
+
+**HR-Abteilung:**
+- Mitarbeiterportraits für interne Kommunikation
+- Diverse Kandidaten-Beispiele für Recruiting-Kampagnen
+- Schulungsmaterialien mit authentischen Gesichtern
+
+**Marketing:**
+- Kampagnenbilder ohne kostspielige Fotoshootings
+- Diverse Testimonials für verschiedene Zielgruppen
+- Social Media Content mit konsistentem Look
+
+---
+
+## 📋 Schritt-für-Schritt Anleitung
+
+### **Schritt 1: Vorbereitung**
+- Laden Sie ein **Referenzfoto** der Person hoch (Frontalansicht, gute Qualität)
+- Wählen Sie einen KI-Bildgenerator (z.B. Midjourney, Leonardo AI)
+
+### **Schritt 2: Prompt anpassen**
+Bearbeiten Sie diese Bereiche:
+
+**Wichtigste Anpassungen:**
+
+| Bereich | Was ändern | Beispiel für TK |
+|---------|------------|-----------------|
+| `"who"` | Beschreibung der Person | "professional woman in her 30s" |
+| `"wardrobe"` | Kleidung | "business casual: white blouse, navy blazer" |
+| `"scene" → "location"` | Hintergrund | "modern office environment" oder "healthcare setting" |
+| `"mood"` | Stimmung | "trustworthy, approachable, professional" |
+
+### **Schritt 3: Prompt umwandeln**
+Der JSON-Style ist zur Übersicht – die meisten KI-Tools brauchen **Fließtext**:
+
+**Beispiel-Umwandlung:**
+```
+Create a photorealistic portrait using the uploaded reference photo. 
+Keep exact facial features unchanged. Show a professional woman in 
+her 30s wearing a white blouse and navy blazer, seated in a modern 
+office with soft natural lighting. Vertical 9:16 format, shallow 
+depth of field, calm and trustworthy expression.
+```
+
+### **Schritt 4: Generieren & verfeinern**
+- Generieren Sie 3-4 Varianten
+- Wählen Sie die beste aus
+- Bei Bedarf: Details im Prompt anpassen und neu generieren
+
+---
+
+## ⚠️ Wichtige Hinweise für die TK
+
+### **Rechtliches:**
+- ✅ Holen Sie **Einwilligung** ein, bevor Sie Mitarbeiterfotos verwenden
+- ✅ Prüfen Sie **Lizenzrechte** des KI-Tools für kommerzielle Nutzung
+- ✅ Kennzeichnen Sie KI-generierte Bilder transparent
+
+### **Markenkonformität:**
+Passen Sie für TK-CI an:
+```json
+"wardrobe": "colors: navy blue, white, light grey (TK brand colors)",
+"scene": "clean, professional, health-focused environment",
+"mood": "trustworthy, caring, competent"
+```
+
+### **Best Practices:**
+- Verwenden Sie **diverse** Referenzbilder für inklusive Darstellung
+- Achten Sie auf **Authentizität** – keine Überglättung
+- Testen Sie verschiedene **Settings** (Büro, Beratungssituation, casual)
+
+---
+
+## 🚀 Schnellstart-Beispiel für TK
+
+```
+Photorealistic portrait, keep uploaded face identity exact.
+Show a confident female healthcare professional in her 40s,
+wearing navy blue blazer over white shirt. Modern TK office 
+setting with soft natural light. Warm, trustworthy expression.
+Vertical format 9:16, shallow depth of field. 
+Exclude: artificial look, logos, text.
+```
+
+Viel Erfolg beim Erstellen authentischer, professioneller Bilder für Ihre Kampagnen! 🎨
+
+
+
+
 # Prompt Vorlage
 
 ## Englischer JSON Prompt
