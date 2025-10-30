@@ -1,3 +1,42 @@
+
+# Kurzanleitung
+Einfach eine CI-gestaltete Powerpoint Präsentation in Claude hochladen (Skills und Skill Generator sollten aktiviert sein).
+
+Dann den nachfolgenden Prompt verwenden:
+
+```
+Ich habe eine PowerPoint-Vorlage, die ich für alle meine CI-Präsentationen im Unternehmen verwende.
+
+Lies die offizielle pptx-Fähigkeit und erstelle eine neue Fähigkeit namens „ci-zkw-powerpoint-vorlage“, die sie mit dem Stil meiner Vorlage erweitert.
+
+Die neue Fähigkeit sollte:
+
+Ausgelöst werden, wenn der Benutzer CI-Unternehmenspräsentationen, CI-Folien oder Pitch-Decks anfordert.
+
+Verwendungsbeispiele:
+
+„Erstelle eine Q4-Ergebnispräsentation im CI meines Unternehmens“
+
+„Erstelle ein 10-seitiges Pitch-Deck mit unserer CI-Vorlage“
+
+„Erstelle ein Kundenpräsentations-Deck im CI-Stil“
+
+Richtlinien:
+
+Farben, Schriftarten und Layoutmuster aus meiner hochgeladenen Vorlage extrahieren
+
+Logo-Platzierung und Master-Folienstruktur beibehalten
+
+Alle Abstands- und Größenregeln befolgen, die du in der Vorlage identifizierst
+
+Eine konsistente visuelle Hierarchie beibehalten
+
+Beziehe dich auf die übergeordnete pptx-Fähigkeit, um eine Duplizierung der Präsentationslogik zu vermeiden.
+Stelle sicher, dass du die skill-creator-Fähigkeit verwendest, um eine korrekte Formatierung sicherzustellen.
+Gib das Ergebnis als zkw-powerpoint-skill.zip aus, das für die Installation bereit ist (benenne die gepackte .skill-Datei in .zip um).
+```
+
+
 # Tutorial: Erstellen eines CI-PowerPoint-Skills für Ihr Unternehmen
 
 ## Übersicht
