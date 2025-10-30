@@ -122,7 +122,175 @@ Hier legen wir erst Mal ein neues Projekt an:
 
 <img width="1376" height="944" alt="CleanShot 2025-10-30 at 05 08 36@2x" src="https://github.com/user-attachments/assets/9e6dff46-2029-4821-8360-3aae6d3e0d98" />
 
-Sobald das Projekt erstellt wurde wählen wir es aus und können wir dieses Projekt dann die APIs von Google für die diversen Services aktivieren:
+Sobald das Projekt erstellt wurde wählen wir es aus und können wir dieses Projekt dann die APIs von Google für die diversen Services aktivieren. Dazu klicken wir auf das Navigationsmenü links oben und wählen API und Dienste aus:
+
+<img width="3446" height="1916" alt="CleanShot 2025-10-30 at 05 12 08@2x" src="https://github.com/user-attachments/assets/b80a12c3-17d2-4d92-ab44-96f700cb828b" />
+
+Hier klicken wir auf APIs und Dienste aktivieren:
+<img width="3424" height="1750" alt="CleanShot 2025-10-30 at 05 12 37@2x" src="https://github.com/user-attachments/assets/5cc22719-95e1-4fd2-aae5-5c9882746655" />
+
+Wir wählen hier den jeweiligen Dienst aus - hier z.B. Google Drive
+<img width="3446" height="1908" alt="CleanShot 2025-10-30 at 05 13 27@2x" src="https://github.com/user-attachments/assets/67393e79-f59a-46b1-92df-cd74efb0cdd6" />
+
+Und dann können wir den Dienst aktivieren:
+<img width="2498" height="1310" alt="CleanShot 2025-10-30 at 05 13 56@2x" src="https://github.com/user-attachments/assets/a3149b4d-e190-4f7a-9aae-9c9c3f026c7b" />
+
+Unter Branding fügen wir noch die TOP Level Domain von N8N ein: n8n.cloud (bzw. die Domain auf die die N8N Instanz läuft)
+
+So kann man jetzt Schritt für Schritt die Dienste (Mail, Kalender, Sheets, Slides) aktivieren. Damit da jetzt aber auch drauf zugreifen kann, brauchen wir eine Authorisierung mit OAUTH - dazu klicken wir links auf OAuth Zustimmung:
+
+<img width="3446" height="1890" alt="CleanShot 2025-10-30 at 05 16 31@2x" src="https://github.com/user-attachments/assets/1bc8e68d-62ca-4c0f-bfd2-99f940e71a58" />
+
+In dem Screen klicken wir dann auf erste Schritte:
+
+Wir starten dann mit dem Namen für die Anwendung die den Dienst nutzen soll und die Support E-mail Adresse:
+<img width="1930" height="1360" alt="CleanShot 2025-10-30 at 05 17 46@2x" src="https://github.com/user-attachments/assets/bf323025-9f57-4167-9963-fde93cdeee82" />
+
+Dann wählen wir die Nutzer aus (extern):
+<img width="1784" height="1334" alt="CleanShot 2025-10-30 at 05 18 47@2x" src="https://github.com/user-attachments/assets/3b5d88ab-cb47-4ef6-a9a7-d9b541a9f0fc" />
+
+Dann noch eine Kontakt E-Mail Adresse eingeben:
+<img width="1768" height="1216" alt="CleanShot 2025-10-30 at 05 19 38@2x" src="https://github.com/user-attachments/assets/baa9ea13-3613-490c-b00a-d3ed4a5d9b2e" />
+
+Bestätigen und dann ist man hier fertig:
+
+<img width="3450" height="970" alt="CleanShot 2025-10-30 at 05 20 15@2x" src="https://github.com/user-attachments/assets/244409f8-3e54-4bf3-a11b-97e692db98e5" />
+
+Hier erstellen wir dann den OAuth Client:
+<img width="3332" height="1912" alt="CleanShot 2025-10-30 at 05 22 18@2x" src="https://github.com/user-attachments/assets/e548f6e5-0d41-4f6b-9b36-cbdfb3167783" />
+
+Webanwendung auswählen und einen Name der Anwendung festlegen und dann auf Autorisierte Weiterleitungs-URL klicken - das ist die N8N URL, die wir aus dem Node für den Google Service bekommen, den wir nutzen wollen und der gerade nach den Credentials von Google fragt:
+
+<img width="2396" height="1488" alt="CleanShot 2025-10-30 at 05 24 18@2x" src="https://github.com/user-attachments/assets/60065e10-bce0-4b4f-9f71-78de53cf9409" />
+
+Wenn man dann mit der Erstellung des OAuth Client fertig ist erscheint ein Dialog mit allen wichtigen Daten: Client-ID, Client-Secret, ... die wir in N8N brauchen. Diese Daten sind sicher zu speichern.
+<img width="998" height="434" alt="CleanShot 2025-10-30 at 05 29 13@2x" src="https://github.com/user-attachments/assets/6447436b-7ea4-4986-a4dc-1b959f217a79" />
+
+
+Client ID und Client Schlüssel fügt man dann in N8N ein:
+
+<img width="2362" height="1484" alt="CleanShot 2025-10-30 at 05 30 35@2x" src="https://github.com/user-attachments/assets/3be4c9dd-dadc-4415-b333-a51c73e77352" />
+
+Und dann hat man den Dienst verbunden
+
+# Google Drive Folder Node
+
+So zurück zu unserem Google Drive Node, hier verbinden wir jetzt den richtigen Ordner auf unserem Google Drive und die Aktion Watch for File Created aus:
+<img width="3352" height="1812" alt="CleanShot 2025-10-30 at 05 32 33@2x" src="https://github.com/user-attachments/assets/eb917cae-3afc-428f-96f7-75b6b5553d3e" />
+
+Wenn eine neue Datei eingestellt wurde, dann wollen wir die im nächsten Schritt von Google Drive herunterladen:
+
+<img width="3438" height="1916" alt="CleanShot 2025-10-30 at 05 34 17@2x" src="https://github.com/user-attachments/assets/557f38a5-b5e8-486d-81af-9bf0d73e188d" />
+
+Dafür brauchen wir den Google Drive Download Node
+
+Hier definieren wir die Datei, die im Drive liegen wird über {{ $json.id }}, das ist die ID der hochgeladen Datei in Google Drive - jede Datei bekommt eine ID.
+
+<img width="3434" height="1914" alt="CleanShot 2025-10-30 at 05 38 09@2x" src="https://github.com/user-attachments/assets/17935547-77d4-47f5-bfc6-73d0904ecd98" />
+
+Als nächstes wollen wir die Datei in die Vektordatebank laden - dazu wählen wir die Supabase Vektordatenbank aus:
+
+<img width="3446" height="1906" alt="CleanShot 2025-10-30 at 05 39 08@2x" src="https://github.com/user-attachments/assets/339ab680-f9d2-4f7d-a775-205ed2b08e09" />
+
+Und hier dann die Action Add document to VectorStore
+
+<img width="3444" height="1886" alt="CleanShot 2025-10-30 at 05 41 00@2x" src="https://github.com/user-attachments/assets/b8b4b00f-aa42-4b0e-a47c-55bbf02cc322" />
+
+Den neuen Node für die Vektor-Datenbank müssen wir jetzt konfigurieren
+
+<img width="3374" height="1842" alt="CleanShot 2025-10-30 at 05 41 37@2x" src="https://github.com/user-attachments/assets/9ddb6dda-b2da-4a88-9a29-25f0c54caa4d" />
+
+Im ersten Schritt brauchen wir wieder Credentials - jetzt für die Supabase Vektordatenbank - dazu gehen wir wieder auf Supabase:
+
+<img width="3442" height="1894" alt="CleanShot 2025-10-30 at 05 42 15@2x" src="https://github.com/user-attachments/assets/79015858-1dc1-4e8f-9bd8-6b25ec0d08d8" />
+
+Hier auf Project Settings und dann auf Data API:
+<img width="3434" height="1912" alt="CleanShot 2025-10-30 at 05 43 15@2x" src="https://github.com/user-attachments/assets/b9e77307-593b-4599-874b-fb26477c77c7" />
+
+Hier finden wir die URL für N8N:
+<img width="3398" height="1826" alt="CleanShot 2025-10-30 at 05 43 48@2x" src="https://github.com/user-attachments/assets/aec2b3de-0297-42e9-9781-1e1a442255ba" />
+
+Dann brauchen wir noch die Service Secret Role, dazu gehen wir in Supabase auf API Keys
+<img width="3432" height="1898" alt="CleanShot 2025-10-30 at 05 44 52@2x" src="https://github.com/user-attachments/assets/798c0b51-3369-487c-a727-baf3387a95d4" />
+
+Hier können wir das service role secret kopieren und in N8N einfügen:
+
+<img width="2386" height="1488" alt="CleanShot 2025-10-30 at 05 46 01@2x" src="https://github.com/user-attachments/assets/0a84ed05-29f4-4fad-b63e-0738d9b962f1" />
+
+So jetzt muss man noch definieren, wo die Dokumente in die Vektordatenbank hochgeladen werden und das ist die zuvor angelegte Table "documents":
+
+<img width="3396" height="1872" alt="CleanShot 2025-10-30 at 05 46 52@2x" src="https://github.com/user-attachments/assets/decd734e-313e-40c7-a5e1-829cce72ef5d" />
+
+Damit jetzt beim Hochladen eines Dokuments aber überhaupt Vektorisierung durchgeführt wird brauchen wir ein LLM dafür - hier nehmen wir von OpenAI ein Embedding Modell
+
+<img width="3424" height="1908" alt="CleanShot 2025-10-30 at 05 48 50@2x" src="https://github.com/user-attachments/assets/4420f7fd-95cc-41bb-9954-a8f7cb282b63" />
+
+Dann konfigurieren wir das Embedding noch - welches Modell - hier large und die Vektorengröße unserer Datenbank geben wir noch an 1536
+
+<img width="3342" height="1824" alt="CleanShot 2025-10-30 at 05 50 42@2x" src="https://github.com/user-attachments/assets/11b6c806-52df-4543-b49b-7947258e76ed" />
+
+So jetzt brauchen wir noch den Data Loader, der die von Google Drive heruntergeladene Datei in den Vektorstore hochlädt:
+<img width="3422" height="1888" alt="CleanShot 2025-10-30 at 05 52 21@2x" src="https://github.com/user-attachments/assets/0c35b2a7-4de6-4d10-95d9-206cde5cf45b" />
+
+Dann muss man im Node noch den Typ (binary = Dateien) wählen und einen Splitting Modus - also wie wird das Dokument in einzelne Chunks gesplittet:
+
+<img width="3396" height="1850" alt="CleanShot 2025-10-30 at 05 53 17@2x" src="https://github.com/user-attachments/assets/d01b980a-8589-4944-a17f-7d2601b2eaab" />
+
+So dann kann man eine Datei in Google Drive ablegen und den Workflow starten:
+<img width="3448" height="1906" alt="CleanShot 2025-10-30 at 05 57 29@2x" src="https://github.com/user-attachments/assets/f8c2860f-b4f2-4bb2-8252-b3b865ac8c3a" />
+
+Die Datei wird dann heruntergeladen, zersägt in einzelne Chunks und in die Vektordatenbank hochgeladen
+
+<img width="3448" height="1906" alt="CleanShot 2025-10-30 at 05 57 29@2x" src="https://github.com/user-attachments/assets/5f47f879-60e7-4117-954b-67108329a1fb" />
+
+So jetzt kann man auch wieder in Supabase gehen und sich das im Table Editor anschauen:
+
+<img width="3446" height="1830" alt="CleanShot 2025-10-30 at 05 59 45@2x" src="https://github.com/user-attachments/assets/e2f7d89d-8e1f-4763-bf8d-c4a22a97ad3d" />
+
+Und hier sieht man die ganzen Chunks des pdf-Dokuments Zeile für Zeile
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
