@@ -73,8 +73,8 @@ Im nächsten Schritt wählen wir dann den Structured Output Parser aus:
 
 Hier wollen wir jetzt unser eigenes Output JSON Schema definieren:
 <img width="3422" height="1884" alt="CleanShot 2025-10-28 at 09 42 29@2x" src="https://github.com/user-attachments/assets/3bcecf85-0250-4272-9752-ad0828c22758" />
+----
 
-```
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://example.com/speech-sequence.schema.json",
@@ -98,7 +98,8 @@ Hier wollen wir jetzt unser eigenes Output JSON Schema definieren:
   },
   "minItems": 1
 }
-```
+
+----
 
 Die Frage ist jetzt, wie genau dieses Output Schema aussehen soll, dass wir dann verwenden wollen für die Generierung eines Podcasts. 
 <img width="3378" height="1844" alt="CleanShot 2025-10-28 at 09 44 44@2x" src="https://github.com/user-attachments/assets/616aec45-4283-4a1b-ab5d-9ddb38051a18" />
