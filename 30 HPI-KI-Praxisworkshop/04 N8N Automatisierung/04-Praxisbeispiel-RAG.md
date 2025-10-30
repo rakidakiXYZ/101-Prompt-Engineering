@@ -273,90 +273,16 @@ So jetzt können wir noch in unseren AI Agent reingehen und diesem eine System M
 <img width="3386" height="1820" alt="CleanShot 2025-10-30 at 06 18 34@2x" src="https://github.com/user-attachments/assets/a31d3361-ff53-4d67-b904-029c6c76a8ad" />
 
 
+so jetzt können wir das ganze testen:
 
+<img width="3432" height="1898" alt="CleanShot 2025-10-30 at 06 21 08@2x" src="https://github.com/user-attachments/assets/c984a7af-b223-469b-8d2d-ef2d01782540" />
 
+Man sieht jetzt, dass die Antwort mit den Inhalten aus dem Vektorstore angereichert werden:
 
+<img width="3436" height="1896" alt="CleanShot 2025-10-30 at 06 22 39@2x" src="https://github.com/user-attachments/assets/db2a13f4-382d-42e0-a6f7-50053b125db5" />
 
+Den ersten Trigger Node können wir jetzt öffnen und dort diesen Trigger bzw. diesen Chat und Workflow veröffentlichen:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="3366" height="1810" alt="CleanShot 2025-10-30 at 06 23 11@2x" src="https://github.com/user-attachments/assets/44de4ee9-d8c1-41a2-8570-282a728ffd8f" />
 
 
