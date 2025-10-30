@@ -249,6 +249,33 @@ So jetzt kann man auch wieder in Supabase gehen und sich das im Table Editor ans
 
 Und hier sieht man die ganzen Chunks des pdf-Dokuments Zeile für Zeile
 
+So jetzt müssen wir unserem eigentlichen Chat Agenten noch die Verbindung zur Vektordatenbank geben:
+
+Dazu fügen wir als Tool für den Agenten den Supabase Vektorstore hinzu:
+
+<img width="3378" height="1844" alt="CleanShot 2025-10-30 at 06 09 38@2x" src="https://github.com/user-attachments/assets/414abc38-d6d6-48e9-899e-5b97ef922bb6" />
+
+Hier definieren wir noch die Tabelle in der Datenbank und wie viele der passenden Chunks für die Antwort des LLMs verwendet werden sollen
+
+<img width="3386" height="1838" alt="CleanShot 2025-10-30 at 06 11 02@2x" src="https://github.com/user-attachments/assets/72b4cea3-457c-4c7d-a13b-8ca5429c9e38" />
+
+So damit man jetzt mit den gefunden Vektoren was anfangen kann brauchen wir noch mal ein Embedding LLM:
+
+<img width="3442" height="1912" alt="CleanShot 2025-10-30 at 06 13 29@2x" src="https://github.com/user-attachments/assets/84f90606-695f-45e6-bf6e-089214c12b23" />
+
+Dafür verwenden wir dann auch wieder das OpenAI Embedding Modell:
+
+<img width="3370" height="1816" alt="CleanShot 2025-10-30 at 06 15 04@2x" src="https://github.com/user-attachments/assets/ab7fcba5-c5a1-4553-82a8-bff87e4003e9" />
+
+
+So jetzt können wir noch in unseren AI Agent reingehen und diesem eine System Message (Prompt) geben für seine Aufgabe/ Rolle/ Kontext/ ...
+
+<img width="3386" height="1820" alt="CleanShot 2025-10-30 at 06 18 34@2x" src="https://github.com/user-attachments/assets/a31d3361-ff53-4d67-b904-029c6c76a8ad" />
+
+
+
+
+
 
 
 
