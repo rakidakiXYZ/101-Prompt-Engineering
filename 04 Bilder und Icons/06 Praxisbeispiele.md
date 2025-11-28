@@ -432,6 +432,8 @@ BILD 4 — SCHULTERPERSPEKTIVE / POWER-MOVE-ENDE
 <img width="1080" height="1376" alt="image" src="https://github.com/user-attachments/assets/8b306754-b6b3-4574-bf55-b64d585cd179" />
 
 ### Prompts:
+
+```
 {
   "character_profile": {
     "age": "20-25 years old",
@@ -522,5 +524,6 @@ BILD 4 — SCHULTERPERSPEKTIVE / POWER-MOVE-ENDE
   ]
 }
 
+```
 
 
