@@ -586,3 +586,28 @@ BILD 4 — SCHULTERPERSPEKTIVE / POWER-MOVE-ENDE
 }
 
 ```
+
+## Kochrezepte nur vom Bild:
+<img width="578" height="990" alt="CleanShot 2025-11-28 at 05 55 56@2x" src="https://github.com/user-attachments/assets/2d756525-3a15-44aa-a212-d2f97b10ceb8" />
+
+Prompt:
+create a step by step guide how to cook this by myself
+
+Erstelle eine Schritt für Schritt Anleitung, wie ich das selber kochen bzw. zubereiten kann
+
+
+## Plakate, Zeitungen, ... erstellen
+
+<img width="806" height="1000" alt="image" src="https://github.com/user-attachments/assets/641e5ce9-b275-470d-8898-c70e49d56e0e" />
+
+<img width="1241" height="1600" alt="image" src="https://github.com/user-attachments/assets/6231a539-cf10-4742-9cf7-33a75d113b10" />
+
+
+English
+
+Make the first image match the style of the second one by transferring the second poster’s overall look and aesthetic onto the first image.
+
+German
+
+Bringe das erste Bild in den Stil des zweiten, indem du den gesamten Look und die Ästhetik des zweiten Posters auf das erste Bild überträgst.
+
