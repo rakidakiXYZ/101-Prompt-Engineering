@@ -526,4 +526,63 @@ BILD 4 — SCHULTERPERSPEKTIVE / POWER-MOVE-ENDE
 
 ```
 
+```
+{
+  "character_profile": {
+    "age": "20-25 years old",
+    "gender": "Female",
+    "ethnicity": "Caucasian",
+    "hair_base_color": "Dirty blonde with platinum 'money piece' highlights and darker natural roots",
+    "eyes": "Hazel-green, almond shape",
+    "skin": {
+      "complexion": "Fair/Light",
+      "texture": "Prominent natural freckles on face and shoulders, realistic skin texture",
+      "makeup": "Natural/Nude look, soft pink lips, subtle contour"
+    },
+    "attire": "Black spaghetti strap tank top",
+    "environment": "Studio setting with a neutral dark grey solid background"
+  },
+  "technical_settings": {
+    "style": "Hyper-realistic hair photography, cinematic portrait, beauty editorial",
+    "lighting": "Soft studio lighting, butterfly and rim lighting to accentuate hair texture",
+    "camera_angle": "Varied (Front, 3/4 profile)",
+    "lens": "85mm portrait lens",
+    "aperture": "f/2.0",
+    "quality": "8k resolution, highly detailed strands, sharp focus"
+  },
+  "image_breakdown": [
+    {
+      "image_id": "03_hairstyle_variations_grid",
+      "type": "2x2 Grid Composition",
+      "quadrants": {
+        "top_left": {
+          "hairstyle": "High Ponytail",
+          "hair_details": "Sleek high ponytail secured at the crown, straight but textured tail, distinct loose face-framing tendrils (money pieces) left out on both sides",
+          "pose": "Three-quarter turn to the right, looking back at camera over shoulder",
+          "expression": "Alluring, soft pout, lips slightly parted, calm gaze"
+        },
+        "top_right": {
+          "hairstyle": "Voluminous Beach Waves",
+          "hair_details": "Hair worn completely down, center part, heavy texturizing, loose crimped/beach waves, voluminous and fluffy texture",
+          "pose": "Direct frontal facing",
+          "expression": "Neutral, confident, direct eye contact, relaxed facial muscles"
+        },
+        "bottom_left": {
+          "hairstyle": "Messy Bun with Accent Braids",
+          "hair_details": "High messy bun/top knot, loose and tousled construction, several wispy strands falling around face, small thin boho accent braid hanging down on the left side",
+          "pose": "Direct frontal facing",
+          "expression": "Intense, slightly parted lips, focused gaze, serious model look"
+        },
+        "bottom_right": {
+          "hairstyle": "Crown Halo Braid",
+          "hair_details": "Thick dutch/french braid wrapped over the top of the head like a headband (halo braid), rest of hair falling in loose waves down the back, soft pieces framing the face",
+          "pose": "Three-quarter turn to the left, looking at camera",
+          "expression": "Soft, dreamy, slight tilt of the chin, gentle eyes"
+        }
+      },
+      "prompt_summary": "Four panel split screen beauty portrait of a blonde woman exhibiting different hairstyles: 1. Sleek high ponytail with face framing pieces, 2. Loose voluminous beach waves, 3. Messy boho bun with small braids, 4. Romantic crown braid. Consistent studio lighting and grey background."
+    }
+  ]
+}
 
+```
