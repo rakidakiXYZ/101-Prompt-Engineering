@@ -270,5 +270,73 @@ Setze alle 14 bereitgestellten Charaktere ein und behalte Spezies, Kleidung und 
 
 ---
 
+## Weitere Prompts
+
+A cozy autumn scene with a large pile of colorful fallen leaves.
+Arranged perfectly within the leaves, forming the words, is the phrase:
+'PLEASE DO NOT TOUCH THE GRASS' (6 words).
+Some leaves should be slightly curled or partially obscured.
+
+Eine gemütliche Herbstszene mit einem großen Haufen bunter, gefallener Blätter.
+Perfekt in den Blättern angeordnet und die Wörter bildend steht der Satz:
+„PLEASE DO NOT TOUCH THE GRASS“ (6 Wörter).
+Einige Blätter sollten leicht eingerollt oder teilweise verdeckt sein.
+
+### Beispiel Bild
+<img width="1384" height="918" alt="CleanShot 2025-11-28 at 05 04 05@2x" src="https://github.com/user-attachments/assets/7e9663e5-5bc4-4087-9006-20d50c158640" />
+
+Prompt:
+Re-shoot this exact image using a 16mm wide-angle lens from low angle.
+
+Fotografiere dieses genaue Bild erneut mit einem 16-mm-Weitwinkelobjektiv aus einer niedrigen Perspektive.
+
+
+### Beispiel Bild
+<img width="912" height="908" alt="CleanShot 2025-11-28 at 05 05 43@2x" src="https://github.com/user-attachments/assets/3117fd83-176a-4187-8fc2-35923d3e27cf" />
+
+Prompt:
+Using this image, shift the focus entirely to the green forest in the deep background.
+The dewdrop and the spider should now be completely blurred out.
+
+Verwende dieses Bild und verlagere den Fokus vollständig auf den grünen Wald im tiefen Hintergrund.
+Der Tautropfen und die Spinne sollten jetzt vollständig unscharf sein.
+
+### Beispiel Bild
+<img width="924" height="924" alt="CleanShot 2025-11-28 at 05 07 40@2x" src="https://github.com/user-attachments/assets/f444493d-5311-44de-a2fe-b04bd6bcae3c" />
+
+Prompt:
+In this image, transform the glowing coals under the grill into glowing blue bioluminescent crystals.
+Ensure the light they emit is blue and affects the surrounding scene realistically.
+
+Verwandle in diesem Bild die glühenden Kohlen unter dem Grill in leuchtend blaue biolumineszente Kristalle.
+Stelle sicher, dass das von ihnen ausgestrahlte Licht blau ist und die Umgebung realistisch beeinflusst.
+
+
+### Beispiel Bild
+<img width="1946" height="1262" alt="CleanShot 2025-11-28 at 05 09 07@2x" src="https://github.com/user-attachments/assets/7784a540-b1d7-4ac1-a900-ab0122104979" />
+
+Prompt:
+
+Create a wide, cinematic horizontal shot of a busy, futuristic spaceport transit lounge.
+Populate this single scene with all 14 of the characters provided in the attached images. You must maintain their exact visual identities, species, and clothing.
+
+Scene Composition:
+Foreground (Clear & Sharp): The Weary Commuter and the Space Pug are sitting on a bench together. The Tourist (Rock Golem) is taking a selfie with the Diplomat.
+Mid-Ground (Interacting): The Merchant (Slug) is haggling with the Smuggler. The Mechanic is fixing the Heavy Lifter Robot's arm. The Child (Jellyfish) is chasing the Entity (Purple Light).
+Background (Ambient): The Pilot, Security Guard, Musician, Scholar, and others are visible in the distance, waiting at the gate.
+
+Lighting: Atmospheric, mix of neon and natural light.
+Style: Photorealistic, 8k, highly detailed, coherent group shot.
+
+Erstelle eine breite, kinoreife horizontale Aufnahme einer belebten, futuristischen Transitlounge in einem Raumhafen.
+Bevölkere diese einzelne Szene mit allen 14 Charakteren aus den beigefügten Bildern. Du musst ihre visuellen Identitäten, Spezies und Kleidung exakt beibehalten.
+
+Szenenkomposition:
+Vordergrund (klar & scharf): Der erschöpfte Pendler und der Weltraum-Mops sitzen gemeinsam auf einer Bank. Der Tourist (Felsgolem) macht ein Selfie mit dem Diplomaten.
+Mittelgrund (interagierend): Der Händler (Schnecke) feilscht mit dem Schmuggler. Der Mechaniker repariert den Arm des Schwerlastroboters. Das Kind (Qualle) jagt das Wesen (Lila Licht).
+Hintergrund (atmosphärisch): Der Pilot, der Sicherheitsbeamte, der Musiker, der Gelehrte und weitere Personen warten im Hintergrund am Gate.
+
+Beleuchtung: Atmosphärisch, Mischung aus Neon- und natürlichem Licht.
+Stil: Fotorealistisch, 8k, hochdetailliert, kohärente Gruppenaufnahme.
 
 
