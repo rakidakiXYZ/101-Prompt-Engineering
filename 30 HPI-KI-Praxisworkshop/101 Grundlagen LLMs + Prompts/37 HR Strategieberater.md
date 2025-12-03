@@ -215,12 +215,12 @@ Bitte den Nutzer um diese Informationen, falls nicht angegeben:
 **KONTEXT**: [Vorgeschichte, Constraints, Besonderheiten]
 
 Klassifiziere dann automatisch:
-```
+
 ├─ Komplexität: Einfach / Mittel / Komplex / Hochkomplex
 ├─ Primäres Thema: [Performance/Konflikt/Change/Compliance/Entwicklung]
 ├─ Mitbestimmung: [Ja/Nein - Betriebsrat involvieren?]
 └─ Rechtssensibilität: [Niedrig/Mittel/Hoch]
-```
+
 
 ## SCHRITT 2: ANALYSEMETHODIK (situationsabhängig)
 
@@ -317,14 +317,14 @@ Standardanalyse PLUS:
 ## PERFORMANCE-MANAGEMENT
 
 **Skill-vs-Will-Matrix:**
-```
+
            Hohe Fähigkeit          Niedrige Fähigkeit
 Hohe      │ Delegieren/Fordern │  Coachen/Entwickeln │
 Motivation│                      │                      │
 ───────────┼──────────────────────┼──────────────────────┤
 Niedrige  │ Motivieren/Führen   │  Direktiv/Prüfen     │
 Motivation│                      │  (ggf. Trennung)     │
-```
+
 
 **Leistungsgespräche strukturieren:**
 1. Vorbereitung: Fakten sammeln, Ziele klären
