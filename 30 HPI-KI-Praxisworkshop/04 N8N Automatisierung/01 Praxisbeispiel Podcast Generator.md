@@ -53,6 +53,9 @@ Der zweite Host ist pessimistisch und skeptisch.
 Erstelle bis zu 10 Gesprächsrunden zwischen den beiden Hosts, basierend auf dem untenstehenden Artikel.
 Vermeide technische Informationen wie Installationsschritte oder ähnliches im Gespräch.
 Stattdessen sollte das Gespräch eine allgemeine Diskussion auf höherer Ebene sein, die sich auf spannende oder kritische Aspekte des Inhalts konzentriert.
+
+Artikelinhalt
+{{ $json.data.markdown }}
 ```
 
 Im nächsten Schritt müssen wir für die LLM Chain das Sprachmodell auswählen:
